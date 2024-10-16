@@ -548,7 +548,7 @@ if st.session_state['authenticated']:
                    st.rerun()
 
     elif current_page == 'new-route-coverage':
-        def create_map(location=[39.949610, -75.150282], zoom_start=5):
+        def create_map(location=[23.77779611412947, 78.31455492646933], zoom_start=5):
             return folium.Map(location=location, zoom_start=5)
 
         # Function to snap to OSM using Valhalla API
@@ -634,7 +634,7 @@ if st.session_state['authenticated']:
             return closest_points
 
         # Create Streamlit app layout
-        st.title("Interactive Drawing and Valhalla Response")
+        st.title("Plot bus stops on map using Polyline to assess service coverage ")
 
         # Initialize the Folium map for drawing
         m_draw = create_map()
@@ -643,7 +643,7 @@ if st.session_state['authenticated']:
         draw = Draw(export=True, draw_options={'polyline': True, 'polygon': False, 'rectangle': False, 'circle': False, 'marker': False}).add_to(m_draw)
 
         # Render the drawing map
-        st.subheader("Draw a Polyline")
+        st.subheader("Zoom into your study area, then click on the "Draw a Polyline" button to plot the bus stops connected by a line to the map.")
         output = st_folium(m_draw, width=700, height=500)
 
         # Placeholder for the snapped result map
