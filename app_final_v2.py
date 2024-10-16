@@ -25,7 +25,7 @@ NOTEBOOK_PATH = UPLOAD_FOLDER / 'Final_loop_V2.ipynb'
 # Ensure the upload and output directories exist
 UPLOAD_FOLDER.mkdir(parents=True, exist_ok=True)
 OUTPUT_FOLDER.mkdir(parents=True, exist_ok=True)
-
+st.set_page_config(page_title="Your App Name", page_icon=":bar_chart:", layout="centered", initial_sidebar_state="collapsed")
 # Streamlit app configuration
 st.set_page_config(layout="wide", page_title="Scheduling ,Hub Analysis and coverage")
 
