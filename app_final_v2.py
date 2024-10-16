@@ -16,7 +16,7 @@ import osmnx as ox
 import isochrones as iso
 import subprocess
 import geopandas as gpd
-
+st.set_page_config(page_title="Daksh Tool", page_icon=":bar_chart:", layout="centered", initial_sidebar_state="collapsed")
 # Set up paths for file uploads and notebook execution
 UPLOAD_FOLDER = Path(r"C:\Users\Welcome\OneDrive - Transit Intelligence\Desktop\app_final")
 OUTPUT_FOLDER = Path(r"C:\Users\Welcome\OneDrive - Transit Intelligence\Desktop\app_final")
