@@ -16,7 +16,7 @@ import osmnx as ox
 import isochrones as iso
 import subprocess
 import geopandas as gpd
-st.set_page_config(page_title="Daksh Tool", page_icon=":bar_chart:", layout="centered", initial_sidebar_state="collapsed")
+st.set_page_config(layout = "wide", page_title="Scheduling ,Hub Analysis and coverage", page_icon=":bar_chart:", layout="centered", initial_sidebar_state="collapsed")
 # Set up paths for file uploads and notebook execution
 UPLOAD_FOLDER = Path(r"C:\Users\Welcome\OneDrive - Transit Intelligence\Desktop\app_final")
 OUTPUT_FOLDER = Path(r"C:\Users\Welcome\OneDrive - Transit Intelligence\Desktop\app_final")
@@ -25,9 +25,7 @@ NOTEBOOK_PATH = UPLOAD_FOLDER / 'Final_loop_V2.ipynb'
 # Ensure the upload and output directories exist
 UPLOAD_FOLDER.mkdir(parents=True, exist_ok=True)
 OUTPUT_FOLDER.mkdir(parents=True, exist_ok=True)
-st.set_page_config(page_title="Your App Name", page_icon=":bar_chart:", layout="centered", initial_sidebar_state="collapsed")
 # Streamlit app configuration
-st.set_page_config(layout="wide", page_title="Scheduling ,Hub Analysis and coverage")
 
 ox.settings.requests_timeout = 600
 
