@@ -643,7 +643,7 @@ if st.session_state['authenticated']:
         draw = Draw(export=True, draw_options={'polyline': True, 'polygon': False, 'rectangle': False, 'circle': False, 'marker': False}).add_to(m_draw)
 
         # Render the drawing map
-        st.subheader("Zoom into your study area, then click on the "Draw a Polyline" button to plot the bus stops connected by a line to the map.")
+        st.subheader("Zoom into your study area, then click on the \"Draw a Polyline\" button to plot the bus stops connected by a line to the map.")
         output = st_folium(m_draw, width=700, height=500)
 
         # Placeholder for the snapped result map
