@@ -17,6 +17,12 @@ import isochrones as iso
 import subprocess
 import geopandas as gpd
 st.set_page_config(layout = "wide", page_title="Scheduling ,Hub Analysis and coverage", page_icon=":bar_chart:", initial_sidebar_state="collapsed")
+hide_streamlit_style = """
+            <style>
+            footer {visibility: hidden;}
+            </style>
+            """
+st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 # Set up paths for file uploads and notebook execution
 UPLOAD_FOLDER = Path(r"C:\Users\Welcome\OneDrive - Transit Intelligence\Desktop\app_final")
 OUTPUT_FOLDER = Path(r"C:\Users\Welcome\OneDrive - Transit Intelligence\Desktop\app_final")
