@@ -10,7 +10,7 @@ import json
 import osmnx as ox
 import subprocess
 from pathlib import Path
-st.set_page_config(layout="wide", page_title="Scheduling ,Hub Analysis and Coverage" ,initial_sidebar_state="collapsed"))
+st.set_page_config(layout="wide", page_title="Scheduling ,Hub Analysis and Coverage" ,initial_sidebar_state="collapsed")
 
 st.markdown(
     """
