@@ -124,10 +124,11 @@ with tempfile.TemporaryDirectory() as tmpdirname:
                         json.dump({f"user_input{i}": user_input}, g)
 
                 command =f'jupyter nbconvert --to notebook --execute "{NOTEBOOK_PATH2}" --output-dir="{OUTPUT_FOLDER}"'
-                result = subprocess.run(command, shell=True)
+                result = subprocess.run(command, shell=True, capture_output=True, text=True)
 
                 if result.returncode != 0:
                     st.error("An error occurred while executing the notebook.")
+                    st.write("Error message:", result.stderr)
                 
                 # List of expected output files
                 output_files = ['Route_wise_schedule.xlsx', 'stop_times.txt', 'trips.txt']
