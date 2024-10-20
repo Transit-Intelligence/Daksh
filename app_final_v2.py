@@ -10,7 +10,6 @@ import json
 import osmnx as ox
 import subprocess
 from pathlib import Path
-<<<<<<< HEAD
 import plotnine as pn
 import numpy as np
 from sklearn.preprocessing import MinMaxScaler
@@ -18,9 +17,7 @@ import os
 import tempfile
 # import shutil
 
-=======
 st.set_page_config(layout="wide", page_title="Scheduling ,Hub Analysis and Coverage" ,initial_sidebar_state="collapsed")
->>>>>>> 428bc4159114900479b9381ee7f08fc180243a30
 
 st.markdown(
     """
@@ -87,13 +84,12 @@ selected= option_menu(
 
 with tempfile.TemporaryDirectory() as tmpdirname:
     UPLOAD_FOLDER = os.path.join(tmpdirname, "UPLOAD")
-    # output_dir = os.path.join(tmpdirname, "OUTPUT")
+    OUTPUT_FOLDER = os.path.join(tmpdirname, "OUTPUT")
     gtfs_dir = os.path.join(tmpdirname, "GTFS")
-    os.makedirs(upload_dir, exist_ok=True)
-    os.makedirs(output_dir, exist_ok=True)
+    os.makedirs(UPLOAD_FOLDER, exist_ok=True)
+    os.makedirs(OUTPUT_FOLDER, exist_ok=True)
     os.makedirs(gtfs_dir, exist_ok=True)
     NOTEBOOK_PATH2 = os.path.join(os.path.dirname(__file__), 'Final_loop_V4.ipynb')
-    OUTPUT_FOLDER = os.path.join(tmpdirname, "OUTPUT")
 
 # Scheduling Tab
     if selected == 'Bus Scheduling':
@@ -198,154 +194,154 @@ with tempfile.TemporaryDirectory() as tmpdirname:
             result_map_placeholder.subheader("Service Supply")
             output = st_folium(m, width=700, height=500) 
         
-    # # Electrification Tab
-    # elif selected == 'Charger Scheduling':
-    #     st.header("Inputs for Charger Scheduling")
+    # Electrification Tab
+    elif selected == 'Charger Scheduling':
+        st.header("Inputs for Charger Scheduling")
         
-    #     # Required files for Electrification
-    #     required_files = [
-    #         'Route_wise_schedule', 
-    #         'electrification_parameters'
-    #     ]
+        # Required files for Electrification
+        required_files = [
+            'Route_wise_schedule', 
+            'electrification_parameters'
+        ]
         
-    #     uploaded_files = {}
-    #     for file_key in required_files:
-    #         uploaded_file = st.file_uploader(f"Upload {file_key}", type=None, key=file_key)
-    #         if uploaded_file:
-    #             uploaded_files[file_key] = UPLOAD_FOLDER / uploaded_file.name
-    #             with open(uploaded_files[file_key], "wb") as g:
-    #                 g.write(uploaded_file.getbuffer())
+        uploaded_files = {}
+        for file_key in required_files:
+            uploaded_file = st.file_uploader(f"Upload {file_key}", type=None, key=file_key)
+            if uploaded_file:
+                uploaded_files[file_key] = UPLOAD_FOLDER / uploaded_file.name
+                with open(uploaded_files[file_key], "wb") as g:
+                    g.write(uploaded_file.getbuffer())
 
-    #     # Button to run the notebook for Electrification
-    #     if st.button("Run Electrification Notebook"):
-    #         if len(uploaded_files) == len(required_files):
-    #             command = f'jupyter nbconvert --to notebook --execute "{NOTEBOOK_PATH2}" --output-dir="{OUTPUT_FOLDER}"'
-    #             subprocess.run(command, shell=True)
+        # Button to run the notebook for Electrification
+        if st.button("Run Electrification Notebook"):
+            if len(uploaded_files) == len(required_files):
+                command = f'jupyter nbconvert --to notebook --execute "{NOTEBOOK_PATH2}" --output-dir="{OUTPUT_FOLDER}"'
+                subprocess.run(command, shell=True)
 
-    #             # List of expected output files
-    #             output_files = [
-    #                 'Depot wise bus charging schedule.xlsx',
-    #                 'Location Wise No of Chargers.xlsx'
-    #             ]
+                # List of expected output files
+                output_files = [
+                    'Depot wise bus charging schedule.xlsx',
+                    'Location Wise No of Chargers.xlsx'
+                ]
                 
-    #             st.header("Output Files")
+                st.header("Output Files")
 
-    #             # List available output files for download
-    #             files_present = [g for g in output_files if (OUTPUT_FOLDER / g).exists()]
+                # List available output files for download
+                files_present = [g for g in output_files if (OUTPUT_FOLDER / g).exists()]
 
-    #             if files_present:
-    #                 # Display download buttons for all present files
-    #                 for file in files_present:
-    #                     file_path = OUTPUT_FOLDER / file
-    #                     with open(file_path, "rb") as g:
-    #                         st.download_button(f"Download {file}", g, file_name=file)
+                if files_present:
+                    # Display download buttons for all present files
+                    for file in files_present:
+                        file_path = OUTPUT_FOLDER / file
+                        with open(file_path, "rb") as g:
+                            st.download_button(f"Download {file}", g, file_name=file)
 
-    #                 # Now handle "Depot wise bus charging schedule.xlsx" separately
-    #                 if "Depot wise bus charging schedule.xlsx" in files_present:
-    #                     # Load the Excel file only once
-    #                     char_sched = pd.read_excel(OUTPUT_FOLDER / "Depot wise bus charging schedule.xlsx", parse_dates=[3], date_format='%H:%M')
+                    # Now handle "Depot wise bus charging schedule.xlsx" separately
+                    if "Depot wise bus charging schedule.xlsx" in files_present:
+                        # Load the Excel file only once
+                        char_sched = pd.read_excel(OUTPUT_FOLDER / "Depot wise bus charging schedule.xlsx", parse_dates=[3], date_format='%H:%M')
 
-    #                     # Get the unique depots
-    #                     depots = char_sched['Charged at'].unique()
+                        # Get the unique depots
+                        depots = char_sched['Charged at'].unique()
 
-    #                     # Create columns for displaying plots
-    #                     col1, col2, col3 = st.columns(3)
-    #                     cols = [col1, col2, col3]  # List to cycle through columns
+                        # Create columns for displaying plots
+                        col1, col2, col3 = st.columns(3)
+                        cols = [col1, col2, col3]  # List to cycle through columns
 
-    #                     # Iterate over each depot and generate plots
-    #                     for i, depo in enumerate(depots):
-    #                         # Filter the data for the current depot
-    #                         depot_data = char_sched[char_sched['Charged at'] == depo]
+                        # Iterate over each depot and generate plots
+                        for i, depo in enumerate(depots):
+                            # Filter the data for the current depot
+                            depot_data = char_sched[char_sched['Charged at'] == depo]
 
-    #                         # Group by 'Charged at' and 'Charger_gun' and calculate percentage occupancy
-    #                         file_for_app = depot_data.groupby(['Charged at', 'Charger_gun'], as_index=False).agg(
-    #                             {'Charging duration(Minutes)': lambda x: np.sum(x) / (24 * 60) * 100}
-    #                         ).rename(columns={'Charging duration(Minutes)': 'Percent_occupied'})
+                            # Group by 'Charged at' and 'Charger_gun' and calculate percentage occupancy
+                            file_for_app = depot_data.groupby(['Charged at', 'Charger_gun'], as_index=False).agg(
+                                {'Charging duration(Minutes)': lambda x: np.sum(x) / (24 * 60) * 100}
+                            ).rename(columns={'Charging duration(Minutes)': 'Percent_occupied'})
                             
-    #                         file_for_app['Percent_free'] = 100 - file_for_app['Percent_occupied']
+                            file_for_app['Percent_free'] = 100 - file_for_app['Percent_occupied']
 
-    #                         # Generate the plot using plotnine (pn)
-    #                         fig = (pn.ggplot(file_for_app, pn.aes(x=file_for_app['Charger_gun'].astype(str), y='Percent_occupied')) + 
-    #                                 pn.geom_col() +
-    #                                 pn.ggtitle(depo) + 
-    #                                 pn.labs(x="Charger Gun Number", y="Percent Occupied (per day)"))
+                            # Generate the plot using plotnine (pn)
+                            fig = (pn.ggplot(file_for_app, pn.aes(x=file_for_app['Charger_gun'].astype(str), y='Percent_occupied')) + 
+                                    pn.geom_col() +
+                                    pn.ggtitle(depo) + 
+                                    pn.labs(x="Charger Gun Number", y="Percent Occupied (per day)"))
 
-    #                         # Display the plot in one of the three columns
-    #                         with cols[i % 3]:
-    #                             st.pyplot(fig.draw())
+                            # Display the plot in one of the three columns
+                            with cols[i % 3]:
+                                st.pyplot(fig.draw())
 
-    #                 else:
-    #                     st.error("Issue in generation of bus wise schedule")
+                    else:
+                        st.error("Issue in generation of bus wise schedule")
 
-    #             else:
-    #                 st.error("No output files generated.")
+                else:
+                    st.error("No output files generated.")
 
-    #             # Additional manual download section
-    #             st.header("Download Files")
-    #             file_to_download = st.text_input("Enter the filename to download from the output folder")
-    #             if st.button("Download"):
-    #                 download_file_path = OUTPUT_FOLDER / file_to_download
-    #                 if download_file_path.exists():
-    #                     with open(download_file_path, "rb") as g:
-    #                         st.download_button(f"Download {file_to_download}", g, file_name=file_to_download)
-    #                 else:
-    #                     st.error(f"{file_to_download} does not exist.")
-    # # Depot allocation Tab
-    # elif selected == 'Depot-Route Allocation':
-    #     st.header("Inputs for Depot-Route Bus Allocation")
+                # Additional manual download section
+                st.header("Download Files")
+                file_to_download = st.text_input("Enter the filename to download from the output folder")
+                if st.button("Download"):
+                    download_file_path = OUTPUT_FOLDER / file_to_download
+                    if download_file_path.exists():
+                        with open(download_file_path, "rb") as g:
+                            st.download_button(f"Download {file_to_download}", g, file_name=file_to_download)
+                    else:
+                        st.error(f"{file_to_download} does not exist.")
+    # Depot allocation Tab
+    elif selected == 'Depot-Route Allocation':
+        st.header("Inputs for Depot-Route Bus Allocation")
         
-    #     # Required files for Electrification
-    #     required_files = [
-    #         'depot_route_time_matrix'
+        # Required files for Electrification
+        required_files = [
+            'depot_route_time_matrix'
             
-    #     ]
+        ]
         
-    #     uploaded_files = {}
-    #     for file_key in required_files:
-    #         uploaded_file = st.file_uploader(f"Upload {file_key}", type=None, key=file_key)
-    #         if uploaded_file:
-    #             uploaded_files[file_key] = UPLOAD_FOLDER / uploaded_file.name
-    #             with open(uploaded_files[file_key], "wb") as g:
-    #                 g.write(uploaded_file.getbuffer())
+        uploaded_files = {}
+        for file_key in required_files:
+            uploaded_file = st.file_uploader(f"Upload {file_key}", type=None, key=file_key)
+            if uploaded_file:
+                uploaded_files[file_key] = UPLOAD_FOLDER / uploaded_file.name
+                with open(uploaded_files[file_key], "wb") as g:
+                    g.write(uploaded_file.getbuffer())
 
-    #     # Button to run the notebook for Electrification
-    #     if st.button("Run Depot Allocation"):
-    #         if len(uploaded_files) == len(required_files):
-    #             command = f'jupyter nbconvert --to notebook --execute "{NOTEBOOK_PATH4}" --output-dir="{OUTPUT_FOLDER}"'
-    #             subprocess.run(command, shell=True)
+        # Button to run the notebook for Electrification
+        if st.button("Run Depot Allocation"):
+            if len(uploaded_files) == len(required_files):
+                command = f'jupyter nbconvert --to notebook --execute "{NOTEBOOK_PATH4}" --output-dir="{OUTPUT_FOLDER}"'
+                subprocess.run(command, shell=True)
 
-    #             # List of expected output files
-    #             output_files = [
-    #                 'Depot_Route_Bus_Allocation_Results.xlsx'
+                # List of expected output files
+                output_files = [
+                    'Depot_Route_Bus_Allocation_Results.xlsx'
                     
-    #             ]
+                ]
                 
-    #             # Display available output files for download
-    #             st.header("Output Files")
-    #             files_present = [g for g in output_files if (OUTPUT_FOLDER / g).exists()]
+                # Display available output files for download
+                st.header("Output Files")
+                files_present = [g for g in output_files if (OUTPUT_FOLDER / g).exists()]
                 
-    #             if files_present:
-    #                 for file in files_present:
-    #                     file_path = OUTPUT_FOLDER / file
-    #                     with open(file_path, "rb") as g:
-    #                         st.download_button(f"Download {file}", g, file_name=file)
-    #             else:
-    #                 st.error("No output files generated.")
-    #         else:
-    #             st.error("Please upload all required files.")
+                if files_present:
+                    for file in files_present:
+                        file_path = OUTPUT_FOLDER / file
+                        with open(file_path, "rb") as g:
+                            st.download_button(f"Download {file}", g, file_name=file)
+                else:
+                    st.error("No output files generated.")
+            else:
+                st.error("Please upload all required files.")
 
-    #     # # Section to download additional files manually
-    #     # st.header("Download Files")
-    #     # file_to_download = st.text_input("Enter the filename to download from the output folder")
-    #     # if st.button("Download"):
-    #     #     download_file_path = OUTPUT_FOLDER / file_to_download
-    #     #     if download_file_path.exists():
-    #     #         with open(download_file_path, "rb") as g:
-    #     #             st.download_button(f"Download {file_to_download}", g, file_name=file_to_download)
-    #     #     else:
-    #     #         st.error(f"{file_to_download} does not exist.")
-    # # Hub Accessibility Analysis Tab
-    # elif selected == 'Accessibility':
+        # # Section to download additional files manually
+        # st.header("Download Files")
+        # file_to_download = st.text_input("Enter the filename to download from the output folder")
+        # if st.button("Download"):
+        #     download_file_path = OUTPUT_FOLDER / file_to_download
+        #     if download_file_path.exists():
+        #         with open(download_file_path, "rb") as g:
+        #             st.download_button(f"Download {file_to_download}", g, file_name=file_to_download)
+        #     else:
+        #         st.error(f"{file_to_download} does not exist.")
+    # Hub Accessibility Analysis Tab
+    elif selected == 'Accessibility':
             
             # Hub Accessibility Analysis section
             col1, col2 = st.columns([3, 1])
