@@ -125,7 +125,7 @@ with tempfile.TemporaryDirectory() as tmpdirname:
 
                 try:
                     exec(open(SCRIPT_PATH).read())  # Execute the Python script
-                st.success("Processing complete!")
+                    st.success("Processing complete!")
                 except Exception as e:
                     st.error(f"An error occurred while executing the script: {e}")
                 
