@@ -13,8 +13,15 @@ streamlit-option-menu==0.4.0
 streamlit_folium==0.22.1
 utm==0.7.0
 valhalla==0.1.4
+<<<<<<< HEAD
 valhallapy==0.1.2
 streamlit-option-menu
+=======
+streamlit==1.33.0
+matplotlib==3.8.4
+streamlit-option-menu
+geonetworkx==0.5.3
+>>>>>>> 428bc4159114900479b9381ee7f08fc180243a30
 
 
 

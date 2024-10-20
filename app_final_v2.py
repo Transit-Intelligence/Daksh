@@ -10,6 +10,7 @@ import json
 import osmnx as ox
 import subprocess
 from pathlib import Path
+<<<<<<< HEAD
 import plotnine as pn
 import numpy as np
 from sklearn.preprocessing import MinMaxScaler
@@ -17,7 +18,19 @@ import os
 import tempfile
 # import shutil
 
+=======
+st.set_page_config(layout="wide", page_title="Scheduling ,Hub Analysis and Coverage" ,initial_sidebar_state="collapsed")
+>>>>>>> 428bc4159114900479b9381ee7f08fc180243a30
 
+st.markdown(
+    """
+    <style>
+    #MainMenu {visibility: hidden;}
+    footer {visibility: hidden;}
+    </style>
+    """,
+    unsafe_allow_html=True
+)
 # Set up paths for file uploads and notebook execution
 # UPLOAD_FOLDER = Path(r"C:\Users\Welcome\OneDrive - Transit Intelligence\Desktop\App_final_pradeep")
 # OUTPUT_FOLDER = Path(r"C:\Users\Welcome\OneDrive - Transit Intelligence\Desktop\App_final_pradeep")
@@ -30,7 +43,6 @@ import tempfile
 # OUTPUT_FOLDER.mkdir(parents=True, exist_ok=True)
 
 # Streamlit app configuration
-st.set_page_config(layout="wide", page_title="Scheduling ,Hub Analysis and Coverage")
 
 ox.settings.requests_timeout = 600
 
