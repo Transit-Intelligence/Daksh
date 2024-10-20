@@ -134,6 +134,8 @@ with tempfile.TemporaryDirectory() as tmpdirname:
 
                 # Display available output files for download
                 st.header("Output Files")
+                output_files_list = os.listdir(OUTPUT_FOLDER)
+
                 files_present = [g for g in output_files if os.path.exists(os.path.join(OUTPUT_FOLDER, g))]
 
                 if files_present:
