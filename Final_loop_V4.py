@@ -51,7 +51,7 @@ df=pd.read_excel(route_inputs_path)
 for sk in range(len(df)):
     
 #     df.head()
-    stops_v3_path = os.path.join(UPLOAD_FOLDER, 'stops_v3.xlsx')
+    stops_v3_path = os.path.join(UPLOAD_FOLDER, 'stops_V3.csv')
     df_st=pd.read_csv(stops_v3_path)
     first_trip_start_time=str(df.iloc[sk]["First trip time"])
     new_first_trip_time=str(df.iloc[sk]["First trip time"])
