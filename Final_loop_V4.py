@@ -41,7 +41,7 @@ df_315=pd.DataFrame(columns=["trip_id","arrival_time","departure_time","stop_id"
 df_316=pd.DataFrame(columns=["route_id","service_id","trip_id","trip_headsign","shape_id"])
 # df_317=pd.DataFrame(columns=["Depot","Route_number","Bus_No","trip_number","Start_location","End_location","New_start_time","New_end_time","Distance"])
 
-
+route_inputs_path = os.path.join(UPLOAD_FOLDER, 'Route_inputs_sheet.xlsx')
 df=pd.read_excel("Route_inputs_sheet.xlsx")
 
 
