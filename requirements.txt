@@ -11,3 +11,4 @@ sklearn.preprocessing==0.1.0
 scikit-learn>=1.5.0
 jupyter
 nbconvert==7.16.4
+openpyxl==3.1.2
