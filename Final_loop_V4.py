@@ -42,7 +42,7 @@ df_316=pd.DataFrame(columns=["route_id","service_id","trip_id","trip_headsign","
 # df_317=pd.DataFrame(columns=["Depot","Route_number","Bus_No","trip_number","Start_location","End_location","New_start_time","New_end_time","Distance"])
 
 route_inputs_path = os.path.join(UPLOAD_FOLDER, 'Route_inputs_sheet.xlsx')
-df=pd.read_excel("Route_inputs_sheet.xlsx")
+df=pd.read_excel(route_inputs_path)
 
 
 
@@ -51,8 +51,8 @@ df=pd.read_excel("Route_inputs_sheet.xlsx")
 for sk in range(len(df)):
     
 #     df.head()
-
-    df_st=pd.read_csv("stops_V3.csv")
+    stops_v3_path = os.path.join(UPLOAD_FOLDER, 'stops_v3.xlsx')
+    df_st=pd.read_csv(stops_v3_path)
     first_trip_start_time=str(df.iloc[sk]["First trip time"])
     new_first_trip_time=str(df.iloc[sk]["First trip time"])
 
