@@ -155,8 +155,8 @@ with tempfile.TemporaryDirectory() as tmpdirname:
         #     else:
         #         st.error(f"{file_to_download} does not exist.")
         stop_times_file = os.path.join(OUTPUT_FOLDER, "stop_times.txt")
-        stops_v3_file = os.path.join(OUTPUT_FOLDER, "stops_v3.csv")
-        station_list_file = os.path.join(OUTPUT_FOLDER, "Station List.csv")
+        stops_v3_file = os.path.join(UPLOAD_FOLDER, "stops_v3.csv")
+        station_list_file = os.path.join(UPLOAD_FOLDER, "Station List.csv")
         result_map_placeholder=st.empty()
         if os.path.exists(stop_times_file) and os.path.exists(stops_v3_file) and os.path.exists(station_list_file):
             stoptimes = pd.read_table(stop_times_file, sep=",")
