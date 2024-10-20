@@ -89,7 +89,7 @@ with tempfile.TemporaryDirectory() as tmpdirname:
     os.makedirs(UPLOAD_FOLDER, exist_ok=True)
     os.makedirs(OUTPUT_FOLDER, exist_ok=True)
     os.makedirs(gtfs_dir, exist_ok=True)
-    NOTEBOOK_PATH2 = os.path.join(os.path.dirname(__file__), 'Final_loop_V4.ipynb')
+    SCRIPT_PATH = os.path.join(os.path.dirname(__file__), 'Final_loop_V4.py')
 
 # Scheduling Tab
     if selected == 'Bus Scheduling':
@@ -123,12 +123,11 @@ with tempfile.TemporaryDirectory() as tmpdirname:
                     with open(os.path.join(OUTPUT_FOLDER, f'user_input{i}.json'), 'w') as g:
                         json.dump({f"user_input{i}": user_input}, g)
 
-                command =f'jupyter nbconvert --to notebook --execute "{NOTEBOOK_PATH2}" --output-dir="{OUTPUT_FOLDER}"'
-                result = subprocess.run(command, shell=True, capture_output=True, text=True)
-
-                if result.returncode != 0:
-                    st.error("An error occurred while executing the notebook.")
-                    st.write("Error message:", result.stderr)
+                try:
+                    exec(open(SCRIPT_PATH).read())  # Execute the Python script
+                st.success("Processing complete!")
+                except Exception as e:
+                    st.error(f"An error occurred while executing the script: {e}")
                 
                 # List of expected output files
                 output_files = ['Route_wise_schedule.xlsx', 'stop_times.txt', 'trips.txt']
