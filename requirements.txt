@@ -10,3 +10,4 @@ streamlit_folium==0.23.1
 sklearn.preprocessing==0.1.0
 scikit-learn==1.4.2
 jupyter
+nbconvert==7.16.4
