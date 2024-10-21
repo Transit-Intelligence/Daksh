@@ -50,7 +50,7 @@ selected = option_menu(
 
 repo_owner = "Transit-Intelligence"
 repo_name = "Daksh"
-github_token = "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"
+github_token = "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"
 branch_name = "main"
 UPLOAD_FOLDER = "UPLOAD_FOLDER"
 
