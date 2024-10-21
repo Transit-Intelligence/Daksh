@@ -15,8 +15,8 @@ import numpy as np
 from sklearn.preprocessing import MinMaxScaler
 
 # Set up paths for file uploads and notebook execution
-UPLOAD_FOLDER = Path(r"C:\Users\Welcome\OneDrive - Transit Intelligence\Desktop\Pradeep inputs")
-OUTPUT_FOLDER = Path(r"C:\Users\Welcome\OneDrive - Transit Intelligence\Desktop\Pradeep inputs")
+UPLOAD_FOLDER = Path(r"./UPLOAD_FOLDER")
+OUTPUT_FOLDER = Path(r"./OUTPUT_FOLDER")
 NOTEBOOK_PATH = UPLOAD_FOLDER / 'Final_loop_V4.ipynb'
 NOTEBOOK_PATH2 = UPLOAD_FOLDER / 'Final_loop_V5.ipynb'
 #NOTEBOOK_PATH3 = UPLOAD_FOLDER / '12 Scheduling+Electrification Final.ipynb'
@@ -69,8 +69,6 @@ selected= option_menu(
     default_index = 0,
     orientation = "horizontal",
 )
-
-<<<<<<< HEAD
 # Scheduling Tab
 if selected == 'Bus Scheduling':
     st.header("Inputs for timetabling and scheduling")
