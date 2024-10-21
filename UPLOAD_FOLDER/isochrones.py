@@ -65,20 +65,20 @@ def accessed_stops(
     calendar_df = pd.DataFrame()
     calendar_dates_df = pd.DataFrame()
     trips_df = pd.read_csv(
-        os.path.join(current_dir, "GTFS", "trips.txt"),
+        os.path.join(current_dir, "GTFS_1", "trips.txt"),
     )
     stop_times_df = pd.read_csv(
-        os.path.join(current_dir, "GTFS", "stop_times.txt"),
+        os.path.join(current_dir, "GTFS_1", "stop_times.txt"),
     )
     file_stops_df = pd.read_csv(
-        os.path.join(current_dir, "GTFS", "stops.txt"),
+        os.path.join(current_dir, "GTFS_1", "stops.txt"),
         dtype={"stop_id": "str", "stop_lat": "float", "stop_lon": "float"},
     )
 
-    file_stops_df["file"] = str(os.path.join(current_dir, "GTFS", "stops.txt"))
+    file_stops_df["file"] = str(os.path.join(current_dir, "GTFS_1", "stops.txt"))
     stops_df = pd.concat([stops_df, file_stops_df], ignore_index=True)
     file_calendar_df = pd.read_csv(
-        os.path.join(current_dir, "GTFS", "calendar.txt"),
+        os.path.join(current_dir, "GTFS_1", "calendar.txt"),
         dtype={
             "service_id": "str",
             "monday": "str",
@@ -94,10 +94,10 @@ def accessed_stops(
         delimiter=",",
     )
 
-    file_calendar_df["file"] = str(os.path.join(current_dir, "GTFS", "calendar.txt"))
+    file_calendar_df["file"] = str(os.path.join(current_dir, "GTFS_1", "calendar.txt"))
     calendar_df = pd.concat([calendar_df, file_calendar_df], ignore_index=True)
     file_calendar_dates_df = pd.read_csv(
-        os.path.join(current_dir, "GTFS", "calendar_dates.txt"),
+        os.path.join(current_dir, "GTFS_1", "calendar_dates.txt"),
         dtype={"service_id": "str", "date": "int64", "exception_type": "str"},
         delimiter=",",
     )
@@ -147,7 +147,7 @@ def accessed_stops(
             file_calendar_df["service_id"] == service_id, "end_date"
         ] = date
 
-    file_calendar_df["file"] = str(os.path.join(current_dir, "GTFS", "calendar.txt"))
+    file_calendar_df["file"] = str(os.path.join(current_dir, "GTFS_1", "calendar.txt"))
     calendar_df = pd.concat([calendar_df, file_calendar_df], ignore_index=True)
     GTFS_file_list = list(set(calendar_df["file"].tolist()))
 
