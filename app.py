@@ -15,13 +15,15 @@ import numpy as np
 from sklearn.preprocessing import MinMaxScaler
 
 # Set up paths for file uploads and notebook execution
-UPLOAD_FOLDER = Path(r"./UPLOAD_FOLDER")
-OUTPUT_FOLDER = Path(r"./OUTPUT_FOLDER")
+BASE_DIR = Path(__file__).parent
+
+UPLOAD_FOLDER = BASE_DIR / 'UPLOAD_FOLDER'
+OUTPUT_FOLDER = BASE_DIR / 'OUTPUT_FOLDER'
+
 NOTEBOOK_PATH = UPLOAD_FOLDER / 'Final_loop_V4.ipynb'
 NOTEBOOK_PATH2 = UPLOAD_FOLDER / 'Final_loop_V5.ipynb'
-#NOTEBOOK_PATH3 = UPLOAD_FOLDER / '12 Scheduling+Electrification Final.ipynb'
+# NOTEBOOK_PATH3 = UPLOAD_FOLDER / '12 Scheduling+Electrification Final.ipynb'
 NOTEBOOK_PATH4 = UPLOAD_FOLDER / 'Depot Allocation Sections.ipynb'
-
 # Ensure the upload and output directories exist
 UPLOAD_FOLDER.mkdir(parents=True, exist_ok=True)
 OUTPUT_FOLDER.mkdir(parents=True, exist_ok=True)
