@@ -48,9 +48,9 @@ selected = option_menu(
 
 # GitHub repository details
 
-repo_owner = "Transit-Intelligence"
-repo_name = "Daksh"
-github_token = "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"
+repo_owner = "LakshayTaneja"
+repo_name = "DakshPrivate"
+github_token = "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"
 branch_name = "main"
 UPLOAD_FOLDER = "UPLOAD_FOLDER"
 
