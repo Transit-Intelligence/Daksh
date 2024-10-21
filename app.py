@@ -70,6 +70,7 @@ selected= option_menu(
     orientation = "horizontal",
 )
 
+<<<<<<< HEAD
 # Scheduling Tab
 if selected == 'Bus Scheduling':
     st.header("Inputs for timetabling and scheduling")
