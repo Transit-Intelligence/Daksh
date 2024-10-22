@@ -130,45 +130,45 @@ if selected == 'Bus Scheduling':
     #             st.download_button(f"Download {file_to_download}", g, file_name=file_to_download)
     #     else:
     #         st.error(f"{file_to_download} does not exist.")
-    stop_times_file = OUTPUT_FOLDER / "stop_times.txt"
-    stops_v3_file = UPLOAD_FOLDER / "stops_v3.csv"
-    station_list_file = UPLOAD_FOLDER / "Station List.csv"
-    result_map_placeholder=st.empty()
-    if stop_times_file.exists() and stops_v3_file.exists() and station_list_file.exists():
-        stoptimes = pd.read_table(stop_times_file, sep=",")
-        stops = pd.read_csv(stops_v3_file)
-        stations = pd.read_csv(station_list_file)
-        file_for_gis = stoptimes.groupby("stop_id").count().reset_index()[["stop_id", "trip_id"]]
-        file_for_gis['stop_id'] = file_for_gis['stop_id'].astype(str)
-        file_for_gis = file_for_gis[['stop_id','trip_id']]
-        stops["stop_id"] = stops["stop_id"].astype(str)
-        merged_data_1 = pd.merge(stops, file_for_gis, on='stop_id', how='inner')
-        merged_data_2 = pd.merge(merged_data_1, stations, on='stop_name', how='inner')
-        # scaler = MinMaxScaler(feature_range=(0, 1))
-        # merged_data_2['scaled_radius'] = scaler.fit_transform(merged_data_2[['trip_id']])
+    # stop_times_file = OUTPUT_FOLDER / "stop_times.txt"
+    # stops_v3_file = UPLOAD_FOLDER / "stops_v3.csv"
+    # station_list_file = UPLOAD_FOLDER / "Station List.csv"
+    # result_map_placeholder=st.empty()
+    # if stop_times_file.exists() and stops_v3_file.exists() and station_list_file.exists():
+    #     stoptimes = pd.read_table(stop_times_file, sep=",")
+    #     stops = pd.read_csv(stops_v3_file)
+    #     stations = pd.read_csv(station_list_file)
+    #     file_for_gis = stoptimes.groupby("stop_id").count().reset_index()[["stop_id", "trip_id"]]
+    #     file_for_gis['stop_id'] = file_for_gis['stop_id'].astype(str)
+    #     file_for_gis = file_for_gis[['stop_id','trip_id']]
+    #     stops["stop_id"] = stops["stop_id"].astype(str)
+    #     merged_data_1 = pd.merge(stops, file_for_gis, on='stop_id', how='inner')
+    #     merged_data_2 = pd.merge(merged_data_1, stations, on='stop_name', how='inner')
+    #     # scaler = MinMaxScaler(feature_range=(0, 1))
+    #     # merged_data_2['scaled_radius'] = scaler.fit_transform(merged_data_2[['trip_id']])
 
-        # Calculate the mean latitude and longitude to center the map
-        mean_lat = merged_data_2['stop_lat'].mean()
-        mean_lon = merged_data_2['stop_lon'].mean()
+    #     # Calculate the mean latitude and longitude to center the map
+    #     mean_lat = merged_data_2['stop_lat'].mean()
+    #     mean_lon = merged_data_2['stop_lon'].mean()
 
-        # Initialize the Folium map, centered at the mean coordinates
-        m = f.Map(location=[mean_lat, mean_lon], zoom_start=4)
+    #     # Initialize the Folium map, centered at the mean coordinates
+    #     m = f.Map(location=[mean_lat, mean_lon], zoom_start=4)
 
-        # Add CircleMarkers with varying scaled radii
-        for station_name, lat, lon, trip_id in zip(merged_data_2['stop_name'], merged_data_2['stop_lat'], merged_data_2['stop_lon'], merged_data_2['trip_id']):
-            f.CircleMarker(
-                location=(lat, lon),
-                radius=trip_id / 10,  # Scale the radius to make it visible on the map
-                color="blue",
-                fill=True,
-                fill_color="blue",
-                fill_opacity=0.6
-            ).add_to(m)
+    #     # Add CircleMarkers with varying scaled radii
+    #     for station_name, lat, lon, trip_id in zip(merged_data_2['stop_name'], merged_data_2['stop_lat'], merged_data_2['stop_lon'], merged_data_2['trip_id']):
+    #         f.CircleMarker(
+    #             location=(lat, lon),
+    #             radius=trip_id / 10,  # Scale the radius to make it visible on the map
+    #             color="blue",
+    #             fill=True,
+    #             fill_color="blue",
+    #             fill_opacity=0.6
+    #         ).add_to(m)
 
-        # Display the map in Streamlit
-            # Clear previous output
-        result_map_placeholder.subheader("Service Supply")
-        output = st_folium(m, width=700, height=500) 
+    #     # Display the map in Streamlit
+    #         # Clear previous output
+    #     result_map_placeholder.subheader("Service Supply")
+    #     output = st_folium(m, width=700, height=500) 
     
 # Electrification Tab
 elif selected == 'Charger Scheduling':
