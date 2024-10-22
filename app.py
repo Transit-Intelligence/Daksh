@@ -13,18 +13,18 @@ from pathlib import Path
 import plotnine as pn
 import numpy as np
 from sklearn.preprocessing import MinMaxScaler
+import tempfile
+# # Construct the path to OUTPUT_FOLDER
+# OUTPUT_FOLDER = current_dir / "OUTPUT_FOLDER"
+# UPLOAD_FOLDER = current_dir / "UPLOAD_FOLDER"
 
-# Set up paths for file uploads and notebook execution
-UPLOAD_FOLDER = Path(r"./UPLOAD_FOLDER")
-OUTPUT_FOLDER = Path(r"./OUTPUT_FOLDER")
-NOTEBOOK_PATH = UPLOAD_FOLDER / 'Final_loop_V4.ipynb'
-NOTEBOOK_PATH2 = UPLOAD_FOLDER / 'Final_loop_V5.ipynb'
-#NOTEBOOK_PATH3 = UPLOAD_FOLDER / '12 Scheduling+Electrification Final.ipynb'
-NOTEBOOK_PATH4 = UPLOAD_FOLDER / 'Depot Allocation Sections.ipynb'
-
-# Ensure the upload and output directories exist
-UPLOAD_FOLDER.mkdir(parents=True, exist_ok=True)
-OUTPUT_FOLDER.mkdir(parents=True, exist_ok=True)
+# NOTEBOOK_PATH = UPLOAD_FOLDER / 'Final_loop_V4.ipynb'
+# NOTEBOOK_PATH2 = UPLOAD_FOLDER / 'Final_loop_V5.ipynb'
+# # NOTEBOOK_PATH3 = UPLOAD_FOLDER / '12 Scheduling+Electrification Final.ipynb'
+# NOTEBOOK_PATH4 = UPLOAD_FOLDER / 'Depot Allocation Sections.ipynb'
+# # Ensure the upload and output directories exist
+# UPLOAD_FOLDER.mkdir(parents=True, exist_ok=True)
+# OUTPUT_FOLDER.mkdir(parents=True, exist_ok=True)
 
 # Streamlit app configuration
 st.set_page_config(layout="wide", page_title="Scheduling ,Hub Analysis and Coverage")
@@ -69,7 +69,6 @@ selected= option_menu(
     default_index = 0,
     orientation = "horizontal",
 )
-
 # Scheduling Tab
 if selected == 'Bus Scheduling':
     st.header("Inputs for timetabling and scheduling")
@@ -88,38 +87,39 @@ if selected == 'Bus Scheduling':
     for file_key in required_files:
         uploaded_file = st.file_uploader(f"Upload {file_key}", type=None, key=file_key)
         if uploaded_file:
-            uploaded_files[file_key] = UPLOAD_FOLDER / uploaded_file.name
-            with open(uploaded_files[file_key], "wb") as g:
-                g.write(uploaded_file.getbuffer())
+            uploaded_files[file_key] = uploaded_file 
 
     if st.button("Solve"):
         if len(uploaded_files) == len(required_files):
-            with open('user_input3.json', 'w') as g:
-                json.dump({"user_input3": user_input3}, g)
-            with open('user_input1.json', 'w') as g:
-                json.dump({"user_input1": user_input1}, g)
-            with open('user_input2.json', 'w') as g:
-                json.dump({"user_input2": user_input2}, g)
-            with open('user_input4.json', 'w') as g:
-                json.dump({"user_input4": user_input4}, g)
+            with tempfile.TemporaryDirectory() as tmpdir:
+                # Save user inputs to temporary JSON files
+                with open(Path(tmpdir) / 'user_input3.json', 'w') as g:
+                    json.dump({"user_input3": user_input3}, g)
+                with open(Path(tmpdir) / 'user_input1.json', 'w') as g:
+                    json.dump({"user_input1": user_input1}, g)
+                with open(Path(tmpdir) / 'user_input2.json', 'w') as g:
+                    json.dump({"user_input2": user_input2}, g)
+                with open(Path(tmpdir) / 'user_input4.json', 'w') as g:
+                    json.dump({"user_input4": user_input4}, g)
+                for file_key, file_data in uploaded_files.items():
+                    with open(Path(tmpdir) / file_data.name, "wb") as f:
+                        f.write(file_data.getbuffer())
 
-            command = f'jupyter nbconvert --to notebook --execute "{NOTEBOOK_PATH}" --output-dir="{OUTPUT_FOLDER}"'
-            subprocess.run(command, shell=True)
+                command = f'python Final_loop_V4.py --input-dir {tmpdir} --output-dir {tmpdir}'
+                subprocess.run(command, shell=True)
             
             # List of expected output files
-    output_files = ['Route_wise_schedule.xlsx', 'stop_times.txt', 'trips.txt']
+                output_files = ['Route_wise_schedule.xlsx', 'stop_times.txt', 'trips.txt']
             
             # Display available output files for download
     st.header("Output Files")
-    files_present = [g for g in output_files if (OUTPUT_FOLDER / g).exists()]
-    
-    if files_present:
-        for file in files_present:
-            file_path = OUTPUT_FOLDER / file
+    for file in output_files:
+        file_path = Path(tmpdir) / file
+        if file_path.exists():
             with open(file_path, "rb") as g:
                 st.download_button(f"Download {file}", g, file_name=file)
-    else:
-        st.error("No output files generated")
+        else:
+            st.error(f"{file} not found.")
     
 
     # st.header("Download Files")
