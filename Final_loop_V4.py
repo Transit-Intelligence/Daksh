@@ -15,7 +15,12 @@ import datetime
 import matplotlib.pyplot as plt
 import math
 import json
+import argparse
+parser = argparse.ArgumentParser()
+parser.add_argument('--output-dir', type=str, required=True, help='Directory to save output files')
+args = parser.parse_args()
 
+output_dir = args.output_dir
 
 with open('user_input1.json', 'r') as f:
     data1 = json.load(f)
@@ -986,10 +991,11 @@ for sk in range(len(df)):
     df_313=df_31[["Route_number","Direction","New_start_time","Running_time","New_end_time","Break_time","Bus_No","Start_location","End_location","trip_number","Depot","Distance"]]
     df_314=pd.concat([df_314,df_313])
 
+    sch_file_path = os.path.join(output_dir, "Route_wise_schedule.xslx")
+    df_314.to_excel(sch_file_path, index=False)
 
 
-
-    df_314.to_excel("Route_wise_schedule.xlsx",index=False)
+    
     
 #     df_317=pd.concat([df_317,df_32_1])
     
@@ -1129,8 +1135,9 @@ for sk in range(len(df)):
     
     df_stop_times=pd.concat([df_stop_times_down,df_stop_times])
     df_315=pd.concat([df_315,df_stop_times])
-    
-    df_315.to_csv("stop_times.txt",index=False)
+    stop_times_file_path = os.path.join(output_dir, "stop_times.txt")
+    df_315.to_csv(stop_times_file_path, index=False)
+    # df_315.to_csv("stop_times.txt",index=False)
 
     df42=df_stop_times["trip_id"].unique()
     df42=pd.DataFrame(list(df_stop_times["trip_id"].unique()),columns=["trip_id"])
@@ -1141,7 +1148,8 @@ for sk in range(len(df)):
     df42=df42[["route_id","service_id","trip_id","trip_headsign","shape_id"]]
     
     df_316=pd.concat([df_316,df42])
-    df_316.to_csv("trips.txt",index=False)
+    trips_file_path = os.path.join(output_dir, "trips.txt")
+    df_316.to_csv(trips_file_path, index=False)
     
 
 
