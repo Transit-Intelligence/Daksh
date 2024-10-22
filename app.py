@@ -16,19 +16,19 @@ from sklearn.preprocessing import MinMaxScaler
 import tempfile
 
 # Set up paths for file uploads and notebook execution
-current_dir = Path(__file__).resolve().parent
+# current_dir = Path(__file__).resolve().parent
 
-# Construct the path to OUTPUT_FOLDER
-OUTPUT_FOLDER = current_dir / "OUTPUT_FOLDER"
-UPLOAD_FOLDER = current_dir / "UPLOAD_FOLDER"
+# # Construct the path to OUTPUT_FOLDER
+# OUTPUT_FOLDER = current_dir / "OUTPUT_FOLDER"
+# UPLOAD_FOLDER = current_dir / "UPLOAD_FOLDER"
 
-NOTEBOOK_PATH = UPLOAD_FOLDER / 'Final_loop_V4.ipynb'
-NOTEBOOK_PATH2 = UPLOAD_FOLDER / 'Final_loop_V5.ipynb'
-# NOTEBOOK_PATH3 = UPLOAD_FOLDER / '12 Scheduling+Electrification Final.ipynb'
-NOTEBOOK_PATH4 = UPLOAD_FOLDER / 'Depot Allocation Sections.ipynb'
-# Ensure the upload and output directories exist
-UPLOAD_FOLDER.mkdir(parents=True, exist_ok=True)
-OUTPUT_FOLDER.mkdir(parents=True, exist_ok=True)
+# NOTEBOOK_PATH = UPLOAD_FOLDER / 'Final_loop_V4.ipynb'
+# NOTEBOOK_PATH2 = UPLOAD_FOLDER / 'Final_loop_V5.ipynb'
+# # NOTEBOOK_PATH3 = UPLOAD_FOLDER / '12 Scheduling+Electrification Final.ipynb'
+# NOTEBOOK_PATH4 = UPLOAD_FOLDER / 'Depot Allocation Sections.ipynb'
+# # Ensure the upload and output directories exist
+# UPLOAD_FOLDER.mkdir(parents=True, exist_ok=True)
+# OUTPUT_FOLDER.mkdir(parents=True, exist_ok=True)
 
 # Streamlit app configuration
 st.set_page_config(layout="wide", page_title="Scheduling ,Hub Analysis and Coverage")
