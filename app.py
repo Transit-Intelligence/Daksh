@@ -12,19 +12,22 @@ import subprocess
 from pathlib import Path
 import plotnine as pn
 import numpy as np
+from pathlib import Path
 from sklearn.preprocessing import MinMaxScaler
-import tempfile
-# # Construct the path to OUTPUT_FOLDER
-# OUTPUT_FOLDER = current_dir / "OUTPUT_FOLDER"
-# UPLOAD_FOLDER = current_dir / "UPLOAD_FOLDER"
+import shutil
 
-# NOTEBOOK_PATH = UPLOAD_FOLDER / 'Final_loop_V4.ipynb'
-# NOTEBOOK_PATH2 = UPLOAD_FOLDER / 'Final_loop_V5.ipynb'
-# # NOTEBOOK_PATH3 = UPLOAD_FOLDER / '12 Scheduling+Electrification Final.ipynb'
-# NOTEBOOK_PATH4 = UPLOAD_FOLDER / 'Depot Allocation Sections.ipynb'
-# # Ensure the upload and output directories exist
-# UPLOAD_FOLDER.mkdir(parents=True, exist_ok=True)
-# OUTPUT_FOLDER.mkdir(parents=True, exist_ok=True)
+# Set up paths for file uploads and notebook execution
+UPLOAD_FOLDER = Path(r"./UPLOAD_FOLDER/")
+OUTPUT_FOLDER = Path(r"./OUTPUT_FOLDER")
+NOTEBOOK_PATH = UPLOAD_FOLDER / 'Final_loop_V4.ipynb'
+NOTEBOOK_PATH2 = UPLOAD_FOLDER / 'Final_loop_V5.ipynb'
+#NOTEBOOK_PATH3 = UPLOAD_FOLDER / '12 Scheduling+Electrification Final.ipynb'
+NOTEBOOK_PATH4 = UPLOAD_FOLDER.joinpath('Depot Allocation Sections.ipynb')
+
+
+# Ensure the upload and output directories exist
+UPLOAD_FOLDER.mkdir(parents=True, exist_ok=True)
+OUTPUT_FOLDER.mkdir(parents=True, exist_ok=True)
 
 # Streamlit app configuration
 st.set_page_config(layout="wide", page_title="Scheduling ,Hub Analysis and Coverage")
@@ -69,6 +72,7 @@ selected= option_menu(
     default_index = 0,
     orientation = "horizontal",
 )
+
 # Scheduling Tab
 if selected == 'Bus Scheduling':
     st.header("Inputs for timetabling and scheduling")
@@ -87,39 +91,38 @@ if selected == 'Bus Scheduling':
     for file_key in required_files:
         uploaded_file = st.file_uploader(f"Upload {file_key}", type=None, key=file_key)
         if uploaded_file:
-            uploaded_files[file_key] = uploaded_file 
+            uploaded_files[file_key] = UPLOAD_FOLDER / uploaded_file.name
+            with open(uploaded_files[file_key], "wb") as g:
+                g.write(uploaded_file.getbuffer())
 
     if st.button("Solve"):
         if len(uploaded_files) == len(required_files):
-            with tempfile.TemporaryDirectory() as tmpdir:
-                # Save user inputs to temporary JSON files
-                with open(Path(tmpdir) / 'user_input3.json', 'w') as g:
-                    json.dump({"user_input3": user_input3}, g)
-                with open(Path(tmpdir) / 'user_input1.json', 'w') as g:
-                    json.dump({"user_input1": user_input1}, g)
-                with open(Path(tmpdir) / 'user_input2.json', 'w') as g:
-                    json.dump({"user_input2": user_input2}, g)
-                with open(Path(tmpdir) / 'user_input4.json', 'w') as g:
-                    json.dump({"user_input4": user_input4}, g)
-                for file_key, file_data in uploaded_files.items():
-                    with open(Path(tmpdir) / file_data.name, "wb") as f:
-                        f.write(file_data.getbuffer())
+            with open('user_input3.json', 'w') as g:
+                json.dump({"user_input3": user_input3}, g)
+            with open('user_input1.json', 'w') as g:
+                json.dump({"user_input1": user_input1}, g)
+            with open('user_input2.json', 'w') as g:
+                json.dump({"user_input2": user_input2}, g)
+            with open('user_input4.json', 'w') as g:
+                json.dump({"user_input4": user_input4}, g)
 
-                command = f'python Final_loop_V4.py --input-dir {tmpdir} --output-dir {tmpdir}'
-                subprocess.run(command, shell=True)
+            command = f'jupyter nbconvert --to notebook --execute "{NOTEBOOK_PATH}" --output-dir="{OUTPUT_FOLDER}"'
+            subprocess.run(command, shell=True)
             
             # List of expected output files
-                output_files = ['Route_wise_schedule.xlsx', 'stop_times.txt', 'trips.txt']
+    output_files = ['Route_wise_schedule.xlsx', 'stop_times.txt', 'trips.txt']
             
             # Display available output files for download
-                st.header("Output Files")
-                for file in output_files:
-                    file_path = Path(tmpdir) / file
-                    if file_path.exists():
-                        with open(file_path, "rb") as g:
-                            st.download_button(f"Download {file}", g, file_name=file)
-                    else:
-                        st.error(f"{file} not found.")
+    st.header("Output Files")
+    files_present = [g for g in output_files if (OUTPUT_FOLDER / g).exists()]
+    
+    if files_present:
+        for file in files_present:
+            file_path = OUTPUT_FOLDER / file
+            with open(file_path, "rb") as g:
+                st.download_button(f"Download {file}", g, file_name=file)
+    else:
+        st.error("No output files generated")
     
 
     # st.header("Download Files")
@@ -130,45 +133,45 @@ if selected == 'Bus Scheduling':
     #             st.download_button(f"Download {file_to_download}", g, file_name=file_to_download)
     #     else:
     #         st.error(f"{file_to_download} does not exist.")
-    # stop_times_file = OUTPUT_FOLDER / "stop_times.txt"
-    # stops_v3_file = UPLOAD_FOLDER / "stops_v3.csv"
-    # station_list_file = UPLOAD_FOLDER / "Station List.csv"
-    # result_map_placeholder=st.empty()
-    # if stop_times_file.exists() and stops_v3_file.exists() and station_list_file.exists():
-    #     stoptimes = pd.read_table(stop_times_file, sep=",")
-    #     stops = pd.read_csv(stops_v3_file)
-    #     stations = pd.read_csv(station_list_file)
-    #     file_for_gis = stoptimes.groupby("stop_id").count().reset_index()[["stop_id", "trip_id"]]
-    #     file_for_gis['stop_id'] = file_for_gis['stop_id'].astype(str)
-    #     file_for_gis = file_for_gis[['stop_id','trip_id']]
-    #     stops["stop_id"] = stops["stop_id"].astype(str)
-    #     merged_data_1 = pd.merge(stops, file_for_gis, on='stop_id', how='inner')
-    #     merged_data_2 = pd.merge(merged_data_1, stations, on='stop_name', how='inner')
-    #     # scaler = MinMaxScaler(feature_range=(0, 1))
-    #     # merged_data_2['scaled_radius'] = scaler.fit_transform(merged_data_2[['trip_id']])
+    stop_times_file = OUTPUT_FOLDER / "stop_times.txt"
+    stops_v3_file = UPLOAD_FOLDER / "stops_v3.csv"
+    station_list_file = UPLOAD_FOLDER / "Station List.csv"
+    result_map_placeholder=st.empty()
+    if stop_times_file.exists() and stops_v3_file.exists() and station_list_file.exists():
+        stoptimes = pd.read_table(stop_times_file, sep=",")
+        stops = pd.read_csv(stops_v3_file)
+        stations = pd.read_csv(station_list_file)
+        file_for_gis = stoptimes.groupby("stop_id").count().reset_index()[["stop_id", "trip_id"]]
+        file_for_gis['stop_id'] = file_for_gis['stop_id'].astype(str)
+        file_for_gis = file_for_gis[['stop_id','trip_id']]
+        stops["stop_id"] = stops["stop_id"].astype(str)
+        merged_data_1 = pd.merge(stops, file_for_gis, on='stop_id', how='inner')
+        merged_data_2 = pd.merge(merged_data_1, stations, on='stop_name', how='inner')
+        # scaler = MinMaxScaler(feature_range=(0, 1))
+        # merged_data_2['scaled_radius'] = scaler.fit_transform(merged_data_2[['trip_id']])
 
-    #     # Calculate the mean latitude and longitude to center the map
-    #     mean_lat = merged_data_2['stop_lat'].mean()
-    #     mean_lon = merged_data_2['stop_lon'].mean()
+        # Calculate the mean latitude and longitude to center the map
+        mean_lat = merged_data_2['stop_lat'].mean()
+        mean_lon = merged_data_2['stop_lon'].mean()
 
-    #     # Initialize the Folium map, centered at the mean coordinates
-    #     m = f.Map(location=[mean_lat, mean_lon], zoom_start=4)
+        # Initialize the Folium map, centered at the mean coordinates
+        m = f.Map(location=[mean_lat, mean_lon], zoom_start=4)
 
-    #     # Add CircleMarkers with varying scaled radii
-    #     for station_name, lat, lon, trip_id in zip(merged_data_2['stop_name'], merged_data_2['stop_lat'], merged_data_2['stop_lon'], merged_data_2['trip_id']):
-    #         f.CircleMarker(
-    #             location=(lat, lon),
-    #             radius=trip_id / 10,  # Scale the radius to make it visible on the map
-    #             color="blue",
-    #             fill=True,
-    #             fill_color="blue",
-    #             fill_opacity=0.6
-    #         ).add_to(m)
+        # Add CircleMarkers with varying scaled radii
+        for station_name, lat, lon, trip_id in zip(merged_data_2['stop_name'], merged_data_2['stop_lat'], merged_data_2['stop_lon'], merged_data_2['trip_id']):
+            f.CircleMarker(
+                location=(lat, lon),
+                radius=trip_id / 10,  # Scale the radius to make it visible on the map
+                color="blue",
+                fill=True,
+                fill_color="blue",
+                fill_opacity=0.6
+            ).add_to(m)
 
-    #     # Display the map in Streamlit
-    #         # Clear previous output
-    #     result_map_placeholder.subheader("Service Supply")
-    #     output = st_folium(m, width=700, height=500) 
+        # Display the map in Streamlit
+            # Clear previous output
+        result_map_placeholder.subheader("Service Supply")
+        output = st_folium(m, width=700, height=500) 
     
 # Electrification Tab
 elif selected == 'Charger Scheduling':
@@ -285,6 +288,7 @@ elif selected == 'Depot-Route Allocation':
         if len(uploaded_files) == len(required_files):
             command = f'jupyter nbconvert --to notebook --execute "{NOTEBOOK_PATH4}" --output-dir="{OUTPUT_FOLDER}"'
             subprocess.run(command, shell=True)
+            shutil.move(UPLOAD_FOLDER.joinpath('Depot_Route_Bus_Allocation_Results.xlsx'),OUTPUT_FOLDER.joinpath('Depot_Route_Bus_Allocation_Results.xlsx') )
 
             # List of expected output files
             output_files = [
