@@ -112,14 +112,14 @@ if selected == 'Bus Scheduling':
                 output_files = ['Route_wise_schedule.xlsx', 'stop_times.txt', 'trips.txt']
             
             # Display available output files for download
-    st.header("Output Files")
-    for file in output_files:
-        file_path = Path(tmpdir) / file
-        if file_path.exists():
-            with open(file_path, "rb") as g:
-                st.download_button(f"Download {file}", g, file_name=file)
-        else:
-            st.error(f"{file} not found.")
+                st.header("Output Files")
+                for file in output_files:
+                    file_path = Path(tmpdir) / file
+                    if file_path.exists():
+                        with open(file_path, "rb") as g:
+                            st.download_button(f"Download {file}", g, file_name=file)
+                    else:
+                        st.error(f"{file} not found.")
     
 
     # st.header("Download Files")
