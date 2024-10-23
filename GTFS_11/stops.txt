@@ -1,0 +1,517 @@
+stop_id,stop_name,stop_desc,stop_lat,stop_lon,zone_id,location_type,parent_station,platform_code
+1_1,Uma P.T.C. College,,22.26786,70.72609,A,0,1,1
+2_1,Kankot - Kalawad Road,,22.2693,70.73529,A,0,2,1
+3_1,G.I.D.C. Gate 1,,22.24956,70.68125,A,0,3,1
+4_1,Atmiya College/Central School,,22.2831,70.76767,A,0,4,1
+5_1,Gokul Park,,22.25315,70.81807,A,0,5,1
+6_1,Rangoli Park/Lakshmino Dholo,,22.27121,70.74962,A,0,6,1
+7_1,Mota Mauva,,22.27154,70.75375,A,0,7,1
+8_1,G.I.D.C. Gate 3,,22.24675,70.67356,A,0,8,1
+9_1,V.V.P. Engineering College,,22.26421,70.71486,A,0,9,1
+10_1,Crystal Mall,,22.27981,70.76389,A,0,10,1
+11_1,A.G. Society,,22.27631,70.75982,A,0,11,1
+12_1,Vrundavan Society,,22.27805,70.76202,A,0,12,1
+13_1,Devpara,,22.27358,70.81257,A,0,13,1
+14_1,Kothariya Chowk,,22.25828,70.81598,A,0,14,1
+15_1,Ghanshyam Nagar/Nanda Hall,,22.2693,70.81317,A,0,15,1
+16_1,Ranuja Temple,,22.24765,70.8183,A,0,16,1
+17_1,Trikon baug ,,22.29497,70.80169,A,0,17,1
+18_1,Astron Chowk/Mahavir Chowk,,22.29147,70.78802,A,0,18,1
+19_1,Kothariya Colony,,22.2811,70.80735,A,0,19,1
+20_1,Govindnagar,,22.26661,70.81387,A,0,20,1
+21_1,G.I.D.C. Gate 2,,22.249,70.67965,A,0,21,1
+22_1,Sheth High School,,22.28078,70.80531,A,0,22,1
+23_1,Ramkrushna Ashram,,22.29053,70.79453,A,0,23,1
+24_1,Virda Vajadi Village,,22.26044,70.70979,A,0,24,1
+25_1,Cosmoplex Cinema,,22.27027,70.74197,A,0,25,1
+26_1,Metoda crossing,,22.22949,70.65796,A,0,26,1
+27_1,Khirasara Gam Chowkdi,,22.23756,70.6544,A,0,27,1
+28_1,K.K.V. Hall,,22.28574,70.77113,A,0,28,1
+29_1,Sorthiyavadi circle,,22.28234,70.81049,A,0,29,1
+30_1,Aryasamaj,,22.28722,70.80104,A,0,30,1
+31_1,Kotecha Chok,,22.29164,70.77967,A,0,31,1
+32_1,Mahila College Chowk (L.I.C. Office),,22.29351,70.78628,A,0,32,1
+33_1,Swaminarayan Temple/Mahila College,,22.29273,70.78261,A,0,33,1
+34_1,Hemugadhavi Hall,,22.2894,70.78968,A,0,34,1
+35_1,S.T. Bus Stand,,22.2914,70.80187,A,0,35,1
+36_1,Haripar Village,,22.2652,70.71586,A,0,36,1
+37_1,Kanta Stri Vikas Gruh,,22.2843,70.80107,A,0,37,1
+38_1,150 feet road crossing - kalawad road,,22.27075,70.74562,A,0,38,1
+39_1,Vruksh mandir,,22.26908,70.73277,A,0,39,1
+40_1,Wockhardt Hospital,,22.28809,70.77489,A,0,40,1
+41_1,Kothariya Gam,,22.23411,70.81762,A,0,41,1
+42_1,Nilkanth Cinema,,22.27593,70.81217,A,0,42,1
+43_1,Malaviya Chowk,,22.29228,70.79905,A,0,43,1
+44_1,ITI College Lodhika,,22.2345,70.65337,A,0,44,1
+45_1,Kothariya Housing,,22.24376,70.81774,A,0,45,1
+46_1,Narsinh Mehta Garden,,22.28938,70.79307,A,0,46,1
+47_1,Everest Park,,22.27403,70.75729,A,0,47,1
+48_1,Bhaktinagar Circle,,22.28022,70.80218,A,0,48,1
+49_1,Nyara Gam,,22.34863,70.72285,A,0,49,1
+50_1,Gokulnagar Aproch (Nirav complex),,22.25766,70.7943,A,0,50,1
+51_1,Thebachda - Mahika Patiu,,22.27454,70.86067,A,0,51,1
+52_1,NALODA NAGAR,,22.26485,70.82318,A,0,52,1
+53_1,RAM VAN,,22.26003,70.83303,A,0,53,1
+54_1,Jivan Jyot School,,22.28779,70.76228,A,0,54,1
+55_1,RMC Transport Nagar,,22.2987,70.83314,A,0,55,1
+56_1,Bhojalram Society Crossing,,22.29605,70.83395,A,0,56,1
+57_1,Parsananagar (Ayapapaa mandir),,22.31403,70.79107,A,0,57,1
+58_1,Bhagavati para Police choki,,22.31653,70.80809,A,0,58,1
+59_1,Ramdevpir Chowk,,22.31118,70.76777,A,0,59,1
+60_1,Mochinagar,,22.31377,70.77455,A,0,60,1
+61_1,shree ram hospital(metoda),,22.22746,70.67747,A,0,61,1
+62_1,Special School For Boys,,22.31171,70.79387,A,0,62,1
+63_1,Mahapuja Dham Chowk (RMTS),,22.27113,70.78019,A,0,63,1
+64_1,Shital  Park (BRTS),,22.31629,70.76768,A,0,64,1
+65_1,Unicare Hospital,,22.3409,70.7591,A,0,65,1
+66_1,Marutinagar (Sarvoday Housing Society),,22.1666,70.79423,A,0,66,1
+67_1,Aji vasahat-2,,22.27111,70.83555,A,0,67,1
+68_1,Azad Chowk,,22.29916,70.78131,A,0,68,1
+69_1,Court yard,,22.2543,70.76478,A,0,69,1
+70_1,Arpit eng. Collage,,22.43547,70.78158,A,0,70,1
+71_1,Ramnath Para (B-Division Police Station),,22.29125,70.81407,A,0,71,1
+72_1,Raiya Depot ,,22.30299,70.76878,A,0,72,1
+73_1,new Munjka,,22.28871,70.74143,A,0,73,1
+74_1,Dudhsagar Road Crossing,,22.29269,70.83501,A,0,74,1
+75_1,Jalaram Chowk (Gayatrinagar Road),,22.2771,70.80447,A,0,75,1
+76_1,Shree Ranima rudima chok,,22.31205,70.76354,A,0,76,1
+77_1,Aandhra bank(kishan gate road),,22.23992,70.67502,A,0,77,1
+78_1,Aji 66 KV Station-2,,22.26572,70.83123,A,0,78,1
+79_1,Mavdi Chowk (BRTS),,22.26524,70.78423,A,0,79,1
+80_1,Rafuji Colony/Shashtri Nagar,,22.3163,70.79905,A,0,80,1
+81_1,Saurashtra University,,22.29047,70.74368,A,0,81,1
+82_1,Yadunandan chowk,,22.26611,70.77818,A,0,82,1
+83_1,Sanjayraj Collage,,22.3792,70.83216,A,0,83,1
+84_1,Panchsheel Society Aproch Road (Dalibai Hospital),,22.26192,70.79396,A,0,84,1
+85_1,Vavdee gam/ school,,22.2352,70.79053,A,0,85,1
+86_1,Raiya Village,,22.299,70.75149,A,0,86,1
+87_1,Manharpar,,22.33833,70.77642,A,0,87,1
+88_1,S.T. Workshop,,22.25823,70.8001,A,0,88,1
+89_1,Rajlaxmi soci.,,22.32522,70.81328,A,0,89,1
+90_1,Ashtha resi/ Sadhuvasvani kunj road,,22.32502,70.79414,A,0,90,1
+91_1,Gramudhyog Mandir Pedak,,22.30774,70.82832,A,0,91,1
+92_1,Hospital Chowk,,22.3038,70.80201,A,0,92,1
+93_1,Gundawadi Police Chowki,,22.28873,70.80781,A,0,93,1
+94_1,Swaminarayan Chowk,,22.26819,70.79349,A,0,94,1
+95_1,Bhagvati para sheri no.9,,22.31553,70.80884,A,0,95,1
+96_1,Gauridad Village,,22.39713,70.79459,A,0,96,1
+97_1,Dr.Hedgevar Township,,22.32883,70.79583,A,0,97,1
+98_1,Gujrat Houseing Board - aavas yojna,,22.26494,70.74413,A,0,98,1
+99_1,Ram Van Crossing,,22.2701,70.82806,A,0,99,1
+100_1,Central Ware House,,22.32447,70.79615,A,0,100,1
+101_1,Bhakti park,,22.33,70.79341,A,0,101,1
+102_1,Krishna Banglows,,22.34299,70.78102,A,0,102,1
+103_1,Bhagirath Society - Marketing Yard,,22.30495,70.82986,A,0,103,1
+104_1,Ridhhi Sidhhi Park Crossing,,22.2421,70.80802,A,0,104,1
+105_1,Indira Circle (RMTS),,22.2886,70.77146,A,0,105,1
+106_1,Jagruti Shramjivi Society,,22.31357,70.78807,A,0,106,1
+107_1,Nandbhumi Tower,,22.29348,70.74948,A,0,107,1
+108_1,BalajiPark/Satelite Park,,22.2947,70.75862,A,0,108,1
+109_1,Shree city (Munjka gam),,22.28986,70.73521,A,0,109,1
+110_1,Shantinagar,,22.31289,70.76028,A,0,110,1
+111_1,Satellite Chowk - Marutinagar aproach Road,,22.30632,70.82545,A,0,111,1
+112_1,K.S Diesel Engine 80 feet crossing,,22.28594,70.83725,A,0,112,1
+113_1,Wankaner Society,,22.32123,70.78134,A,0,113,1
+114_1,Thorala Police Station,,22.291,70.82351,A,0,114,1
+115_1,Pradhyuman Park,,22.29911,70.83917,A,0,115,1
+116_1,Akashwani Chowk,,22.28763,70.75938,A,0,116,1
+117_1,Dudheshvar Mahadev,,22.3003,70.82976,A,0,117,1
+118_1,Champak Nagar - Pani no Dhodo,,22.30334,70.81827,A,0,118,1
+119_1,Fuliya Hanuman Temple,,22.2699,70.78905,A,0,119,1
+120_1,Ruda 2,,22.28134,70.75101,A,0,120,1
+121_1,Shinchy nagar,,22.3029,70.7756,A,0,121,1
+122_1,Hansarajnagar,,22.31784,70.79869,A,0,122,1
+123_1,Kuvadava Police Chowki,,22.31412,70.83466,A,0,123,1
+124_1,Balaji Hanuman,,22.29464,70.80468,A,0,124,1
+125_1,Gondal Chowk (BRTS),,22.24366,70.79916,A,0,125,1
+126_1,Goverdhan Chowk (BRTS),,22.25152,70.7907,A,0,126,1
+127_1,Ishwar Park/Sarveshwar Park,,22.2372,70.80901,A,0,127,1
+128_1,Utsav Society,,22.23964,70.80809,A,0,128,1
+129_1,Nadoda Nagar,,22.25989,70.81761,A,0,129,1
+130_1,Shayamal City,,22.25096,70.78387,A,0,130,1
+131_1,Vadvajadi Village,,22.25491,70.69223,A,0,131,1
+132_1,Police Head Quarter,,22.3074,70.7902,A,0,132,1
+133_1,Ghanteshvar Village,,22.33945,70.74683,A,0,133,1
+134_1,Alap Heritage,,22.27614,70.77136,A,0,134,1
+135_1,Ratanpar (ramji mandir),,22.40967,70.78895,A,0,135,1
+136_1,Anand Bunglow Chowk,,22.27292,70.79366,A,0,136,1
+137_1,Chitralekha Chowk,,22.29656,70.79597,A,0,137,1
+138_1,Mukhyamantri Avash Yojna,,22.27399,70.72394,A,0,138,1
+139_1,Bahumadi bhavan,,22.3025,70.79325,A,0,139,1
+140_1,53 Quater/Popat para,,22.32899,70.79993,A,0,140,1
+141_1,Madhapar Gaam Gate,,22.35353,70.76697,A,0,141,1
+142_1,Indraprasth Society,,22.32646,70.81978,A,0,142,1
+143_1,Akshar Vatika(Mavadi),,22.2661,70.77025,A,0,143,1
+144_1,Jasani School,,22.27081,70.80045,A,0,144,1
+145_1,Gujarat Housing Board Quarter/ Sagar Chok,,22.29275,70.83218,A,0,145,1
+146_1,Popatpara Central Jail,,22.31755,70.80084,A,0,146,1
+147_1,Junction Railway Station,,22.31146,70.80241,A,0,147,1
+148_1,Mukhay Mantri Avash Yojna cawtat,,22.34029,70.79856,A,0,148,1
+149_1,Gurudev Park,,22.3092,70.82135,A,0,149,1
+150_1,GETCO chowk,,22.2495,70.76412,A,0,150,1
+151_1,kasturi recidency,,22.25856,70.76867,A,0,151,1
+152_1,Virshavarkar Aavas(Bharat Petrol Pump),,22.33371,70.78829,A,0,152,1
+153_1,Bedi marketing yard,,22.35234,70.80482,A,0,153,1
+154_1,Railnagar,,22.326,70.79172,A,0,154,1
+155_1,BajrangWadi circle,,22.31763,70.77996,A,0,155,1
+156_1,Veer shavarkar aavas road crossing,,22.33501,70.78707,A,0,156,1
+157_1,Gondal Chowk (RMTS),,22.24304,70.79998,A,0,157,1
+158_1,Sopan Heights,,22.31121,70.75635,A,0,158,1
+159_1,Ashapura Temple,,22.29351,70.80828,A,0,159,1
+160_1,Lal bahadurshastri aavas,,22.33923,70.7802,A,0,160,1
+161_1,Gayatridham,,22.32445,70.77647,A,0,161,1
+162_1,Manharpura - (150 foot road ),,22.33849,70.77645,A,0,162,1
+163_1,Railway Colony,,22.31837,70.78549,A,0,163,1
+164_1,Prasheel Park,,22.2831,70.74971,A,0,164,1
+165_1,Alkapuri,,22.29976,70.77823,A,0,165,1
+166_1,Valkeshwar Society,,22.27149,70.80601,A,0,166,1
+167_1,Gokuldham,,22.26018,70.79406,A,0,167,1
+168_1,Akshar Complex,,22.24757,70.78552,A,0,168,1
+169_1,Guruprasad Chowk,,22.26421,70.79365,A,0,169,1
+170_1,Trishul Chowk (Pipaliya Hall),,22.2698,70.80457,A,0,170,1
+171_1,New Subhasnagar,,22.26526,70.81152,A,0,171,1
+172_1,Shyam Hall,,22.26182,70.80793,A,0,172,1
+173_1,Shilpan onex,,22.29491,70.74948,A,0,173,1
+174_1,Ahir Chowk,,22.26157,70.80473,A,0,174,1
+175_1,Babariya Colony,,22.26435,70.80518,A,0,175,1
+176_1,Marwadi College,,22.36783,70.79964,A,0,176,1
+177_1,Maharana Pratap Aavas,,22.33573,70.78395,A,0,177,1
+178_1,Tulsi Baag,,22.2947,70.7646,A,0,178,1
+179_1,Gautam Nagar,,22.28399,70.78756,A,0,179,1
+180_1,A.G. Staff Quarter,,22.28152,70.75076,A,0,180,1
+181_1,Svapnalok Resi.,,22.3114,70.76663,A,0,181,1
+182_1,Vidhyutnagar,,22.30261,70.76059,A,0,182,1
+183_1,Nana Mava Circle (BRTS),,22.27637,70.77775,A,0,183,1
+184_1,Shyamji Krushna Varma Township,,22.33418,70.79531,A,0,184,1
+185_1,Jalaram Plot,,22.2914,70.77325,A,0,185,1
+186_1,PunitNagar Circle (RMTS),,22.24751,70.79537,A,0,186,1
+187_1,Vakaner Society Corner,,22.32078,70.78199,A,0,187,1
+188_1,Aangan residency,,22.23328,70.79037,A,0,188,1
+189_1,Chhtrapati Shivaji Township (Stop 2),,22.33882,70.79615,A,0,189,1
+190_1,Gopalnagar Choro,,22.27361,70.80026,A,0,190,1
+191_1,Kadvibai School,,22.2835,70.80046,A,0,191,1
+192_1,Kothicompound,,22.3078,70.80324,A,0,192,1
+193_1,Sadhuvasvani School,,22.28948,70.76142,A,0,193,1
+194_1,Jilla Panchayat Chowk,,22.2983,70.7914,A,0,194,1
+195_1,Anandpar,,22.32157,70.84718,A,0,195,1
+196_1,Dr. Ambedkar Chowk,,22.2551,70.79461,A,0,196,1
+197_1,Krishna International School,,22.24915,70.87893,A,0,197,1
+198_1,Bhaktinagar Station,,22.28296,70.79478,A,0,198,1
+199_1,Bedi village,,22.34627,70.80822,A,0,199,1
+200_1,Jamtower Chowk,,22.30768,70.79749,A,0,200,1
+201_1,Patel Chowk,,22.26272,70.81087,A,0,201,1
+202_1,Metoda Gam,,22.23685,70.66286,A,0,202,1
+203_1,Jaljit Hall,,22.27627,70.80628,A,0,203,1
+204_1,Khokhaldad,,22.20504,70.80062,A,0,204,1
+205_1,Lal Park Chowk,,22.25647,70.80431,A,0,205,1
+206_1,Pardi Village,,22.18238,70.79881,A,0,206,1
+207_1,Punitnagar (Near Bajrangwadi),,22.3151,70.78107,A,0,207,1
+208_1,Ashapura Mandir road Crossing,,22.27267,70.88046,A,0,208,1
+209_1,Rameshwar Chowk,,22.30319,70.76221,A,0,209,1
+210_1,Criste collage,,22.29083,70.72604,A,0,210,1
+211_1,Parsananagar,,22.31799,70.79583,A,0,211,1
+212_1,Dhanshayam Nagar,,22.26952,70.81272,A,0,212,1
+213_1,Aryasamaj 1,,22.28857,70.80126,A,0,213,1
+214_1,Marutinagar 50ft Road Chowk,,22.31094,70.82648,A,0,214,1
+215_1,Golden Park,,22.29412,70.76942,A,0,215,1
+216_1,Akashvani Chowk,,22.28746,70.75972,A,0,216,1
+217_1,Aditypark,,22.27237,70.78429,A,0,217,1
+218_1,Guruji Aavas Yojna,,22.29812,70.7577,A,0,218,1
+219_1,Rajkot Mahanagar Palika Aavas,,22.27507,70.76328,A,0,219,1
+220_1,Ghanteshwar Park,,22.3358,70.75442,A,0,220,1
+221_1,Rajkot Dairy,,22.29386,70.82616,A,0,221,1
+222_1,Hinglajnagar (bharvad Chowk),,22.28701,70.78012,A,0,222,1
+223_1,R.K. University,,22.23967,70.89642,A,0,223,1
+224_1,Parapipaliya Gaam,,22.34273,70.73808,A,0,224,1
+225_1,Sardar Chowk (Kothariya),,22.23608,70.8156,A,0,225,1
+226_1,I.O.C.,,22.38836,70.79779,A,0,226,1
+227_1,Shital Park ,,22.31696,70.76762,A,0,227,1
+228_1,Ayodhya park Chowk ,,22.32344,70.76805,A,0,228,1
+229_1,Manharpura - Bedinaka Fire Station,,22.29749,70.81553,A,0,229,1
+230_1,G.T.Sheth Hospital/Collector Office,,22.30616,70.79701,A,0,230,1
+231_1,Aastha Residency,,22.25477,70.78824,A,0,231,1
+232_1,Ghanteshwar SRP Camp Road Crossing,,22.34069,70.7443,A,0,232,1
+233_1,Alay Park,,22.27109,70.76743,A,0,233,1
+234_1,Swati Soc.,,22.27931,70.76976,A,0,234,1
+235_1,Jilla Garden Chowk,,22.28877,70.81382,A,0,235,1
+236_1,Ruda Office,,22.30843,70.79674,A,0,236,1
+237_1,Gauvtam budha nagar,,22.2417,70.79234,A,0,237,1
+238_1,Amrut residency - 3,,22.33299,70.79799,A,0,238,1
+239_1,Amrut residency - 2,,22.33093,70.79566,A,0,239,1
+240_1,Limda Chowk,,22.29642,70.79876,A,0,240,1
+241_1,Vimal Nagar,,22.28208,70.75354,A,0,241,1
+242_1,Aaji 66 kv Station,,22.27283,70.83031,A,0,242,1
+243_1,Sardar Vallabhbhai Vidhyalay,,22.30012,70.81835,A,0,243,1
+244_1,Government Polytechnic,,22.28093,70.83395,A,0,244,1
+245_1,Junction police choki,,22.31441,70.80173,A,0,245,1
+246_1,Sanskar City,,22.25467,70.78155,A,0,246,1
+247_1,Khadherigam Cross Road,,22.37378,70.73438,A,0,247,1
+248_1,Hadala gam patiyu/Darshan eng. Collage,,22.42822,70.78145,A,0,248,1
+249_1,Santiniketan Avenue(Raiya Gaam),,22.3082,70.75106,A,0,249,1
+250_1,Ramadevpir Chowk (RMTS),,22.31115,70.76707,A,0,250,1
+251_1,Ramadev Pir Chowk (BRTS),,22.31165,70.76779,A,0,251,1
+252_1,Madhapar Chowk (BRTS),,22.32844,70.76896,A,0,252,1
+253_1,Mansarovar Society,,22.27704,70.83861,A,0,253,1
+254_1,Shitalamajaji Temple,,22.1736,70.79623,A,0,254,1
+255_1,Bombay Hotel,,22.28449,70.79988,A,0,255,1
+256_1,Lakheshwar Society - R.T.O. Office,,22.30393,70.83043,A,0,256,1
+257_1,Shivam park,,22.32987,70.79371,A,0,257,1
+258_1,Divanpara Police Chowki,,22.29683,70.80616,A,0,258,1
+259_1,RAIYA GAM(Shilpan Onex),,22.2956,70.74934,A,0,259,1
+260_1,Vinod Nagar,,22.25706,70.81179,A,0,260,1
+261_1,Aarti Industrial Area,,22.27505,70.85161,A,0,261,1
+262_1,Ajidam,,22.27791,70.83591,A,0,262,1
+263_1,Gujrat Housing Board  (Munjka),,22.29103,70.73115,A,0,263,1
+264_1,Laxman Township,,22.26278,70.76647,A,0,264,1
+265_1,Santiniketan Park,,22.30378,70.76377,A,0,265,1
+266_1,Bharad Engineering College,,22.23675,70.90146,A,0,266,1
+267_1,Raiya Telephone Exchange ,,22.29448,70.76969,A,0,267,1
+268_1,Maharani School,,22.28298,70.79473,A,0,268,1
+269_1,Shivam Park (Kothariya),,22.23409,70.81264,A,0,269,1
+270_1,Ishvariya Park,,22.35353,70.76551,A,0,270,1
+271_1,Navagam,,22.31382,70.83495,A,0,271,1
+272_1,Umakant Pandit,,22.27483,70.79027,A,0,272,1
+273_1,Chandra Nagar Vegitable,,22.27332,70.78662,A,0,273,1
+274_1,Shardabaug,,22.30262,70.79472,A,0,274,1
+275_1,Sarojeeni Nayadu School (Ambaji Kadva Plot),,22.269,70.79343,A,0,275,1
+276_1,150 Feet Ring Road - Morbi Road Crossing,,22.33978,70.80921,A,0,276,1
+277_1,Ghanshyam Residency,,22.32834,70.79696,A,0,277,1
+278_1,Bhavani Chowk,,22.33891,70.7586,A,0,278,1
+279_1,New Lalbahadur Society (Pardi Chowk),,22.25459,70.8041,A,0,279,1
+280_1,Khodal Dham,,22.33502,70.74788,A,0,280,1
+281_1,Kishanpara Chowk,,22.29801,70.7876,A,0,281,1
+282_1,Aastha Resi./Rameshwer Park,,22.32564,70.79269,A,0,282,1
+283_1,Shivdhara Residency,,22.31633,70.82692,A,0,283,1
+284_1,Buddha Vihar,,22.25928,70.734,A,0,284,1
+285_1,Bhomesvar/Airport,,22.30785,70.78307,A,0,285,1
+286_1,Madhapar Gaam,,22.33228,70.77192,A,0,286,1
+287_1,Metoda Gam(patiyu),,22.24291,70.66458,A,0,287,1
+288_1,Tramba Village,,22.22811,70.91081,A,0,288,1
+289_1,Takshashila College,,22.27661,70.68853,A,0,289,1
+290_1,Sbi Bank Chowk,,22.28938,70.77427,A,0,290,1
+291_1,Nagarik Bank,,22.27986,70.80019,A,0,291,1
+292_1,Patel nagar,,22.26736,70.78024,A,0,292,1
+293_1,Radhika park,,22.32532,70.81421,A,0,293,1
+294_1,Saurashtra University Gate,,22.28601,70.7468,A,0,294,1
+295_1,Fullchhab Chowk,,22.29858,70.79389,A,0,295,1
+296_1,IP Misson School,,22.30461,70.80313,A,0,296,1
+297_1,Nanavati Chowk (RMTS),,22.3053,70.76812,A,0,297,1
+298_1,Lakhno Bunglow,,22.30997,70.77348,A,0,298,1
+299_1,Sarita Vihar Society,,22.27785,70.75292,A,0,299,1
+300_1,Chunarvad Chowk,,22.29373,70.82048,A,0,300,1
+301_1,Mavdi Gam,,22.25639,70.77933,A,0,301,1
+302_1,Mavdi Fire Station,,22.27083,70.79021,A,0,302,1
+303_1,Radha Park,,22.23302,70.81032,A,0,303,1
+304_1,Punit Nagar (jetco 66 k.v.a.),,22.24894,70.7944,A,0,304,1
+305_1,"gurudev park , Mavdi",,22.25207,70.78297,A,0,305,1
+306_1,Aji Depot ,,22.28424,70.82927,A,0,306,1
+307_1,"Khodal Chowk,Mavdi",,22.2468,70.78614,A,0,307,1
+308_1,Velnathpara ( Street No. 17 ),,22.33452,70.81206,A,0,308,1
+309_1,Sorathiyawadi Circle,,22.28177,70.81078,A,0,309,1
+310_1,Pipaliya hall/Bhakti Hall,,22.26907,70.80541,A,0,310,1
+311_1,Astron Chowk,,22.2714,70.80597,A,0,311,1
+312_1,Sahakar Society,,22.26977,70.80823,A,0,312,1
+313_1,KKV Chowk (BRTS),,22.28632,70.77214,A,0,313,1
+314_1,Brahmasamaj Chowk,,22.301,70.7717,A,0,314,1
+315_1,Ambika Township,,22.26064,70.7628,A,0,315,1
+316_1,Greenland Chowk,,22.31159,70.82864,A,0,316,1
+317_1,Panchsheel Society,,22.26248,70.8,A,0,317,1
+318_1,Kothariya Solvant,,22.2246,70.80165,A,0,318,1
+319_1,Rajshree auto,,22.26498,70.79977,A,0,319,1
+320_1,Velnathpara Beginning ( Nr. School No. 71 ),,22.33433,70.81185,A,0,320,1
+321_1,Marketing Yard,,22.30053,70.83241,A,0,321,1
+322_1,Wankaner Society Corner,,22.32057,70.78232,A,0,322,1
+323_1,Bhimrav Nagar,,22.27615,70.84246,A,0,323,1
+324_1,AIIM Hospital Gate,,22.37353,70.74621,A,0,324,1
+325_1,AIIM Hospital,,22.37108,70.74915,A,0,325,1
+326_1,Rameshwar Park/Asopalav Park,,22.23718,70.81093,A,0,326,1
+327_1,Thebchda - Ashapura Mandir,,22.27685,70.91593,A,0,327,1
+328_1,S. T. Bus stop,,22.29247,70.8022,A,0,328,1
+329_1,Aji Vasahat,,22.27571,70.83246,A,0,329,1
+330_1,Mavdi Chokdi (RMTS),,22.26484,70.78461,A,0,330,1
+331_1,Ashapura Nagar (Vavdi),,22.24577,70.79368,A,0,331,1
+332_1,Raiya Chowk (RMTS),,22.30128,70.76827,A,0,332,1
+333_1,Vora Society,,22.327,70.7726,A,0,333,1
+334_1,Vrundavan Road Crossing,,22.26855,70.76527,A,0,334,1
+335_1,BajrangWadi,,22.31901,70.78462,A,0,335,1
+336_1, Doshi Hospital-Shivnagar ,,22.26481,70.7998,A,0,336,1
+337_1,Amin Road Civic Center,,22.28844,70.78193,A,0,337,1
+338_1,Ranuja Nagar,,22.2502,70.8053,A,0,338,1
+339_1,huseni chawk (kothariya),,22.22054,70.80399,A,0,339,1
+340_1,Ghanteshvar S.R.P. Camp,,22.32509,70.74436,A,0,340,1
+341_1,Hanuman Madhi,,22.30043,70.77509,A,0,341,1
+342_1,Raiya Chowk (BRTS),,22.30169,70.76832,A,0,342,1
+343_1,Ambedkar Nagar (BRTS),,22.25534,70.78859,A,0,343,1
+344_1,BAPASITARAM CHOWK,,22.26113,70.78175,A,0,344,1
+345_1,Makkam Chowk,,22.27956,70.79925,A,0,345,1
+346_1,Lokmanya Tilak/Subhas Chandra Bos Aavas,,22.33299,70.78697,A,0,346,1
+347_1,B.T.Savani (Kidney) Hospital,,22.28769,70.7536,A,0,347,1
+348_1,Indubai Mahasatiji Chowk - Kotecha Chowk,,22.2907,70.7791,A,0,348,1
+349_1,Balaji Park - Sattelite Park,,22.29295,70.75717,A,0,349,1
+350_1,Umiya Chowk (BRTS),,22.26058,70.78758,A,0,350,1
+351_1,Om Nagar Chowk (BRTS),,22.26828,70.78214,A,0,351,1
+352_1,Mahapuja Dham Chowk (BRTS),,22.27158,70.78001,A,0,352,1
+353_1,West Zone Office RMC (BRTS),,22.28081,70.77567,A,0,353,1
+354_1,Sunsine Group Of Institute,,22.26557,70.74591,A,0,354,1
+355_1,Hudco Police Chowki,,22.26294,70.81465,A,0,355,1
+356_1,Field Marshal Chowk,,22.28428,70.82557,A,0,356,1
+357_1,Julelal Temple,,22.31453,70.79681,A,0,357,1
+358_1,Indira Circle (BRTS),,22.2881,70.77138,A,0,358,1
+359_1,Raiya Telephone Exchange (BRTS),,22.29433,70.76984,A,0,359,1
+360_1,Ayodhya Chowk (BRTS),,22.32327,70.76799,A,0,360,1
+361_1,Om Residency (Morbi road Crosing),,22.32798,70.81621,A,0,361,1
+362_1,Patidar Chowk,,22.29422,70.75477,A,0,362,1
+363_1,Raiya Telephone Excenge,,22.29471,70.76971,A,0,363,1
+364_1,Mayani chowk,,22.27411,70.7874,A,0,364,1
+365_1,Astha Green City,,22.1991,70.80015,A,0,365,1
+366_1,Pushkardham,,22.28417,70.75633,A,0,366,1
+367_1,Shree H.N.Shukla College,,22.29495,70.8606,A,0,367,1
+368_1,Santoshinagar,,22.33035,70.79345,A,0,368,1
+369_1,Astha Residency,,22.33173,70.73701,A,0,369,1
+370_1,Kevdavadi,,22.28683,70.81019,A,0,370,1
+371_1,AV Jasani TB Hospital,,22.21426,70.80134,A,0,371,1
+372_1,Gajanand Chowk,,22.30642,70.75763,A,0,372,1
+373_1,Bhagavati para (jay prakashnagar),,22.31983,70.80731,A,0,373,1
+374_1,Kalipat,,22.24298,70.89024,A,0,374,1
+375_1,Suta Hanuman Temple,,22.27888,70.81132,A,0,375,1
+376_1,Insurance (vima) Hospital,,22.29296,70.83036,A,0,376,1
+377_1,Bapa Sitaram Chowk,,22.30132,70.76242,A,0,377,1
+378_1,Junction Railway police station,,22.31366,70.80188,A,0,378,1
+379_1,Grand Central Mall,,22.27771,70.78113,A,0,379,1
+380_1,Radha krushn Chowk,,22.2558,70.78305,A,0,380,1
+381_1,Govardhan Chowk,,22.25119,70.79112,A,0,381,1
+382_1,Om Residency,,22.26798,70.76186,A,0,382,1
+383_1,Sastrinagar,,22.2719,70.77008,A,0,383,1
+384_1,Sankalp Siddh Park,,22.30622,70.78115,A,0,384,1
+385_1,Panchayat Nagar Chowk,,22.2879,70.76532,A,0,385,1
+386_1,Gadhiyanagar,,22.30024,70.82822,A,0,386,1
+387_1,Amrut Park Main Road,,22.30474,70.75807,A,0,387,1
+388_1,Govind Baug,,22.30015,70.82145,A,0,388,1
+389_1,Chandreshvadi Chowk,,22.28082,70.78578,A,0,389,1
+390_1,Suryamukhi Hanuman Chowk,,22.28002,70.78424,A,0,390,1
+391_1,Nanavati circle (BRTS),,22.30584,70.76836,A,0,391,1
+392_1,Jalaram Chowk - Santkabir Road Corner,,22.30003,70.81449,A,0,392,1
+393_1,Omnagar (RMTS),,22.26827,70.78196,A,0,393,1
+394_1,Bhagirath Society,,22.30229,70.82954,A,0,394,1
+395_1,Shree Dharmeshwar Marg Chowk,,22.30461,70.7663,A,0,395,1
+396_1,Hadmatiya,,22.36639,70.8278,A,0,396,1
+397_1,Kankot Village,,22.2672,70.73494,A,0,397,1
+398_1,Hussaini Chowk,,22.29334,70.81069,A,0,398,1
+399_1,Aji G.I.D.C.,,22.28382,70.82283,A,0,399,1
+400_1,Madhapar Chowk (RMTS),,22.33162,70.77134,A,0,400,1
+401_1,Janakpuri - Ajanta Park,,22.2921,70.75993,A,0,401,1
+402_1,Jograna chowk,,22.25318,70.79526,A,0,402,1
+403_1,Jivraj Hospital,,22.27227,70.80435,A,0,403,1
+404_1,Phulvadi Park,,22.2744,70.7725,A,0,404,1
+405_1,Sorthiya Parivar wadi,,22.25816,70.7822,A,0,405,1
+406_1,Kailashdhara Park,,22.30368,70.75999,A,0,406,1
+407_1,Diwanpara Police Chowki,,22.29474,70.80682,A,0,407,1
+408_1,Ambaji Kadva Plot,,22.26848,70.79627,A,0,408,1
+409_1,Jivantika Main Road Crossing,,22.31045,70.77122,A,0,409,1
+410_1,Shiv Shakti Colony (RMTS),,22.28768,70.75632,A,0,410,1
+411_1,Janardan Chowk,,22.2349,70.81427,A,0,411,1
+412_1,Patel Vadi,,22.30182,70.81316,A,0,412,1
+413_1,P & T Colony/Gitanagar,,22.25332,70.80015,A,0,413,1
+414_1,Khanderi Cricket Stadium,,22.36086,70.7079,A,0,414,1
+415_1,Civil Court,,22.30407,70.8027,A,0,415,1
+416_1,Nirmala Convent,,22.2968,70.77645,A,0,416,1
+417_1,Sundram City Crossing,,22.3371,70.7755,A,0,417,1
+418_1,RMC fire Station - Kalawad Road,,22.29203,70.77806,A,0,418,1
+419_1,Labhubhai eng. Collage,,22.2475,70.73869,A,0,419,1
+420_1,Krantivir Chandrashekhr Aajaz Township,,22.33508,70.78226,A,0,420,1
+421_1,Mahika Gam,,22.27081,70.8808,A,0,421,1
+422_1,badhinu patiyu,,22.37038,70.69199,A,0,422,1
+423_1,Aryaland Residency,,22.2605,70.76256,A,0,423,1
+424_1,Jagleshwar Crossing / Bapunagar,,22.28306,70.81667,A,0,424,1
+425_1,Nyara Gam Chokdi,,22.34844,70.72353,A,0,425,1
+426_1,Punit Nagar (BRTS),,22.2479,70.79498,A,0,426,1
+427_1,Amin Road Akshar Road Crossing,,22.28982,70.78376,A,0,427,1
+428_1,Satyam Park (Kothariya),,22.23621,70.81351,A,0,428,1
+429_1,Popatpara,,22.32167,70.79836,A,0,429,1
+430_1,Govani Hostel,,22.2665,70.76214,A,0,430,1
+431_1,Maharshi Arvind Aavas,,22.33751,70.79337,A,0,431,1
+432_1,Rajkamal Petrol Pump,,22.24814,70.80016,A,0,432,1
+433_1,New Rajdeep Society,,22.26616,70.77501,A,0,433,1
+434_1,Vishvnagar,,22.2728,70.78539,A,0,434,1
+435_1,Mahakali soci.,,22.31557,70.8088,A,0,435,1
+436_1,I.P.Mission School,,22.3044,70.80377,A,0,436,1
+437_1,Radhe Park,,22.32677,70.78867,A,0,437,1
+438_1,Amrapali Fatak,,22.29871,70.78389,A,0,438,1
+439_1,Vithalvav Gaushala,,22.25775,70.86935,A,0,439,1
+440_1,RMC East Zone Office,,22.29647,70.81752,A,0,440,1
+441_1,Jubeli baug,,22.30011,70.80127,A,0,441,1
+442_1,Swati Park,,22.24396,70.80779,A,0,442,1
+443_1,B T Savani hospital,,22.28728,70.75323,A,0,443,1
+444_1,Ratanpar Telephone Exchange,,22.40602,70.79011,A,0,444,1
+445_1,Shital Park (RMTS),,22.31491,70.77698,A,0,445,1
+446_1,Ratanpar Village,,22.41101,70.78853,A,0,446,1
+447_1,IP Mission School,,22.30461,70.80316,A,0,447,1
+448_1,Jubelli shak market,,22.30007,70.80294,A,0,448,1
+449_1,Geet gunjari crosing,,22.30703,70.7867,A,0,449,1
+450_1,Santoshinagar Railway Crossing,,22.33114,70.7811,A,0,450,1
+451_1,P.D.M. College,,22.26824,70.79946,A,0,451,1
+452_1,Aryanagar - Pedak road,,22.3051,70.82325,A,0,452,1
+453_1,Balak Hanuman Chowk,,22.30335,70.81993,A,0,453,1
+454_1,Dharmendrasinhji College,,22.2911,70.79324,A,0,454,1
+455_1,Satysai Hospital,,22.2786,70.77002,A,0,455,1
+456_1,Rajnagar Main Road Crossing,,22.27374,70.78763,A,0,456,1
+457_1,Madhunagar/Rajnagar Society,,22.27544,70.78668,A,0,457,1
+458_1,Vavdee gam/ ward office,,22.23832,70.79197,A,0,458,1
+459_1,Aakar Heights,,22.23265,70.78485,A,0,459,1
+460_1,Jagnath Temple,,22.29327,70.79134,A,0,460,1
+461_1,Saibaba Circle,,22.23708,70.8081,A,0,461,1
+462_1,shethnagar,,22.33423,70.75997,A,0,462,1
+463_1,Satya Prakash School,,22.25501,70.80736,A,0,463,1
+464_1,Gebanshah Pir Dargah,,22.30933,70.80017,A,0,464,1
+465_1,AIIM Hospital Circle,,22.37405,70.73483,A,0,465,1
+466_1,JK Park,,22.30343,70.75317,A,0,466,1
+467_1,Alap Green City,,22.30091,70.75705,A,0,467,1
+468_1,somesvasr mahadev munjka gam,,22.28736,70.74185,A,0,468,1
+469_1,Government Engineering College,,22.24459,70.74303,A,0,469,1
+470_1,Bhomeshwer,,22.31646,70.78767,A,0,470,1
+471_1,131 slum quater.,,22.3142,70.79542,A,0,471,1
+472_1,Ghanteshvar S.R.P. Camp (G company),,22.33013,70.73705,A,0,472,1
+473_1,Radha Mira Industrial Estate,,22.26374,70.82226,A,0,473,1
+474_1,Nana Mava Chowk (RMTS),,22.2757,70.7776,A,0,474,1
+475_1,Chhtrapati Shivaji Township,,22.33718,70.79771,A,0,475,1
+476_1,Ashatha sangrila,,22.34347,70.78445,A,0,476,1
+477_1,Ranchhod Das Ashram,,22.3078,70.81826,A,0,477,1
+478_1,Africa Colony,,22.29381,70.77264,A,0,478,1
+479_1,Dream city,,22.25402,70.77293,A,0,479,1
+480_1,Shapar Veraval,,22.15789,70.7915,A,0,480,1
+481_1,Jay Gopal Chowk,,22.29566,70.76168,A,0,481,1
+482_1,Trishul Chawk (Mota Mauva),,22.25263,70.77053,A,0,482,1
+483_1,City light party plot ,,22.24436,70.74941,A,0,483,1
+484_1,Gurukul,,22.27921,70.80025,A,0,484,1
+485_1,Jai Jawan Jai kisan Society,,22.32272,70.82275,A,0,485,1
+486_1,Narayan nagar aproch road - govind nagar,,22.30377,70.81977,A,0,486,1
+487_1,Sitala mataji Temple,,22.30143,70.81278,A,0,487,1
+488_1,S.R.P. Camp,,22.32971,70.74233,A,0,488,1
+489_1,Raiyadhar Slum Quarter,,22.31589,70.75489,A,0,489,1
+490_1,Gondal Chowk Depot  (BRTS),,22.24356,70.79946,A,0,490,1
+491_1,Krantiveer Khudiram boss Awas,,22.33294,70.79008,A,0,491,1
+492_1,Nageshvar Jain Derasar,,22.33692,70.75808,A,0,492,1
+493_1,Svashrai Society,,22.27365,70.79524,A,0,493,1
+494_1,Jangalesvara Crossing/Bapunagar,,22.28277,70.81688,A,0,494,1
+495_1,Jivraj Park,,22.26108,70.76818,A,0,495,1
+496_1,Ekta Socity,,22.34476,70.73413,A,0,496,1
+497_1,Ruda 3,,22.2685,70.72789,A,0,497,1
+498_1,Rular Housing,,22.28072,70.75801,A,0,498,1
+499_1,Shree Ram Park - Kuvadva,,22.31007,70.82386,A,0,499,1
+500_1,Radhe Park/Gangotri Park,,22.29224,70.74971,A,0,500,1
+501_1,Jay Sardar Chowk,,22.24977,70.7844,A,0,501,1
+502_1,Sainik Society,,22.33488,70.75781,A,0,502,1
+503_1,Bheemarav Nagar/Om Residency,,22.27025,70.76106,A,0,503,1
+504_1,Ashok Garden,,22.27443,70.79307,A,0,504,1
+505_1,Jay prakashnagar soci.,,22.31894,70.80735,A,0,505,1
+506_1,Aksharnagar,,22.31125,70.77558,A,0,506,1
+507_1,Punit Nagar,,22.24744,70.79096,A,0,507,1
+508_1,Satyam Park,,22.28329,70.81998,A,0,508,1
+509_1,Chodhari high school,,22.30192,70.79807,A,0,509,1
+510_1,Vagudad Village,,22.25812,70.69988,A,0,510,1
+511_1,Shivalay Chowk,,22.33679,70.78678,A,0,511,1
+512_1,Satyasai Road Crossing,,22.27319,70.77305,A,0,512,1
+513_1,Astron Society,,22.28461,70.78162,A,0,513,1
+514_1,Parevadi Chowk,,22.30666,70.81065,A,0,514,1
+515_1,Harivandna college,,22.28955,70.73703,A,0,515,1
+516_1,Parsananagar Main Road,,22.31519,70.79222,A,0,516,1
