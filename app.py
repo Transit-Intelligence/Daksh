@@ -16,11 +16,12 @@ from pathlib import Path
 from sklearn.preprocessing import MinMaxScaler
 import shutil
 
+
 # Set up paths for file uploads and notebook execution
 UPLOAD_FOLDER = Path(r"./UPLOAD_FOLDER/")
 OUTPUT_FOLDER = Path(r"./OUTPUT_FOLDER")
-NOTEBOOK_PATH = UPLOAD_FOLDER / 'Final_loop_V4.ipynb'
-NOTEBOOK_PATH2 = UPLOAD_FOLDER / 'Final_loop_V5.ipynb'
+NOTEBOOK_PATH = UPLOAD_FOLDER.joinpath( 'Final_loop_V4.ipynb')
+NOTEBOOK_PATH2 = UPLOAD_FOLDER.joinpath( 'Final_loop_V5.ipynb')
 #NOTEBOOK_PATH3 = UPLOAD_FOLDER / '12 Scheduling+Electrification Final.ipynb'
 NOTEBOOK_PATH4 = UPLOAD_FOLDER.joinpath('Depot Allocation Sections.ipynb')
 
@@ -108,6 +109,12 @@ if selected == 'Bus Scheduling':
 
             command = f'jupyter nbconvert --to notebook --execute "{NOTEBOOK_PATH}" --output-dir="{OUTPUT_FOLDER}"'
             subprocess.run(command, shell=True)
+            shutil.move(UPLOAD_FOLDER.joinpath('Route_wise_schedule.xlsx'),
+                        OUTPUT_FOLDER.joinpath('Route_wise_schedule.xlsx'))
+            shutil.move(UPLOAD_FOLDER.joinpath('stop_times.txt'),
+                        OUTPUT_FOLDER.joinpath('stop_times.txt'))
+            shutil.move(UPLOAD_FOLDER.joinpath('trips.txt'),
+                        OUTPUT_FOLDER.joinpath('trips.txt'))
             
             # List of expected output files
     output_files = ['Route_wise_schedule.xlsx', 'stop_times.txt', 'trips.txt']
@@ -196,6 +203,10 @@ elif selected == 'Charger Scheduling':
         if len(uploaded_files) == len(required_files):
             command = f'jupyter nbconvert --to notebook --execute "{NOTEBOOK_PATH2}" --output-dir="{OUTPUT_FOLDER}"'
             subprocess.run(command, shell=True)
+            shutil.move(UPLOAD_FOLDER.joinpath('Depot wise bus charging schedule.xlsx'),
+                        OUTPUT_FOLDER.joinpath('Depot wise bus charging schedule.xlsx'))
+            shutil.move(UPLOAD_FOLDER.joinpath('Location Wise No of Chargers.xlsx'),
+                        OUTPUT_FOLDER.joinpath('Location Wise No of Chargers.xlsx'))
 
             # List of expected output files
             output_files = [
