@@ -13,3 +13,4 @@ streamlit_folium==0.23.1
 utm==0.7.0
 scikit-learn
 pandas
+xlrd
