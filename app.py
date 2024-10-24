@@ -38,18 +38,18 @@ encoded_image = get_base64_encoded_image(image_path)
 
 # Streamlit app configuration
 st.set_page_config(layout="wide", page_title="Digitisation, Analytics Know-how and Scheduling (DAKSH) for public transport")
-page_bg_img = f'''
-<style>
-.stApp {{
-    background-image: url("data:image/png;base64,{encoded_image}");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}}
-</style>
-'''
-st.markdown(page_bg_img, unsafe_allow_html=True)
+# page_bg_img = f'''
+# <style>
+# .stApp {{
+#     background-image: url("data:image/png;base64,{encoded_image}");
+#     background-size: cover;
+#     background-position: center;
+#     background-repeat: no-repeat;
+#     background-attachment: fixed;
+# }}
+# </style>
+# '''
+# st.markdown(page_bg_img, unsafe_allow_html=True)
 col1, col2, col3 = st.columns([1, 1, 10])  # Adjust the proportions as needed
 
 with col1:
