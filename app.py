@@ -15,6 +15,7 @@ import numpy as np
 from pathlib import Path
 from sklearn.preprocessing import MinMaxScaler
 import shutil
+import base64
 
 
 # Set up paths for file uploads and notebook execution
@@ -31,7 +32,30 @@ UPLOAD_FOLDER.mkdir(parents=True, exist_ok=True)
 OUTPUT_FOLDER.mkdir(parents=True, exist_ok=True)
 
 # Streamlit app configuration
-st.set_page_config(layout="wide", page_title="Scheduling ,Hub Analysis and Coverage")
+# st.set_page_config(layout="wide", page_title="Scheduling ,Hub Analysis and Coverage")
+def get_base64_encoded_image(image_path):
+    with open(image_path, "rb") as img_file:
+        return base64.b64encode(img_file.read()).decode()
+image_path = Path(r"./image_bg.png/")
+encoded_image = get_base64_encoded_image(image_path)
+
+# Streamlit app configuration
+st.set_page_config(layout="wide", page_title="**Digitisation, Analytics Know-how and Scheduling (DAKSH) for public transport**")
+# Streamlit app configuration
+# st.set_page_config(layout="wide", page_title="Scheduling ,Hub Analysis and Coverage")
+page_bg_img = f'''
+<style>
+.stApp {{
+    background-image: url("data:image/png;base64,{encoded_image}");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}}
+</style>
+'''
+st.markdown(page_bg_img, unsafe_allow_html=True)
+
 col1, col2, col3 = st.columns([1, 1, 10])  # Adjust the proportions as needed
 
 with col1:
