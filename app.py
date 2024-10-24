@@ -28,9 +28,30 @@ NOTEBOOK_PATH4 = UPLOAD_FOLDER.joinpath('Depot Allocation Sections.ipynb')
 # Ensure the upload and output directories exist
 UPLOAD_FOLDER.mkdir(parents=True, exist_ok=True)
 OUTPUT_FOLDER.mkdir(parents=True, exist_ok=True)
+st.set_page_config(layout="wide", page_title="Scheduling ,Hub Analysis and Coverage",)
 
+if not st.session_state['authenticated']:
+    st.title("Login to DAKSH Scheduling & Hub Analysis")
+
+    username = st.text_input("Username")
+    password = st.text_input("Password", type="password")
+
+    if st.button("Login"):
+        if username == "admin" and password == "123":  # Simple username/password check
+            st.session_state['authenticated'] = True
+            st.experimental_rerun()  # To re-run the app and show the navigation bar
+        else:
+            st.error("Invalid username or password")
+
+# Main content after login
+if st.session_state['authenticated']:
+    # Retrieve query params and update the current page state
+    query_params = st.query_params
+    current_page = query_params.get('page', 'scheduling')  # Default to 'scheduling'
+
+    # Display the navigation bar
+    navigation_bar(current_page)
 # Streamlit app configuration
-st.set_page_config(layout="wide", page_title="Scheduling ,Hub Analysis and Coverage")
 
 ox.settings.requests_timeout = 600
 
