@@ -1,1043 +1,1043 @@
-route,stop_name,stop_id,seq,distance
-R61,Naranka Gram,1000,1,0
-R61,J K. Industrial Zone,1001,2,4.1
-R61,Goldcoin Angel Co.,1002,3,4.7
-R61,J D Industrial Area,1003,4,5.2
-R61,Steam Power Solar Co.,1004,5,5.9
-R61,Khodiyar chowk Lothada,1005,6,6.7
-R61,Lothada gam,1006,7,7.2
-R61,Vadalia Foods,1007,8,7.5
-R61,Mahaavir ind. Area,1008,9,9.3
-R61,RTO Khokhadadad,1009,10,9.6
-R61,Khokhadadad gam,1010,11,10.7
-R61,2nd ring road crossing SARDAR CHOWK,1011,12,11.5
-R61,Riverside International School,1012,13,11.9
-R61,Iswar residency,1013,14,12.6
-R61,Shree Rokadiya Party Lawns,1014,15,13.4
-R61,Aadarsh Shivalaya Society,1015,16,15
-R61,Kothariya Gam,74,17,15.5
-R61,Kotharia Village/Jai Bhawani Chowk,73,18,15.7
-R61,Kotharia Gam Talukashala,72,19,15.9
-R61,Kothariya Housing,70,20,16.2
-R61,Ranuja Temple,69,21,17
-R61,Gokul Park,68,22,17.4
-R61,Brahmani Hall,67,23,17.8
-R61,Kothariya Chowk,52,24,18
-R61,Hudco Police Chowki,51,25,18.5
-R61,Govindnagar,50,26,19
-R61,Ghanshyam Nagar/Nanda Hall,49,27,19.3
-R61,Devpara,48,28,19.8
-R61,Nilkanth Cinema,47,29,20
-R61,Suta Hanuman Temple,46,30,20.4
-R61,Sorathiyawadi Circle,45,31,20.7
-R61,Kothariya Colony,44,32,21.1
-R61,Sheth High School,43,33,21.3
-R61,Bhaktinagar Circle,42,34,21.7
-R61,Nagrik bank,17,35,22.3
-R61,Kadvibai School,1035,36,22.7
-R61,Aryasamaj,19,37,23.1
-R61,S.T. Bus Stand,20,38,23.4
-R61,Trikon baug,1038,39,24.1
-R63,Nagrik bank,17,21,10.1
-R63,Kadvibai School,1035,22,10.5
-R63,Aryasamaj,19,23,10.9
-R63,S.T. Bus Stand,20,24,11.2
-R63,Trikon baug,1038,25,11.9
-R63,Global Chowk,1075,1,0
-R63,Tulshi Avenue,1076,2,0.3
-R63,Sarvottam Height,1077,3,0.85
-R63,Khodiyar Chowk,1078,4,1.6
-R63,Bage mahamadpark,1079,5,2.2
-R63,Surbhi Possible 2,1080,6,2.45
-R63,Radheshyam Gaushala,1081,7,3.3
-R63,SGVP Gurukul Chowk,1082,8,3.8
-R63,Saswat Heights,1083,9,4.45
-R63,Satyam Chowk,1084,10,4.6
-R63,Jaybharat Primary School,1085,11,4.95
-R63,Punit Nagar,1086,12,5.2
-R63,Punit Nagar BRTS bus stop,184,13,5.5
-R63,Rajkamal Petrol Pump,10,14,6.4
-R63,P & T Colony/Gitanagar,11,15,6.9
-R63,S.T. Workshop,12,16,7.5
-R63,Panchsheel Society,13,17,7.9
-R63,Rajeshree Auto,22,18,8.3
-R63,P.D.M. College,15,19,8.7
-R63,Makkam Chowk,16,20,9.9
-R64,Sorathiyawadi Circle,45,20,9
-R64,Kothariya Colony,44,19,8.6
-R64,Sheth High School,43,18,8.4
-R64,Bhaktinagar Circle,42,17,8
-R64,Makkam Chowk,16,16,7.3
-R64,Rangoli Park/Lakshmino Dholo,103,1,0.4
-R64,Mota Mauva,104,2,0.9
-R64,Everest Park,105,3,1.3
-R64,A.G. Society,106,4,1.7
-R64,Vrundavan Society,107,5,1.9
-R64,Crystal Mall,108,6,2.2
-R64,Atmiya College/Central School,109,7,2.4
-R64,K.K.V hall,110,8,3.2
-R64,Wockhart Hospital,111,9,3.7
-R64,Indubai Mahasatiji Chowk - Kotecha Chowk,112,10,4.2
-R64,Swaminarayan Temple/Mahila College,113,11,4.6
-R64,LIC office,114,12,5.1
-R64,Astron Chowk/Mahavir Chowk,115,13,5.3
-R64,Hemugadhavi Hall,116,14,5.7
-R64,Bhaktinagar Station,473,15,6.5
-R64,Jangalesvara Crossing / Bapunagar,152,21,9.6
-R64,Satyam Park,151,22,10
-R64,Aambedkar Nagar,150,23,10.2
-R64,Aji G.I.D.C.,149,24,10.5
-R64,Field Marshal Chowk,148,25,10.9
-R64,New Thorala,503,26,11.4
-R64,Thorala Police Station,502,27,12
-R64,Chunarvad Chowk,332,28,12.4
-R64,RMC East Zone Office,501,29,12.7
-R64,Manharpura - Bedinaka Fire Station,500,30,13
-R64,Jalaram Chowk - Santkabir Road Corner,253,31,13.3
-R64,Patel Vadi,254,32,13.6
-R64,Ranchhod Das Ashram,1109,33,14.8
-R64,Gurudev Park,58,34,15.1
-R64,Marutinagar 50ft Road Chowk,57,35,15.5
-R64,Greenland Chowk,56,36,15.9
-R64,Shivdhara Residency,496,37,16.6
-R64,Jai Jawan Jai kisan Society,495,38,17.5
-R64,Indraprasth Society,494,39,17.9
-R64,Velnathpara Beginning ( Nr. School No. 71 ),493,40,19.1
-R64,Velnathpara ( Street No. 17 ),492,41,19.6
-R64,150 feet Jamnagar road crossing,491,42,19.8
-R64,Bedi village,490,43,20.6
-R64,Bedi marketing yard,489,44,21.2
-R64,Marwadi College,488,45,23.1
-R64,I.O.C.,487,46,25.5
-R64,Gauridad Village,486,47,26.6
-R64,Ratanpar Telephone Exchange,485,48,27.7
-R64,Ratanpar (ramji mandir),484,49,28.1
-R64,Hadala gam patiyu/Darshan eng. Collage,483,50,30.4
-R64,Arpit eng. Collage (Hadala Gam),482,51,31.2
-R64,150 feet road crossing - kalawad road,102,52,31.2
-R65,Kothariya Chowk,52,36,13.6
-R65,Hudco Police Chowki,51,35,13.1
-R65,Govindnagar,50,34,12.6
-R65,Ghanshyam Nagar/Nanda Hall,49,33,12.3
-R65,Devpara,48,32,11.8
-R65,Nilkanth Cinema,47,31,11.6
-R65,Suta Hanuman Temple,46,30,11.2
-R65,Sorathiyawadi Circle,45,29,10.9
-R65,Kothariya Colony,44,28,10.5
-R65,Sheth High School,43,27,10.3
-R65,Bhaktinagar Circle,42,26,9.9
-R65,Aryasamaj,19,24,8.9
-R65,S.T. Bus Stand,20,23,8.6
-R65,Trikon baug,1038,22,7.9
-R65,Indubai Mahasatiji Chowk - Kotecha Chowk,112,14,4.8
-R65,Swaminarayan Temple/Mahila College,113,15,5.2
-R65,LIC office,114,16,5.7
-R65,Astron Chowk/Mahavir Chowk,115,17,5.9
-R65,Hemugadhavi Hall,116,18,6.3
-R65,Prajapati Chowk,1129,1,0
-R65,Oscar Sky Park,1130,2,0.4
-R65,Shaheed Sukhdev Township,1131,3,0.75
-R65,Golden Heights,1132,4,1.05
-R65,Jagrutideep Heights,1133,5,1.3
-R65,Sheetal Park,1134,6,1.45
-R65,Ramadevpir Chowk (RMTS),324,7,1.9
-R65,Nanavati Chowk (RMTS),208,8,2.4
-R65,Raiya Chowk (RMTS),207,9,3
-R65,Brahmasamaj Chowk,206,10,3.2
-R65,Hanuman Madhi,205,11,3.6
-R65,Nirmala Convent School,534,12,3.9
-R65,RMC Fire Brigade,535,13,4.5
-R65,Narsinh Mehta Garden,117,19,6.7
-R65,Ramkrushna Ashram,118,20,7
-R65,Malaviya Chowk,119,21,7.7
-R65,Kanta Stri Vikas Gruh,41,25,9.3
-R65,Nadoda Nagar,374,37,14.4
-R65,Radha Mira Industrial Estate,375,38,14.8
-R65,Ramvan Crossing,376,39,16.2
-R65,Aaji 66 kv Station (aaji vasahat road crossing),377,40,16.3
-R65,Aji Vasahat,378,41,16.5
-R65,Ajidam,146,42,17.5
-R65,Mansarovar Society,145,43,17.8
-R65,Bhimrav Nagar,144,44,18.2
-R65,Manda Dungar,1151,45,18.5
-R65,Fulwadi,530,46,19
-R65,Aarti Industrial Area,141,47,19.5
-R65,Thebachda - Mahika Patiu,140,48,20.5
-R65,Radhika Residency,1155,49,21.2
-R65,Sadguru Park,1156,50,21.6
-R65,Panchsheel College,1157,51,22.2
-R65,Mahika village,1158,52,22.7
-R66,Trikon baug,1038,24,8.2
-R66,Indubai Mahasatiji Chowk - Kotecha Chowk,112,16,5.1
-R66,Swaminarayan Temple/Mahila College,113,17,5.6
-R66,LIC office,114,18,6
-R66,Astron Chowk/Mahavir Chowk,115,19,6.2
-R66,Hemugadhavi Hall,116,20,6.6
-R66,Narsinh Mehta Garden,117,21,7
-R66,Ramkrushna Ashram,118,22,7.3
-R66,Malaviya Chowk,119,23,8
-R66,Ruda Aavash - Sarita Vihar Society,1159,1,0
-R66,Sarita Vihar Society,550,2,0.4
-R66,Ruda 2,551,3,0.7
-R66,A.G. Staff Quarter,381,4,1
-R66,Prasheel Park,382,5,1.2
-R66,Saurashtra University,121,6,1.65
-R66,Saurashtra University Gate,1165,7,2.05
-R66,B.T.Savani (Kidney) Hospital,160,8,2.4
-R66,Shiv Shakti Colony (RMTS),159,9,2.7
-R66,Akashwani Chowk,158,10,3
-R66,Jivan Jyot School,157,11,3.4
-R66,Panchayat Nagar Chowk,197,12,3.7
-R66,Zawerchand Medhani Tower,155,13,3.9
-R66,Indira Circle,154,14,4.2
-R66,Sbi Bank Chowk,153,15,4.6
-R68,Kothariya Housing,70,4,5
-R68,Ranuja Temple,69,5,5.8
-R68,Gokul Park,68,6,6.2
-R68,Brahmani Hall,67,7,6.6
-R68,Kothariya Chowk,52,8,6.8
-R68,Hudco Police Chowki,51,9,7.3
-R68,Govindnagar,50,10,7.8
-R68,Ghanshyam Nagar/Nanda Hall,49,11,8.1
-R68,Bhaktinagar Circle,42,17,10.35
-R68,Aryasamaj,19,19,11.35
-R68,S.T. Bus Stand,20,20,11.65
-R68,Trikon baug,1038,21,12.35
-R68,Kanta Stri Vikas Gruh,41,18,10.95
-R68,Kothariya Solvant fatak,1174,1,0
-R68,Saibaba Circle,83,2,3
-R68,Swati Park,86,3,4
-R68,Sahakar Society,367,12,8.6
-R68,Pipaliya hall/Bhakti Hall,361,13,8.95
-R68,Trishul Chowk,1179,14,9.15
-R68,Jivraj Hospital,359,15,9.45
-R68,Jalaram Chowk (Gayatrinagar Road),358,16,9.95
-R69,Trikon baug,1038,1,0
-R69,Indubai Mahasatiji Chowk - Kotecha Chowk,112,9,4.9
-R69,Swaminarayan Temple/Mahila College,113,8,4.3
-R69,LIC office,114,7,3.8
-R69,Astron Chowk/Mahavir Chowk,115,6,3.6
-R69,Hemugadhavi Hall,116,5,3.2
-R69,Nanavati Chowk (RMTS),208,15,6.9
-R69,Raiya Chowk (RMTS),207,14,6.55
-R69,Brahmasamaj Chowk,206,13,6.2
-R69,Hanuman Madhi,205,12,5.8
-R69,Nirmala Convent School,534,11,5.5
-R69,RMC Fire Brigade,535,10,5.1
-R69,Narsinh Mehta Garden,117,4,2.5
-R69,Ramkrushna Ashram,118,3,2.2
-R69,Malaviya Chowk,119,2,1
-R69,Shree Dharmeshwar Marg Chowk,237,16,7.2
-R69,Santiniketan Park,238,17,7.5
-R69,Rameshwar Chowk,1185,18,7.8
-R69,Vidhutnagar,1186,19,8.3
-R69,Kalashdhara Park,1187,20,8.55
-R69,Amrut Park Main Road,1188,21,8.65
-R69,Ganjanand Chowk,1189,22,8.75
-R69,Dream City,1190,23,9.3
-R69,Shantinagar,321,24,9.65
-R69,Raiyadhar Slum Quarter,320,25,9.95
-R70,Kothariya Chowk,52,5,3.6
-R70,Hudco Police Chowki,51,6,4.1
-R70,Govindnagar,50,7,4.6
-R70,Ghanshyam Nagar/Nanda Hall,49,8,4.9
-R70,Bhaktinagar Circle,42,18,8.7
-R70,Aryasamaj,19,20,9.7
-R70,S.T. Bus Stand,20,21,10
-R70,Trikon baug,1038,22,10.7
-R70,Indubai Mahasatiji Chowk - Kotecha Chowk,112,30,13.8
-R70,Swaminarayan Temple/Mahila College,113,29,13.3
-R70,LIC office,114,28,12.9
-R70,Astron Chowk/Mahavir Chowk,115,27,12.7
-R70,Hemugadhavi Hall,116,26,12.3
-R70,Narsinh Mehta Garden,117,25,11.9
-R70,Ramkrushna Ashram,118,24,11.6
-R70,Malaviya Chowk,119,23,10.9
-R70,Kanta Stri Vikas Gruh,41,19,9.3
-R70,Nadoda Nagar,374,4,2.8
-R70,Radha Mira Industrial Estate,375,3,2.4
-R70,Ramvan Crossing,376,2,1
-R70,Saurashtra University,121,40,17.9
-R70,Saurashtra University Gate,1165,39,16.8
-R70,B.T.Savani (Kidney) Hospital,160,38,16.5
-R70,Shiv Shakti Colony (RMTS),159,37,16.2
-R70,Akashwani Chowk,158,36,15.9
-R70,Jivan Jyot School,157,35,15.5
-R70,Zawerchand Medhani Tower,155,33,15
-R70,Indira Circle,154,32,14.7
-R70,Sbi Bank Chowk,153,31,14.3
-R70,Pipaliya hall/Bhakti Hall,361,14,7.3
-R70,Jivraj Hospital,359,16,7.8
-R70,Jalaram Chowk (Gayatrinagar Road),358,17,8.3
-R70,Ramvan,1195,1,0
-R70,New Subhasnagar,366,9,5.4
-R70,Patel Chowk,365,10,5.7
-R70,Shyam Hall,364,11,6
-R70,Ahir Chowk,363,12,6.5
-R70,Babariya Colony,362,13,6.8
-R70,Trishul Chowk (Pipaliya Hall),360,15,7.5
-R70,Panchayat Chowk,156,34,15.2
-R70,somesvasr mahadev munjka gam,383,41,19.1
-R70,new Munjka,384,42,19.4
-R70,Shree city (Munjka gam),385,43,20.1
-R70,C.M. Avash  (Munjka),1209,44,21
-R70,Rayagam Crossing,1210,45,22.6
-R70,Light House Crossing,1211,46,22.9
-R70,Atal Sarovar Entrance Gate,1212,47,24.1
-R70,G-road crossing,1213,48,25.1
-R70,Chandra Dileswar Mahadev Road,1214,49,25.3
-R70,Ghanteshvar S.R.P. Camp (Main Gate),511,50,25.9
-R70,Astha Residency,228,51,26.1
-R70,Green Leaf Club,1217,52,26.8
-R70,Silver velly/ ratnam Skay,1218,53,27.2
-R70,Parapipaliya patiya,1219,54,27.4
-R71,Kothariya Gam,74,38,14.2
-R71,Kotharia Village/Jai Bhawani Chowk,73,37,14
-R71,Kotharia Gam Talukashala,72,36,13.8
-R71,Kothariya Housing,70,35,13.5
-R71,Ranuja Temple,69,34,13.2
-R71,Gokul Park,68,33,13
-R71,Brahmani Hall,67,32,12.2
-R71,Kothariya Chowk,52,31,11.8
-R71,Hudco Police Chowki,51,30,11.4
-R71,Govindnagar,50,29,11.2
-R71,Ghanshyam Nagar/Nanda Hall,49,28,10.7
-R71,P.D.M. College,15,23,9
-R71,Sahakar Society,367,27,10.2
-R71,Pipaliya hall/Bhakti Hall,361,26,10
-R71,Trishul Chowk (Pipaliya Hall),360,25,9.8
-R71,Government Engineering College,517,1,0
-R71,Labhubhai eng. Collage,518,2,0.5
-R71,Parsana Chowk,413,3,2.6
-R71,Veer Hanumant Township,414,4,2.8
-R71,Shree Ram Township,415,5,3.3
-R71,Speedwell Party plot,284,6,3.75
-R71,Copper Elegance,1228,7,4.15
-R71,Mavdi Police Head quarter,1229,8,4.5
-R71,Copper Sand,1230,9,4.8
-R71,Vasant Vatika,1231,10,5.1
-R71,Hemadri,1232,11,5.45
-R71,Shivam park / khodal chowk,1233,12,5.75
-R71,Sorathiya park,1234,13,6.15
-R71,Bapa Sitaram Chowk Crossing,1235,14,6.5
-R71,Jitariya Hanuman Temple,264,15,6.7
-R71,Mavdi Chokdi (RMTS),263,16,7
-R71,Fuliya Hanuman Temple,262,17,7.3
-R71,Mavdi Fire Station,261,18,7.6
-R71,Anand Bunglow Chowk,424,19,8
-R71,Sarojeeni Nayadu School (Ambaji Kadva Plot),425,20,8.2
-R71,Swaminarayan Chowk,310,21,8.4
-R71,Ambaji Kadva Plot,309,22,8.7
-R71,P.D.M. Fatak,1244,24,9.2
-R72,Greenland Chowk,56,41,22
-R72,Shivdhara Residency,496,40,21.6
-R72,Jai Jawan Jai kisan Society,495,39,20.6
-R72,Indraprasth Society,494,38,20.2
-R72,Velnathpara Beginning ( Nr. School No. 71 ),493,37,19.6
-R72,Velnathpara ( Street No. 17 ),492,36,18.7
-R72,150 feet Jamnagar road crossing,491,35,18.3
-R72,Raiya Chowk (RMTS),207,24,10
-R72,Ruda Aavash - Sarita Vihar Society,1159,10,4.95
-R72,Ruda 2,551,12,5.7
-R72,A.G. Staff Quarter,381,13,5.9
-R72,Prasheel Park,382,14,6.1
-R72,B.T.Savani (Kidney) Hospital,160,17,6.8
-R72,Patel Chowk,365,8,4.45
-R72,Government Engineering College,517,1,0
-R72,Labhubhai eng. Collage,518,2,0.7
-R72,Buddha Vihar,520,3,2.1
-R72,Gujrat Houseing Board - aavas yojna (Rangoli park),519,4,3.3
-R72,Sunsine Group Of Institute,521,5,3.6
-R72,2nd ring road crossing,1250,6,3.9
-R72,Masoom School Mota Mauva,1251,7,4.25
-R72,Dharamshi Korat Chowk,1253,9,4.7
-R72,Sarita Vihar,1255,11,5.45
-R72,ITI (Disable),124,15,6.4
-R72,Mahila ITI,1259,16,6.6
-R72,Shilpan Nova,1261,18,7.2
-R72,Radhe Park/Gangotri Park,540,19,7.45
-R72,Raiya Village (Shilpan Onex),447,20,7.7
-R72,Raiya Village,348,21,8.2
-R72,Alap Green City,347,22,8.9
-R72,Bapa Sitaram Chowk,265,23,9.3
-R72,Nanavati Chowk,1267,25,10.4
-R72,Ramdevpir Chowk,209,26,11
-R72,Shital Park,1269,27,11.5
-R72,Ayodhya Chowk,1270,28,12.3
-R72,Madhapar Chowk,1271,29,13.05
-R72,Manhar Pura (150 feet ring road),1272,30,14.65
-R72,AIIMS Hospital Crossing,1273,31,14.85
-R72,Krishna Bungalows-3 (Sadhuvaswani Kunj Road Crossing),1274,32,15.15
-R72,Astha sangrila,1275,33,15.9
-R72,Mukhyamantri Aavsh Quarter,1276,34,17
-R73,Trikon baug,1038,27,20.25
-R73,Ranchhod Das Ashram,1109,21,17.55
-R73,Gurudev Park,58,20,17.25
-R73,Marutinagar 50ft Road Chowk,57,19,16.85
-R73,Greenland Chowk,56,18,16.45
-R73,Shreenathji Industries Plot No.155,1279,1,0
-R73,Sarathi chemical Plot No.11,1280,2,0.6
-R73,Kuwadwa GIDC,1281,3,1.05
-R73,Kuwadwagam,1282,4,2.55
-R73,Vankaner Chowkdi,1283,5,3.25
-R73,Krishna Waterpark,1284,6,5.25
-R73,Agricultural Science Centre/Targhdi,1285,7,6.85
-R73,Trimandir,1286,8,7.35
-R73,Malyasan,1287,9,10.55
-R73,150 feet Ring Road (Bedi Bypass),1288,10,11.45
-R73,Satahnuman Temple,1290,12,13.25
-R73,Kuwadwa Police Station,1291,13,13.55
-R73,Chandrana Marketing,1292,14,14.05
-R73,Shanti Industrial,1293,15,14.25
-R73,Shaligram/Khodladham Residency,1294,16,15.05
-R73,Kuvadava Police Chowki,55,17,15.85
-R73,Parevadi Chowk,60,22,18.45
-R73,Kesari Hindpul,61,23,18.85
-R73,I.P.Mission School,38,24,19.15
-R73,Dr.Bhimrav ambedkar Chowk,39,25,19.35
-R73,Jubeli baug,40,26,19.75
-R74,Nagrik bank,17,21,8.3
-R74,Kadvibai School,1035,22,8.7
-R74,Aryasamaj,19,23,9
-R74,S.T. Bus Stand,20,24,9.4
-R74,Trikon baug,1038,25,10.1
-R74,Rajkamal Petrol Pump,10,12,4.6
-R74,P & T Colony/Gitanagar,11,13,5.1
-R74,S.T. Workshop,12,14,5.7
-R74,Panchsheel Society,13,15,6.1
-R74,P.D.M. College,15,17,6.9
-R74,Saibaba Circle,83,7,2.05
-R74,Kothariya Solavant fatak,1301,1,0
-R74,Krishna motar,1302,2,0.3
-R74,Somnath main Road / gulabnagar nalu,1303,3,0.9
-R74,Khodiyar chowk,1304,4,1.2
-R74,shandar residency,1305,5,1.5
-R74,Shivam fual (Bharat Petrol pump),1306,6,1.8
-R74,gulabnagar,1307,8,2.4
-R74,Balaji steel,1308,9,2.8
-R74,Maldhari railway fatak,1309,10,3.4
-R74,Gondal Chowk (RMTS),9,11,3.9
-R74,Doshi Hospital- Shivnagar,14,16,6.5
-R74,Jasani School,308,18,7.2
-R74,Gopalnagar Choro,307,19,7.5
-R74,Gurukul,306,20,7.8
-R75,Nagrik bank,17,19,6.4
-R75,Kadvibai School,1035,18,6
-R75,Aryasamaj,19,17,5.6
-R75,S.T. Bus Stand,20,16,5.3
-R75,Trikon baug,1038,15,4.6
-R75,P.D.M. College,15,21,7.8
-R75,Makkam Chowk,16,20,6.6
-R75,Ranchhod Das Ashram,1109,9,1.9
-R75,Gurudev Park,58,8,1.6
-R75,Parevadi Chowk,60,10,2.8
-R75,Kesari Hindpul,61,11,3.2
-R75,I.P.Mission School,38,12,3.5
-R75,Dr.Bhimrav ambedkar Chowk,39,13,3.7
-R75,Jubeli baug,40,14,4.1
-R75,Indraprasth Society /Morby Road crossing,1315,1,0
-R75,Sardar Avenue,1316,2,0.2
-R75,JIVRAJPARK-1 STREET NO. 1,1317,3,0.4
-R75,Krishna park,1318,4,0.7
-R75,Shree Yadunandan Chowk,1319,5,0.9
-R75,Somnath Real Home Society,1320,6,1.1
-R75,Naathdwara Park,1321,7,1.4
-R75,Panchshil Society Community Hall,1324,24,8.7
-R75,samrat industries main road crossing,1325,25,8.9
-R75,samrat industrial Street 1,1326,26,9.1
-R75,samrat industrial Street 10,1327,27,9.3
-R75,Vir narmad township,1328,28,9.6
-R75,Rajkot Postal Colony Sub Post Office,1329,29,9.8
-R75,matru darshan School,1330,30,10.1
-R76,Kothariya Gam,74,42,19.05
-R76,Kotharia Village/Jai Bhawani Chowk,73,41,18.85
-R76,Kotharia Gam Talukashala,72,40,18.55
-R76,Kothariya Housing,70,39,18.25
-R76,Ranuja Temple,69,38,17.45
-R76,Gokul Park,68,37,17.05
-R76,Brahmani Hall,67,36,16.65
-R76,Kothariya Chowk,52,35,16.45
-R76,Hudco Police Chowki,51,34,15.95
-R76,Govindnagar,50,33,15.45
-R76,Ghanshyam Nagar/Nanda Hall,49,32,15.15
-R76,Devpara,48,31,14.65
-R76,Nilkanth Cinema,47,30,14.45
-R76,Suta Hanuman Temple,46,29,14.05
-R76,Sorathiyawadi Circle,45,28,13.65
-R76,Jangalesvara Crossing / Bapunagar,152,27,13.05
-R76,Satyam Park,151,26,12.65
-R76,Aambedkar Nagar,150,25,12.45
-R76,Aji G.I.D.C.,149,24,12.15
-R76,Field Marshal Chowk,148,23,11.75
-R76,New Thorala,503,22,11.25
-R76,Thorala Police Station,502,21,10.65
-R76,Chunarvad Chowk,332,20,10.25
-R76,RMC East Zone Office,501,19,9.95
-R76,Manharpura - Bedinaka Fire Station,500,18,9.65
-R76,Jalaram Chowk - Santkabir Road Corner,253,17,9.35
-R76,Patel Vadi,254,16,9.05
-R76,Ranchhod Das Ashram,1109,14,7.85
-R76,Gurudev Park,58,13,7.55
-R76,Jai Jawan Jai kisan Society,495,8,5.6
-R76,Indraprasth Society,494,7,5.2
-R76,150 feet Jamnagar road crossing,491,4,3.3
-R76,Bedi village,490,3,2.5
-R76,Bedi marketing yard,489,2,1.9
-R76,Marwadi College,488,1,0
-R76,Shree Yadunandan Chowk,1319,10,6.5
-R76,Somnath Real Home Society,1320,11,6.85
-R76,Naathdwara Park,1321,12,7.15
-R76,Velnathpara (Street No.17),1331,5,3.5
-R76,Velnathpara Beginning (Nr. School No.71),1332,6,4
-R76,K. K.dholkiya school,1333,9,6.15
-R76,Deluxe Cinema Chowk,1128,15,8.55
-R77,Gondal Chowk (RMTS),9,15,14.8
-R77,Ribda Railway Station,1340,1,0
-R77,Ribda chowkdi,1341,2,1.9
-R77,SGVP School,1342,3,2.5
-R77,shantidham,1343,4,3.7
-R77,Ganga Gate,1344,5,4.7
-R77,Shapar Veraval,0,6,5.2
-R77,Marutinagar (Sarvoday Housing Society),1,7,6.2
-R77,Shitalamajaji Temple,2,8,7
-R77,Pardi Village,3,9,8
-R77,Korat Chowk,4,10,9.4
-R77,Astha Green City,5,11,9.9
-R77,Khokhaldad,6,12,10.5
-R77,AV Jasani TB Hospital,7,13,11.7
-R77,Kothariya Solvant,1353,14,12.8
-R79,Rangoli Park/Lakshmino Dholo,103,8,3.1
-R79,Mota Mauva,104,7,2.6
-R79,Everest Park,105,6,2.2
-R79,A.G. Society,106,5,1.8
-R79,Vrundavan Society,107,4,1.6
-R79,Crystal Mall,108,3,1.1
-R79,Atmiya College/Central School,109,2,0.8
-R79,K.K.V hall,110,1,0
-R79,150 feet road crossing - kalawad road,102,9,3.5
-R79,Cosmoplex Cinema,101,10,4.2
-R79,Kankot - Kalawad Road,100,11,4.7
-R79,Vruksh mandir,99,12,5
-R79,Uma P.T.C. College,98,13,5.6
-R79,Haripar Village,97,14,6.8
-R79,V.V.P. Engineering College,96,15,7
-R79,Virda Vajadi Village,95,16,7.6
-R79,Vagudad Village,94,17,8.7
-R79,Vadvajadi Village,93,18,9.6
-R79,G.I.D.C. Gate 1,92,19,10.5
-R79,G.I.D.C. Gate 2,91,20,11.1
-R79,G.I.D.C. Gate 3,90,21,11.8
-R80,Trikon baug,1038,37,24.45
-R80,Ranchhod Das Ashram,1109,43,26.85
-R80,Gurudev Park,58,44,27.15
-R80,Marutinagar 50ft Road Chowk,57,45,27.55
-R80,Greenland Chowk,56,46,27.95
-R80,150 feet road crossing - kalawad road,102,16,11
-R80,Raiya Chowk (RMTS),207,26,19.65
-R80,Brahmasamaj Chowk,206,27,19.95
-R80,Hanuman Madhi,205,28,20.25
-R80,Ramkrushna Ashram,118,35,23.45
-R80,Malaviya Chowk,119,36,23.75
-R80,C.M. Avash  (Munjka),1209,17,13.8
-R80,Raiya Village,348,23,17.85
-R80,Alap Green City,347,24,18.55
-R80,Bapa Sitaram Chowk,265,25,18.95
-R80,Parevadi Chowk,60,42,25.95
-R80,Kesari Hindpul,61,41,25.55
-R80,I.P.Mission School,38,40,25.25
-R80,Dr.Bhimrav ambedkar Chowk,39,39,25.05
-R80,Jubeli baug,40,38,24.65
-R80,Cosmoplex Cinema,101,15,10.3
-R80,Kankot - Kalawad Road,100,14,9.8
-R80,Vruksh mandir,99,13,9.5
-R80,Uma P.T.C. College,98,12,8.9
-R80,Haripar Village,97,11,7.7
-R80,V.V.P. Engineering College,96,10,7.5
-R80,Virda Vajadi Village,95,9,6.9
-R80,Vagudad Village,94,8,5.8
-R80,Vadvajadi Village,93,7,4.8
-R80,G.I.D.C. Gate 1,92,6,3.9
-R80,G.I.D.C. Gate 2,91,5,3.3
-R80,G.I.D.C. Gate 3,90,4,2.6
-R80,ITI (Khirasara),87,1,0
-R80,Khirasara Gam Chowkdi,88,2,0.3
-R80,Metoda crossing,89,3,1.6
-R80,150 feet Ring Road (Raiya Road Crossing),1377,18,15.4
-R80,Light House (Raiya) BRTS,1378,19,16.2
-R80,Drainage pumping Station (Raiya),351,20,16.95
-R80,Raya Mukti Dham,1380,21,17.25
-R80,Pam. Universe Crossing,349,22,17.55
-R80,Alkapuri,204,29,20.55
-R80,Azad Chowk,203,30,20.85
-R80,Kishanpara Chowk,127,31,21.65
-R80,Jilla Panchayat Chowk,128,32,22.45
-R80,Jagnath Temple,171,33,22.75
-R80,Dharmendrasinhji College,172,34,23.15
-R81,S.T. Bus Stand,20,23,14.05
-R81,Trikon baug,1038,22,13.35
-R81,New Thorala,503,29,17.4
-R81,Thorala Police Station,502,28,16.95
-R81,Chunarvad Chowk,332,27,16.45
-R81,Sheetal Park,1134,9,8.05
-R81,Nanavati Chowk (RMTS),208,11,9.15
-R81,Raiya Chowk (RMTS),207,12,9.75
-R81,Brahmasamaj Chowk,206,13,9.95
-R81,Hanuman Madhi,205,14,10.35
-R81,Ajidam,146,31,19.2
-R81,Mansarovar Society,145,32,19.6
-R81,Bhimrav Nagar,144,33,19.9
-R81,Ramdevpir Chowk,209,10,8.55
-R81,Ayodhya Chowk,1270,8,7.25
-R81,Alkapuri,204,15,10.65
-R81,Azad Chowk,203,16,11.05
-R81,Kishanpara Chowk,127,17,11.75
-R81,Jilla Panchayat Chowk,128,18,12.05
-R81,AIIMS Hospital,1388,1,0
-R81,AIIMS Hospital Gate,1389,2,0.6
-R81,AIIMS Hospital Circle,1390,3,2.5
-R81,madhapar gam road crossing,1391,4,4.5
-R81,Madhapar Gaam Gate,410,5,5.7
-R81,Madhapar Gaam,220,6,6.1
-R81,Madhapar Chowk (RMTS),1393,7,6.5
-R81,Fullchhab Chowk,129,19,12.35
-R81,Chitralekha Chowk,130,20,12.75
-R81,Limda Chowk,131,21,12.95
-R81,Gundawadi Police Chowki,65,24,14.85
-R81,Jilla Garden Chowk,330,25,15.35
-R81,Ramnath Para (B-Division Police Station),331,26,15.65
-R81,Government Polytechnic,147,30,18.8
-R81,Somanath Society main road,1401,34,21
-R81,Axar city,1402,35,21.3
-R81,Maruti travels,1403,36,21.65
-R81,rampark street no.1,1404,37,21.85
-R81,AG park,1405,38,22.25
-R81,parshuram indu. street no.3,1406,39,22.55
-R81,gokulpark,1407,40,22.75
-R81,sadbhavana complex,1408,41,23.15
-R81,Swaminarayan vidhyalay,1409,42,23.45
-R82,Bhaktinagar Circle,42,27,14.3
-R82,Aryasamaj,19,25,13.3
-R82,S.T. Bus Stand,20,24,13
-R82,Trikon baug,1038,23,12.3
-R82,Kanta Stri Vikas Gruh,41,26,13.7
-R82,Jubeli baug,40,22,11.8
-R82,madhapar gam road crossing,1391,4,4.5
-R82,Madhapar Gaam Gate,410,5,5.7
-R82,Madhapar Gaam,220,6,6.1
-R82,Madhapar Chowk (RMTS),1393,7,6.5
-R82,AIIM Hospital,523,1,0
-R82,AIIM Hospital Gate,524,2,0.6
-R82,AIIM Hospital Circle,525,3,2.5
-R82,Vora Society,218,8,6.9
-R82,Satyam Shivam Sundaram,217,9,7.1
-R82,Gayatridham,216,10,7.3
-R82,Wankaner Society,397,11,7.8
-R82,Wankaner Society Corner,215,12,8
-R82,BajrangWadi circle,398,13,8.3
-R82,BajrangWadi,214,14,8.7
-R82,Railway Colony,213,15,8.8
-R82,Bhomeshwer/Airport,212,16,9
-R82,Jagruti Shramjivi Society,1423,17,9.35
-R82,Bhomeshwer,1424,18,9.65
-R82,Special School For Boys,373,19,10.1
-R82,Ruda Office,199,20,10.5
-R82,Dr.Bhimrav ambedkar chock,1427,21,11.4
-R83,Ranchhod Das Ashram,1109,22,11.7
-R83,Gurudev Park,58,23,12
-R83,Marutinagar 50ft Road Chowk,57,24,12.4
-R83,Greenland Chowk,56,25,12.8
-R83,Shivdhara Residency,496,26,13.5
-R83,Radhe Park/Gangotri Park,540,9,6.8
-R83,Parevadi Chowk,60,21,10.8
-R83,Kesari Hindpul,61,20,10.4
-R83,madhapar gam road crossing,1391,4,3.6
-R83,AIIM Hospital,523,1,0
-R83,AIIM Hospital Gate,524,2,0.6
-R83,AIIM Hospital Circle,525,3,2.5
-R83,Dr.Bhimrav ambedkar chock,1427,19,10.1
-R83,150 fit ring road crossing (Aims road),1429,5,5
-R83,sundaram city,1430,6,5.35
-R83,Santoshinagar Railway Crossing,404,7,6
-R83,Santoshinagar,27,8,6.4
-R83,Railnagar,29,10,7.1
-R83,Aastha Resi./Rameshwer Park,30,11,7.4
-R83,Central Ware House,31,12,7.6
-R83,Popatpara,32,13,8.2
-R83,Popatpara Post Office,33,14,8.4
-R83,Popatpara Central Jail,34,15,8.7
-R83,Junction police choki,35,16,9.2
-R83,Junction Railway police station,296,17,9.5
-R83,Kothi compound,37,18,9.9
-R84,Kothariya Gam,74,51,28.75
-R84,Kotharia Village/Jai Bhawani Chowk,73,50,28.55
-R84,Kotharia Gam Talukashala,72,49,28.25
-R84,Kothariya Housing,70,48,27.95
-R84,Ranuja Temple,69,47,27.15
-R84,Gokul Park,68,46,26.75
-R84,Brahmani Hall,67,45,26.35
-R84,Kothariya Chowk,52,44,26.15
-R84,Hudco Police Chowki,51,43,25.65
-R84,Govindnagar,50,42,25.15
-R84,Ghanshyam Nagar/Nanda Hall,49,41,24.85
-R84,Devpara,48,40,24.35
-R84,Nilkanth Cinema,47,39,24.15
-R84,Suta Hanuman Temple,46,38,23.75
-R84,Sorathiyawadi Circle,45,37,23.45
-R84,Kothariya Colony,44,36,23.05
-R84,Sheth High School,43,35,22.85
-R84,Bhaktinagar Circle,42,34,22.45
-R84,Makkam Chowk,16,33,21.75
-R84,Rangoli Park/Lakshmino Dholo,103,15,14.8
-R84,Mota Mauva,104,16,15.3
-R84,Everest Park,105,17,15.7
-R84,A.G. Society,106,18,16.1
-R84,Vrundavan Society,107,19,16.3
-R84,Crystal Mall,108,20,16.6
-R84,Atmiya College/Central School,109,21,16.9
-R84,Bhaktinagar Station,473,32,20.95
-R84,150 feet road crossing - kalawad road,102,14,14.4
-R84,C.M. Avash  (Munjka),1209,13,11.4
-R84,Rayagam Crossing,1210,12,9.8
-R84,Light House Crossing,1211,11,9.5
-R84,Atal Sarovar Entrance Gate,1212,10,8.3
-R84,G-road crossing,1213,9,7.3
-R84,Chandra Dileswar Mahadev Road,1214,8,7.1
-R84,Ghanteshvar S.R.P. Camp (Main Gate),511,7,6.5
-R84,Astha Residency,228,6,6.3
-R84,Parapipaliya Gaam,393,1,0
-R84,Parapipaliya Gaam,393,3,4.6
-R84,Nyara Gam Chokdi,391,2,3.1
-R84,Ghanteshwar SRP Camp Road Crossing,226,4,5.2
-R84,Ratnam Residency,227,5,5.6
-R84,Swati Soc.,329,22,17.1
-R84,Satysai Hospital,328,23,17.3
-R84,Alap Heritage,327,24,17.7
-R84,Phulvadi Park,326,25,17.9
-R84,Satyasai Road Crossing,290,26,18.1
-R84,Nana Mava Chowk (RMTS),291,27,18.5
-R84,Grand Central Mall,292,28,18.9
-R84,Suryamukhi Hanuman Chowk,258,29,19.35
-R84,PGVCL Region office,1464,30,19.65
-R84,CDS BIPIN RAVAT UNDER BRIDGE,1465,31,20.05
-R85,Ranchhod Das Ashram,1109,28,13.8
-R85,Raiya Chowk (RMTS),207,13,5.1
-R85,Brahmasamaj Chowk,206,14,5.4
-R85,Hanuman Madhi,205,15,5.7
-R85,Saurashtra University,121,1,0
-R85,Saurashtra University Gate,1165,2,1.1
-R85,Shiv Shakti Colony (RMTS),159,4,1.7
-R85,Akashwani Chowk,158,5,2
-R85,Jivan Jyot School,157,6,2.4
-R85,Alap Green City,347,11,4
-R85,Bapa Sitaram Chowk,265,12,4.4
-R85,Parevadi Chowk,60,27,12.9
-R85,Kesari Hindpul,61,26,12.5
-R85,I.P.Mission School,38,25,12.2
-R85,Dr.Bhimrav ambedkar Chowk,39,24,12
-R85,Alkapuri,204,16,6
-R85,Azad Chowk,203,17,6.3
-R85,Kishanpara Chowk,127,18,7.1
-R85,Jilla Panchayat Chowk,128,19,7.4
-R85,B T Savani hospital,123,3,1.4
-R85,Sadhuvasvani School,343,7,2.8
-R85,Janakpuri - Ajanta Park,344,8,3.2
-R85,BalajiPark/Satelite Park,345,9,3.6
-R85,Guruji Aavas Yojna,346,10,3.8
-R85,Bahumadi bhavan,202,20,7.9
-R85,Shardabaug,201,21,8.1
-R85,Chaudhary High School,232,22,8.4
-R85,Pandit dindayaal Civil Hospital,1475,23,11.9
-R85,Balak Hanuman Chowk,341,29,14.3
-R85,Aryanagar - Pedak road,340,30,14.6
-R85,Satellite Chowk - Marutinagar aproach Road,339,31,15
-R85,Gramudhyog Mandir Pedak,338,32,15.4
-R85,Lakheshwar Society - R.T.O. Office,337,33,15.8
-R85,Bhagirath Society - Marketing Yard,336,34,16.1
-R85,Marketing Yard,248,35,16.5
-R85,Pradhyuman Park,247,36,17.2
-R86,Sorathiyawadi Circle,45,14,6.05
-R86,Kothariya Colony,44,15,6.45
-R86,Sheth High School,43,16,6.65
-R86,Bhaktinagar Circle,42,17,7.05
-R86,Rajkamal Petrol Pump,10,27,12.2
-R86,P & T Colony/Gitanagar,11,26,10.4
-R86,S.T. Workshop,12,25,9.85
-R86,Panchsheel Society,13,24,9.4
-R86,P.D.M. College,15,22,8.75
-R86,Jangalesvara Crossing / Bapunagar,152,13,5.45
-R86,Chunarvad Chowk,332,10,3.5
-R86,RMC East Zone Office,501,9,3.2
-R86,Manharpura - Bedinaka Fire Station,500,8,2.9
-R86,Jalaram Chowk - Santkabir Road Corner,253,7,2.6
-R86,Jasani School,308,21,8.45
-R86,Gopalnagar Choro,307,20,8.15
-R86,Gurukul,306,19,7.85
-R86,Jilla Garden Chowk,330,12,4.6
-R86,Ramnath Para (B-Division Police Station),331,11,4.3
-R86,Marketing Yard,248,2,0.7
-R86,Pradhyuman Park,247,1,0
-R86,Dudheshvar Mahadev,249,3,1.1
-R86,Gadhiyanagar,250,4,1.5
-R86,Govind Baug,251,5,1.9
-R86,Sardar Vallabhbhai Vidhyalay,252,6,2.1
-R86,Nagarik Bank,1488,18,7.35
-R86,Doshi Hospital-Shivnagar,1490,23,9.15
-R86,Gondal Chowkdi,1491,28,12.8
-R87,Punit Nagar BRTS bus stop,184,25,20.2
-R87,Rangoli Park/Lakshmino Dholo,103,2,5.75
-R87,Mota Mauva,104,3,6.25
-R87,Everest Park,105,4,6.65
-R87,Jitariya Hanuman Temple,264,20,11.7
-R87,Mavdi Chokdi (RMTS),263,21,12
-R87,Bapa Sitaram Chowk,265,19,11.4
-R87,Gondal Chowkdi,1491,26,20.8
-R87,150 feet kalawad road (katariya Chowkdi),1492,1,5.35
-R87,Vambay Aavash Yojana crossing,1493,5,7
-R87,Bhimrav Nagar/Om Residency,456,6,7.2
-R87,Govani Hostel,285,7,7.4
-R87,Laxman Township,416,9,8.1
-R87,Court yard,417,10,8.6
-R87,kasturi recidency,418,11,9.2
-R87,Trishul Chawk (Mavdi),1499,12,9.5
-R87,Dream city,420,13,9.8
-R87,krushna Township,421,14,10
-R87,Mavdi Gam,422,15,10.4
-R87,Sanskar City,268,16,10.8
-R87,Radha krushn Chowk,267,17,11
-R87,Sorthiya Parivar wadi,266,18,11.2
-R87,Umiya Chowk (BRTS),1507,22,15
-R87,Ambedkar Nagar RMTS,1508,23,17.3
-R87,Goverdhan Chowk (RMTS),1509,24,19
-R88,Punit Nagar BRTS bus stop,184,50,30.95
-R88,Everest Park,105,34,24.85
-R88,A.G. Society,106,33,24.45
-R88,150 feet Jamnagar road crossing,491,10,11.4
-R88,Bedi village,490,9,10.6
-R88,Bedi marketing yard,489,8,10
-R88,Marwadi College,488,7,8.1
-R88,I.O.C.,487,6,5.7
-R88,Gauridad Village,486,5,4.6
-R88,Ratanpar Telephone Exchange,485,4,3.5
-R88,Ratanpar (ramji mandir),484,3,3.1
-R88,Hadala gam patiyu/Darshan eng. Collage,483,2,0.8
-R88,Sheetal Park,1134,18,18.2
-R88,Ramadevpir Chowk (RMTS),324,19,18.7
-R88,Nanavati Chowk (RMTS),208,20,19.3
-R88,Raiya Chowk (RMTS),207,21,19.7
-R88,Shiv Shakti Colony (RMTS),159,30,23.1
-R88,Akashwani Chowk,158,29,22.8
-R88,Jivan Jyot School,157,28,22.4
-R88,Speedwell Party plot,284,38,26
-R88,Alap Green City,347,23,20.8
-R88,Bapa Sitaram Chowk,265,22,20.4
-R88,Ayodhya Chowk,1270,17,17.4
-R88,Madhapar Chowk,1271,16,16.65
-R88,Manhar Pura (150 feet ring road),1272,15,15.05
-R88,AIIMS Hospital Crossing,1273,14,14.85
-R88,Krishna Bungalows-3 (Sadhuvaswani Kunj Road Crossing),1274,13,14.55
-R88,Astha sangrila,1275,12,13.8
-R88,Mukhyamantri Aavsh Quarter,1276,11,12.7
-R88,Gondal Chowk (RMTS),9,51,31.55
-R88,Sadhuvasvani School,343,27,22
-R88,Janakpuri - Ajanta Park,344,26,21.6
-R88,BalajiPark/Satelite Park,345,25,21.2
-R88,Guruji Aavas Yojna,346,24,21
-R88,Vambay Aavash Yojana crossing,1493,35,25.2
-R88,Bhimrav Nagar/Om Residency,456,36,25.4
-R88,Govani Hostel,285,37,25.6
-R88,Court yard,417,40,27.1
-R88,Arpit eng. Collage,1515,1,0
-R88,Pushkardham,125,31,23.65
-R88,Rular Housing,126,32,24.05
-R88,Dwarkadhish chowk,283,39,26.5
-R88,Vithalbhai radaDiya Chowk,1525,41,27.6
-R88,shyamal Upavan,1526,42,27.9
-R88,Vagal Chowk,1527,43,28.45
-R88,Pavitram Heights,1528,44,28.85
-R88,Sarvodaya School,1529,45,29.05
-R88,Udgam School,1530,46,29.65
-R88,Khodal Chowk,1531,47,29.9
-R88,Sardar Park,1532,48,30.25
-R88,Puneetnagar Main Road,1533,49,30.65
-R89,Trikon baug,1038,30,10.5
-R89,Indubai Mahasatiji Chowk - Kotecha Chowk,112,22,7.4
-R89,Swaminarayan Temple/Mahila College,113,23,7.8
-R89,LIC office,114,24,8.3
-R89,Astron Chowk/Mahavir Chowk,115,25,8.5
-R89,Hemugadhavi Hall,116,26,8.9
-R89,Narsinh Mehta Garden,117,27,9.3
-R89,Ramkrushna Ashram,118,28,9.6
-R89,Malaviya Chowk,119,29,10.3
-R89,Jitariya Hanuman Temple,264,12,4
-R89,Mavdi Chokdi (RMTS),263,13,4.2
-R89,Fuliya Hanuman Temple,262,14,4.8
-R89,Mavdi Fire Station,261,15,5.1
-R89,Bapa Sitaram Chowk,265,11,3.6
-R89,Suryamukhi Hanuman Chowk,258,18,6
-R89,Dream city,420,5,1.9
-R89,krushna Township,421,6,2.2
-R89,Mavdi Gam,422,7,2.6
-R89,Sanskar City,268,8,3
-R89,Radha krushn Chowk,267,9,3.2
-R89,Sorthiya Parivar wadi,266,10,3.4
-R89,Vitthalbhai Raddia Chowk,1534,1,0
-R89,shyamal upvan,1535,2,0.35
-R89,AKSHAR PARISHAR,1536,3,0.7
-R89,SHIV TOWNSHIP,1537,4,1.3
-R89,Mayani Chowk,260,16,5.4
-R89,Madhunagar/Rajnagar Society,259,17,5.7
-R89,Astron Society,293,19,6.7
-R89,Hinglajnagar (bharvad Chowk),294,20,6.9
-R89,Saurashtra High School,1546,21,7.1
-R90,Trikon baug,1038,31,12
-R90,Everest Park,105,16,5.7
-R90,A.G. Society,106,17,6.1
-R90,Vrundavan Society,107,18,6.3
-R90,Crystal Mall,108,19,6.8
-R90,Atmiya College/Central School,109,20,7.1
-R90,K.K.V hall,110,21,7.9
-R90,Wockhart Hospital,111,22,8.4
-R90,Indubai Mahasatiji Chowk - Kotecha Chowk,112,23,8.9
-R90,Swaminarayan Temple/Mahila College,113,24,9.4
-R90,LIC office,114,25,9.8
-R90,Astron Chowk/Mahavir Chowk,115,26,10
-R90,Hemugadhavi Hall,116,27,10.4
-R90,Ranchhod Das Ashram,1109,37,14.7
-R90,Gurudev Park,58,38,15
-R90,Marutinagar 50ft Road Chowk,57,39,15.4
-R90,Greenland Chowk,56,40,15.8
-R90,Shivdhara Residency,496,41,16.5
-R90,Jai Jawan Jai kisan Society,495,42,17.35
-R90,Narsinh Mehta Garden,117,28,10.8
-R90,Ramkrushna Ashram,118,29,11.1
-R90,Malaviya Chowk,119,30,11.8
-R90,Speedwell Party plot,284,12,4.55
-R90,Parevadi Chowk,60,36,13.8
-R90,Kesari Hindpul,61,35,13.4
-R90,I.P.Mission School,38,34,13.1
-R90,Dr.Bhimrav ambedkar Chowk,39,33,12.9
-R90,Jubeli baug,40,32,12.5
-R90,Indraprasth Society /Morby Road crossing,1315,43,17.75
-R90,Vambay Aavash Yojana crossing,1493,15,5.35
-R90,Bhimrav Nagar/Om Residency,456,14,5.15
-R90,Govani Hostel,285,13,4.95
-R90,Court yard,417,10,3.45
-R90,Dwarkadhish chowk,283,11,4.05
-R90,Vithalbhai radaDiya Chowk,1525,9,2.95
-R90,shyamal Upavan,1526,8,2.65
-R90,Vagal Chowk,1527,7,2.1
-R90,Pavitram Heights,1528,6,1.7
-R90,Sarvodaya School,1529,5,1.5
-R90,Udgam School,1530,4,0.9
-R90,Khodal Chowk,1531,3,0.65
-R90,Sardar Park,1532,2,0.3
-R90,Puneetnagar Main Road,1533,1,0
-R90,Jai Babari Chowk,1547,44,17.95
-R90,Shri Ram Park,1548,45,18.15
-R90,Satellite Chowk,1549,46,18.9
-R90,Vrajabhumi Residency,1550,47,19.25
-R90,Shiva Aastha,1551,48,19.5
-R90,Giriraj Bungalows,1552,49,19.9
-R90,Silverpark -B Street No.-4,1553,50,20.2
-R91,Trikon baug,1038,30,15.9
-R91,Nanavati Chowk (RMTS),208,16,9.6
-R91,Raiya Chowk (RMTS),207,15,9
-R91,Saurashtra University,121,7,5.1
-R91,Saurashtra University Gate,1165,8,5.5
-R91,B.T.Savani (Kidney) Hospital,160,9,5.7
-R91,Shilpan Nova,1261,10,6.2
-R91,Raiya Village (Shilpan Onex),447,11,6.7
-R91,Raiya Village,348,12,7.2
-R91,Alap Green City,347,13,7.9
-R91,Bapa Sitaram Chowk,265,14,8.3
-R91,Ramdevpir Chowk,209,17,10.3
-R91,Jubeli baug,40,29,15.4
-R91,BajrangWadi circle,398,21,12.15
-R91,Railway Colony,213,22,12.75
-R91,Special School For Boys,373,26,14
-R91,Ruda Office,199,27,14.4
-R91,Dr.Bhimrav ambedkar chock,1427,28,15
-R91,Veer Savarkar Nagar (avadh road),1554,1,0
-R91,Aditya 79 Housing Co. Opearating Service Society,1555,2,1
-R91,Parishram Housing Co. Opearating Service Society,166,3,1.35
-R91,Sanman Party Plot,1557,4,2.45
-R91,150ft ring road Crossing,1558,5,3.65
-R91,Kavikalapi Township/ Aarsh Vidhya Mandir,1559,6,4
-R91,Shital Park (BMTS),1563,18,10.8
-R91,Jay Bhavani Chowk,1564,19,11.45
-R91,Punitnagar (Near Bajrangwadi),542,20,11.9
-R91,Bhomeshwer/ Airport,1566,23,12.95
-R91,Bhomeshvar (madadev temple),1567,24,13.3
-R91,Bhomeshvar,1568,25,13.55
-R92,Trikon baug,1038,21,10.55
-R92,150 feet Jamnagar road crossing,491,1,0
-R92,Manhar Pura (150 feet ring road),1272,6,3.65
-R92,AIIMS Hospital Crossing,1273,5,3.45
-R92,Krishna Bungalows-3 (Sadhuvaswani Kunj Road Crossing),1274,4,3.15
-R92,Astha sangrila,1275,3,2.4
-R92,Mukhyamantri Aavsh Quarter,1276,2,1.3
-R92,Jubeli baug,40,20,10.05
-R92,Vora Society,218,8,5.35
-R92,Satyam Shivam Sundaram,217,9,5.45
-R92,Gayatridham,216,10,5.75
-R92,Wankaner Society,397,11,6.35
-R92,BajrangWadi circle,398,12,6.95
-R92,BajrangWadi,214,13,7.05
-R92,Railway Colony,213,14,7.2
-R92,Bhomeshwer/Airport,212,15,7.5
-R92,Special School For Boys,373,16,8.5
-R92,Ruda Office,199,17,8.9
-R92,Madhapar Chowk (BRTS),1570,7,4.95
-R92,Jamtower Chowk,445,18,9
-R93,Trikon baug,1038,23,10
-R93,Greenland Chowk,56,7,3.15
-R93,Kuwadwa Police Station,1291,2,0.3
-R93,Chandrana Marketing,1292,3,0.8
-R93,Shanti Industrial,1293,4,1
-R93,Shaligram/Khodladham Residency,1294,5,1.8
-R93,Kuvadava Police Chowki,55,6,2.6
-R93,Parevadi Chowk,60,18,8.2
-R93,Kesari Hindpul,61,19,8.6
-R93,I.P.Mission School,38,20,8.9
-R93,Dr.Bhimrav ambedkar Chowk,39,21,9.1
-R93,Jubeli baug,40,22,9.5
-R93,Aryanagar - Pedak road,340,15,6.4
-R93,Satellite Chowk - Marutinagar aproach Road,339,14,6
-R93,Gramudhyog Mandir Pedak,338,13,5.7
-R93,Marketing Yard,248,10,4.45
-R93,Sat hanuman Temple,1573,1,0
-R93,Maldhari Society,1575,8,3.8
-R93,RTO office,1576,9,4.05
-R93,Lakheshwar Society,1577,11,5.15
-R93,Bhagirath Society,1578,12,5.3
-R93,baalak hanuman chock,1580,16,6.7
-R93,Champak Nagar - Pani no Ghodo,342,17,7
-R94,Field Marshal Chowk,148,17,12.5
-R94,New Thorala,503,18,13
-R94,Thorala Police Station,502,19,13.6
-R94,Chunarvad Chowk,332,20,14
-R94,RMC East Zone Office,501,21,14.3
-R94,Manharpura - Bedinaka Fire Station,500,22,14.6
-R94,Jalaram Chowk - Santkabir Road Corner,253,23,14.9
-R94,Patel Vadi,254,24,15.2
-R94,Ranchhod Das Ashram,1109,26,16.4
-R94,Gurudev Park,58,27,16.7
-R94,Marutinagar 50ft Road Chowk,57,28,17.1
-R94,Greenland Chowk,56,29,17.5
-R94,Ajidam,146,15,11.5
-R94,Mansarovar Society,145,14,11.1
-R94,Bhimrav Nagar,144,13,10.8
-R94,Manda Dungar,1151,12,9.7
-R94,Fulwadi,530,11,9.2
-R94,Aarti Industrial Area,141,10,8.7
-R94,Thebachda - Mahika Patiu,140,9,7.7
-R94,Deluxe Cinema Chowk,1128,25,15.7
-R94,Government Polytechnic,147,16,11.8
-R94,Tramba Village,132,1,0
-R94,Bharad Engineering College,133,2,1.4
-R94,R.K. University,134,3,2
-R94,Kalipat,135,4,2.7
-R94,150 feet crossing - bhavnagar road,1586,5,3.3
-R94,Krishna International School,137,6,4.1
-R94,Vithalvav Gaushala,138,7,5.5
-R94,Sant kesar nur Dargah,139,8,6.5
+route,stop_name,seq,distance,stop_id
+R61,Naranka Gram,1,0.0,399
+R61,J K. Industrial Zone,2,4.1,245
+R61,Goldcoin Angel Co.,3,4.7,195
+R61,J D Industrial Area,4,5.2,244
+R61,Steam Power Solar Co.,5,5.9,620
+R61,Khodiyar chowk Lothada,6,6.7,302
+R61,Lothada gam,7,7.2,345
+R61,Vadalia Foods,8,7.5,656
+R61,Mahaavir ind. Area,9,9.3,352
+R61,RTO Khokhadadad,10,9.6,466
+R61,Khokhadadad gam,11,10.7,303
+R61,2nd ring road crossing SARDAR CHOWK,12,11.5,13
+R61,Riverside International School,13,11.9,515
+R61,Iswar residency,14,12.6,243
+R61,Shree Rokadiya Party Lawns,15,13.4,601
+R61,Aadarsh Shivalaya Society,16,15.0,27
+R61,Kothariya Gam,17,15.5,311
+R61,Kotharia Village/Jai Bhawani Chowk,18,15.7,308
+R61,Kotharia Gam Talukashala,19,15.9,307
+R61,Kothariya Housing,20,16.2,313
+R61,Ranuja Temple,21,17.0,505
+R61,Gokul Park,22,17.4,192
+R61,Brahmani Hall,23,17.8,114
+R61,Kothariya Chowk,24,18.0,309
+R61,Hudco Police Chowki,25,18.5,230
+R61,Govindnagar,26,19.0,207
+R61,Ghanshyam Nagar/Nanda Hall,27,19.3,182
+R61,Devpara,28,19.8,140
+R61,Nilkanth Cinema,29,20.0,406
+R61,Suta Hanuman Temple,30,20.4,625
+R61,Sorathiyawadi Circle,31,20.7,616
+R61,Kothariya Colony,32,21.1,310
+R61,Sheth High School,33,21.3,579
+R61,Bhaktinagar Circle,34,21.7,101
+R61,Nagrik bank,35,22.3,394
+R61,Kadvibai School,36,22.7,285
+R61,Aryasamaj,37,23.1,64
+R61,S.T. Bus Stand,38,23.4,520
+R61,Trikon baug,39,24.1,639
+R63,Nagrik bank,21,10.1,394
+R63,Kadvibai School,22,10.5,285
+R63,Aryasamaj,23,10.9,64
+R63,S.T. Bus Stand,24,11.2,520
+R63,Trikon baug,25,11.9,639
+R63,Global Chowk,1,0.0,191
+R63,Tulshi Avenue,2,0.3,645
+R63,Sarvottam Height,3,0.85,549
+R63,Khodiyar Chowk,4,1.6,300
+R63,Bage mahamadpark,5,2.2,82
+R63,Surbhi Possible 2,6,2.45,623
+R63,Radheshyam Gaushala,7,3.3,472
+R63,SGVP Gurukul Chowk,8,3.8,522
+R63,Saswat Heights,9,4.45,551
+R63,Satyam Chowk,10,4.6,557
+R63,Jaybharat Primary School,11,4.95,267
+R63,Punit Nagar,12,5.2,456
+R63,Punit Nagar BRTS bus stop,13,5.5,458
+R63,Rajkamal Petrol Pump,14,6.4,486
+R63,P & T Colony/Gitanagar,15,6.9,414
+R63,S.T. Workshop,16,7.5,521
+R63,Panchsheel Society,17,7.9,422
+R63,Rajeshree Auto,18,8.3,485
+R63,P.D.M. College,19,8.7,415
+R63,Makkam Chowk,20,9.9,360
+R64,Sorathiyawadi Circle,20,9.0,616
+R64,Kothariya Colony,19,8.6,310
+R64,Sheth High School,18,8.4,579
+R64,Bhaktinagar Circle,17,8.0,101
+R64,Makkam Chowk,16,7.3,360
+R64,Rangoli Park/Lakshmino Dholo,1,0.4,503
+R64,Mota Mauva,2,0.9,386
+R64,Everest Park,3,1.3,160
+R64,A.G. Society,4,1.7,15
+R64,Vrundavan Society,5,1.9,692
+R64,Crystal Mall,6,2.2,138
+R64,Atmiya College/Central School,7,2.4,75
+R64,K.K.V hall,8,3.2,283
+R64,Wockhart Hospital,9,3.7,695
+R64,Indubai Mahasatiji Chowk - Kotecha Chowk,10,4.2,239
+R64,Swaminarayan Temple/Mahila College,11,4.6,629
+R64,LIC office,12,5.1,332
+R64,Astron Chowk/Mahavir Chowk,13,5.3,71
+R64,Hemugadhavi Hall,14,5.7,228
+R64,Bhaktinagar Station,15,6.5,102
+R64,Jangalesvara Crossing / Bapunagar,21,9.6,261
+R64,Satyam Park,22,10.0,559
+R64,Aambedkar Nagar,23,10.2,29
+R64,Aji G.I.D.C.,24,10.5,40
+R64,Field Marshal Chowk,25,10.9,161
+R64,New Thorala,26,11.4,405
+R64,Thorala Police Station,27,12.0,636
+R64,Chunarvad Chowk,28,12.4,131
+R64,RMC East Zone Office,29,12.7,463
+R64,Manharpura - Bedinaka Fire Station,30,13.0,368
+R64,Jalaram Chowk - Santkabir Road Corner,31,13.3,255
+R64,Patel Vadi,32,13.6,438
+R64,Ranchhod Das Ashram,33,14.8,502
+R64,Gurudev Park,34,15.1,217
+R64,Marutinagar 50ft Road Chowk,35,15.5,373
+R64,Greenland Chowk,36,15.9,212
+R64,Shivdhara Residency,37,16.6,596
+R64,Jai Jawan Jai kisan Society,38,17.5,252
+R64,Indraprasth Society,39,17.9,237
+R64,Velnathpara Beginning ( Nr. School No. 71 ),40,19.1,674
+R64,Velnathpara ( Street No. 17 ),41,19.6,672
+R64,150 feet Jamnagar road crossing,42,19.8,3
+R64,Bedi village,43,20.6,93
+R64,Bedi marketing yard,44,21.2,92
+R64,Marwadi College,45,23.1,374
+R64,I.O.C.,46,25.5,231
+R64,Gauridad Village,47,26.6,176
+R64,Ratanpar Telephone Exchange,48,27.7,507
+R64,Ratanpar (ramji mandir),49,28.1,506
+R64,Hadala gam patiyu/Darshan eng. Collage,50,30.4,223
+R64,Arpit eng. Collage (Hadala Gam),51,31.2,62
+R64,150 feet road crossing - kalawad road,52,31.2,9
+R65,Kothariya Chowk,36,13.6,309
+R65,Hudco Police Chowki,35,13.1,230
+R65,Govindnagar,34,12.6,207
+R65,Ghanshyam Nagar/Nanda Hall,33,12.3,182
+R65,Devpara,32,11.8,140
+R65,Nilkanth Cinema,31,11.6,406
+R65,Suta Hanuman Temple,30,11.2,625
+R65,Sorathiyawadi Circle,29,10.9,616
+R65,Kothariya Colony,28,10.5,310
+R65,Sheth High School,27,10.3,579
+R65,Bhaktinagar Circle,26,9.9,101
+R65,Aryasamaj,24,8.9,64
+R65,S.T. Bus Stand,23,8.6,520
+R65,Trikon baug,22,7.9,639
+R65,Indubai Mahasatiji Chowk - Kotecha Chowk,14,4.8,239
+R65,Swaminarayan Temple/Mahila College,15,5.2,629
+R65,LIC office,16,5.7,332
+R65,Astron Chowk/Mahavir Chowk,17,5.9,71
+R65,Hemugadhavi Hall,18,6.3,228
+R65,Prajapati Chowk,1,0.0,453
+R65,Oscar Sky Park,2,0.4,413
+R65,Shaheed Sukhdev Township,3,0.75,569
+R65,Golden Heights,4,1.05,196
+R65,Jagrutideep Heights,5,1.3,250
+R65,Sheetal Park,6,1.45,578
+R65,Ramadevpir Chowk (RMTS),7,1.9,492
+R65,Nanavati Chowk (RMTS),8,2.4,397
+R65,Raiya Chowk (RMTS),9,3.0,478
+R65,Brahmasamaj Chowk,10,3.2,115
+R65,Hanuman Madhi,11,3.6,225
+R65,Nirmala Convent School,12,3.9,407
+R65,RMC Fire Brigade,13,4.5,464
+R65,Narsinh Mehta Garden,19,6.7,400
+R65,Ramkrushna Ashram,20,7.0,498
+R65,Malaviya Chowk,21,7.7,361
+R65,Kanta Stri Vikas Gruh,25,9.3,291
+R65,Nadoda Nagar,37,14.4,391
+R65,Radha Mira Industrial Estate,38,14.8,468
+R65,Ramvan Crossing,39,16.2,501
+R65,Aaji 66 kv Station (aaji vasahat road crossing),40,16.3,28
+R65,Aji Vasahat,41,16.5,41
+R65,Ajidam,42,17.5,42
+R65,Mansarovar Society,43,17.8,369
+R65,Bhimrav Nagar,44,18.2,106
+R65,Manda Dungar,45,18.5,365
+R65,Fulwadi,46,19.0,164
+R65,Aarti Industrial Area,47,19.5,32
+R65,Thebachda - Mahika Patiu,48,20.5,635
+R65,Radhika Residency,49,21.2,473
+R65,Sadguru Park,50,21.6,526
+R65,Panchsheel College,51,22.2,421
+R65,Mahika village,52,22.7,358
+R66,Trikon baug,24,8.2,639
+R66,Indubai Mahasatiji Chowk - Kotecha Chowk,16,5.1,239
+R66,Swaminarayan Temple/Mahila College,17,5.6,629
+R66,LIC office,18,6.0,332
+R66,Astron Chowk/Mahavir Chowk,19,6.2,71
+R66,Hemugadhavi Hall,20,6.6,228
+R66,Narsinh Mehta Garden,21,7.0,400
+R66,Ramkrushna Ashram,22,7.3,498
+R66,Malaviya Chowk,23,8.0,361
+R66,Ruda Aavash - Sarita Vihar Society,1,0.0,517
+R66,Sarita Vihar Society,2,0.4,546
+R66,Ruda 2,3,0.7,516
+R66,A.G. Staff Quarter,4,1.0,16
+R66,Prasheel Park,5,1.2,454
+R66,Saurashtra University,6,1.65,565
+R66,Saurashtra University Gate,7,2.05,566
+R66,B.T.Savani (Kidney) Hospital,8,2.4,80
+R66,Shiv Shakti Colony (RMTS),9,2.7,588
+R66,Akashwani Chowk,10,3.0,43
+R66,Jivan Jyot School,11,3.4,271
+R66,Panchayat Nagar Chowk,12,3.7,420
+R66,Zawerchand Medhani Tower,13,3.9,697
+R66,Indira Circle,14,4.2,235
+R66,Sbi Bank Chowk,15,4.6,568
+R68,Kothariya Housing,4,5.0,313
+R68,Ranuja Temple,5,5.8,505
+R68,Gokul Park,6,6.2,192
+R68,Brahmani Hall,7,6.6,114
+R68,Kothariya Chowk,8,6.8,309
+R68,Hudco Police Chowki,9,7.3,230
+R68,Govindnagar,10,7.8,207
+R68,Ghanshyam Nagar/Nanda Hall,11,8.1,182
+R68,Bhaktinagar Circle,17,10.35,101
+R68,Aryasamaj,19,11.35,64
+R68,S.T. Bus Stand,20,11.65,520
+R68,Trikon baug,21,12.35,639
+R68,Kanta Stri Vikas Gruh,18,10.95,291
+R68,Kothariya Solvant fatak,1,0.0,316
+R68,Saibaba Circle,2,3.0,529
+R68,Swati Park,3,4.0,631
+R68,Sahakar Society,12,8.6,528
+R68,Pipaliya hall/Bhakti Hall,13,8.95,445
+R68,Trishul Chowk,14,9.15,643
+R68,Jivraj Hospital,15,9.45,274
+R68,Jalaram Chowk (Gayatrinagar Road),16,9.95,254
+R69,Trikon baug,1,0.0,639
+R69,Indubai Mahasatiji Chowk - Kotecha Chowk,9,4.9,239
+R69,Swaminarayan Temple/Mahila College,8,4.3,629
+R69,LIC office,7,3.8,332
+R69,Astron Chowk/Mahavir Chowk,6,3.6,71
+R69,Hemugadhavi Hall,5,3.2,228
+R69,Nanavati Chowk (RMTS),15,6.9,397
+R69,Raiya Chowk (RMTS),14,6.55,478
+R69,Brahmasamaj Chowk,13,6.2,115
+R69,Hanuman Madhi,12,5.8,225
+R69,Nirmala Convent School,11,5.5,407
+R69,RMC Fire Brigade,10,5.1,464
+R69,Narsinh Mehta Garden,4,2.5,400
+R69,Ramkrushna Ashram,3,2.2,498
+R69,Malaviya Chowk,2,1.0,361
+R69,Shree Dharmeshwar Marg Chowk,16,7.2,598
+R69,Santiniketan Park,17,7.5,536
+R69,Rameshwar Chowk,18,7.8,494
+R69,Vidhutnagar,19,8.3,676
+R69,Kalashdhara Park,20,8.55,286
+R69,Amrut Park Main Road,21,8.65,56
+R69,Ganjanand Chowk,22,8.75,175
+R69,Dream City,23,9.3,154
+R69,Shantinagar,24,9.65,572
+R69,Raiyadhar Slum Quarter,25,9.95,483
+R70,Kothariya Chowk,5,3.6,309
+R70,Hudco Police Chowki,6,4.1,230
+R70,Govindnagar,7,4.6,207
+R70,Ghanshyam Nagar/Nanda Hall,8,4.9,182
+R70,Bhaktinagar Circle,18,8.7,101
+R70,Aryasamaj,20,9.7,64
+R70,S.T. Bus Stand,21,10.0,520
+R70,Trikon baug,22,10.7,639
+R70,Indubai Mahasatiji Chowk - Kotecha Chowk,30,13.8,239
+R70,Swaminarayan Temple/Mahila College,29,13.3,629
+R70,LIC office,28,12.9,332
+R70,Astron Chowk/Mahavir Chowk,27,12.7,71
+R70,Hemugadhavi Hall,26,12.3,228
+R70,Narsinh Mehta Garden,25,11.9,400
+R70,Ramkrushna Ashram,24,11.6,498
+R70,Malaviya Chowk,23,10.9,361
+R70,Kanta Stri Vikas Gruh,19,9.3,291
+R70,Nadoda Nagar,4,2.8,391
+R70,Radha Mira Industrial Estate,3,2.4,468
+R70,Ramvan Crossing,2,1.0,501
+R70,Saurashtra University,40,17.9,565
+R70,Saurashtra University Gate,39,16.8,566
+R70,B.T.Savani (Kidney) Hospital,38,16.5,80
+R70,Shiv Shakti Colony (RMTS),37,16.2,588
+R70,Akashwani Chowk,36,15.9,43
+R70,Jivan Jyot School,35,15.5,271
+R70,Zawerchand Medhani Tower,33,15.0,697
+R70,Indira Circle,32,14.7,235
+R70,Sbi Bank Chowk,31,14.3,568
+R70,Pipaliya hall/Bhakti Hall,14,7.3,445
+R70,Jivraj Hospital,16,7.8,274
+R70,Jalaram Chowk (Gayatrinagar Road),17,8.3,254
+R70,Ramvan,1,0.0,500
+R70,New Subhasnagar,9,5.4,404
+R70,Patel Chowk,10,5.7,437
+R70,Shyam Hall,11,6.0,607
+R70,Ahir Chowk,12,6.5,39
+R70,Babariya Colony,13,6.8,81
+R70,Trishul Chowk (Pipaliya Hall),15,7.5,644
+R70,Panchayat Chowk,34,15.2,419
+R70,somesvasr mahadev munjka gam,41,19.1,722
+R70,new Munjka,42,19.4,709
+R70,Shree city (Munjka gam),43,20.1,603
+R70,C.M. Avash  (Munjka),44,21.0,117
+R70,Rayagam Crossing,45,22.6,510
+R70,Light House Crossing,46,22.9,342
+R70,Atal Sarovar Entrance Gate,47,24.1,74
+R70,G-road crossing,48,25.1,165
+R70,Chandra Dileswar Mahadev Road,49,25.3,122
+R70,Ghanteshvar S.R.P. Camp (Main Gate),50,25.9,186
+R70,Astha Residency,51,26.1,69
+R70,Green Leaf Club,52,26.8,210
+R70,Silver velly/ ratnam Skay,53,27.2,608
+R70,Parapipaliya patiya,54,27.4,428
+R71,Kothariya Gam,38,14.2,311
+R71,Kotharia Village/Jai Bhawani Chowk,37,14.0,308
+R71,Kotharia Gam Talukashala,36,13.8,307
+R71,Kothariya Housing,35,13.5,313
+R71,Ranuja Temple,34,13.2,505
+R71,Gokul Park,33,13.0,192
+R71,Brahmani Hall,32,12.2,114
+R71,Kothariya Chowk,31,11.8,309
+R71,Hudco Police Chowki,30,11.4,230
+R71,Govindnagar,29,11.2,207
+R71,Ghanshyam Nagar/Nanda Hall,28,10.7,182
+R71,P.D.M. College,23,9.0,415
+R71,Sahakar Society,27,10.2,528
+R71,Pipaliya hall/Bhakti Hall,26,10.0,445
+R71,Trishul Chowk (Pipaliya Hall),25,9.8,644
+R71,Government Engineering College,1,0.0,204
+R71,Labhubhai eng. Collage,2,0.5,333
+R71,Parsana Chowk,3,2.6,433
+R71,Veer Hanumant Township,4,2.8,670
+R71,Shree Ram Township,5,3.3,599
+R71,Speedwell Party plot,6,3.75,619
+R71,Copper Elegance,7,4.15,133
+R71,Mavdi Police Head quarter,8,4.5,379
+R71,Copper Sand,9,4.8,134
+R71,Vasant Vatika,10,5.1,664
+R71,Hemadri,11,5.45,227
+R71,Shivam park / khodal chowk,12,5.75,595
+R71,Sorathiya park,13,6.15,615
+R71,Bapa Sitaram Chowk Crossing,14,6.5,91
+R71,Jitariya Hanuman Temple,15,6.7,270
+R71,Mavdi Chokdi (RMTS),16,7.0,376
+R71,Fuliya Hanuman Temple,17,7.3,162
+R71,Mavdi Fire Station,18,7.6,377
+R71,Anand Bunglow Chowk,19,8.0,59
+R71,Sarojeeni Nayadu School (Ambaji Kadva Plot),20,8.2,547
+R71,Swaminarayan Chowk,21,8.4,628
+R71,Ambaji Kadva Plot,22,8.7,51
+R71,P.D.M. Fatak,24,9.2,416
+R72,Greenland Chowk,41,22.0,212
+R72,Shivdhara Residency,40,21.6,596
+R72,Jai Jawan Jai kisan Society,39,20.6,252
+R72,Indraprasth Society,38,20.2,237
+R72,Velnathpara Beginning ( Nr. School No. 71 ),37,19.6,674
+R72,Velnathpara ( Street No. 17 ),36,18.7,672
+R72,150 feet Jamnagar road crossing,35,18.3,3
+R72,Raiya Chowk (RMTS),24,10.0,478
+R72,Ruda Aavash - Sarita Vihar Society,10,4.95,517
+R72,Ruda 2,12,5.7,516
+R72,A.G. Staff Quarter,13,5.9,16
+R72,Prasheel Park,14,6.1,454
+R72,B.T.Savani (Kidney) Hospital,17,6.8,80
+R72,Patel Chowk,8,4.45,437
+R72,Government Engineering College,1,0.0,204
+R72,Labhubhai eng. Collage,2,0.7,333
+R72,Buddha Vihar,3,2.1,116
+R72,Gujrat Houseing Board - aavas yojna (Rangoli park),4,3.3,214
+R72,Sunsine Group Of Institute,5,3.6,622
+R72,2nd ring road crossing,6,3.9,12
+R72,Masoom School Mota Mauva,7,4.25,375
+R72,Dharamshi Korat Chowk,9,4.7,141
+R72,Sarita Vihar,11,5.45,545
+R72,ITI (Disable),15,6.4,233
+R72,Mahila ITI,16,6.6,359
+R72,Shilpan Nova,18,7.2,580
+R72,Radhe Park/Gangotri Park,19,7.45,471
+R72,Raiya Village (Shilpan Onex),20,7.7,482
+R72,Raiya Village,21,8.2,481
+R72,Alap Green City,22,8.9,47
+R72,Bapa Sitaram Chowk,23,9.3,90
+R72,Nanavati Chowk,25,10.4,396
+R72,Ramdevpir Chowk,26,11.0,493
+R72,Shital Park,27,11.5,581
+R72,Ayodhya Chowk,28,12.3,77
+R72,Madhapar Chowk,29,13.05,346
+R72,Manhar Pura (150 feet ring road),30,14.65,366
+R72,AIIMS Hospital Crossing,31,14.85,23
+R72,Krishna Bungalows-3 (Sadhuvaswani Kunj Road Crossing),32,15.15,321
+R72,Astha sangrila,33,15.9,70
+R72,Mukhyamantri Aavsh Quarter,34,17.0,387
+R73,Trikon baug,27,20.25,639
+R73,Ranchhod Das Ashram,21,17.55,502
+R73,Gurudev Park,20,17.25,217
+R73,Marutinagar 50ft Road Chowk,19,16.85,373
+R73,Greenland Chowk,18,16.45,212
+R73,Shreenathji Industries Plot No.155,1,0.0,605
+R73,Sarathi chemical Plot No.11,2,0.6,540
+R73,Kuwadwa GIDC,3,1.05,328
+R73,Kuwadwagam,4,2.55,330
+R73,Vankaner Chowkdi,5,3.25,663
+R73,Krishna Waterpark,6,5.25,324
+R73,Agricultural Science Centre/Targhdi,7,6.85,38
+R73,Trimandir,8,7.35,640
+R73,Malyasan,9,10.55,364
+R73,150 feet Ring Road (Bedi Bypass),10,11.45,4
+R73,Satahnuman Temple,12,13.25,553
+R73,Kuwadwa Police Station,13,13.55,329
+R73,Chandrana Marketing,14,14.05,124
+R73,Shanti Industrial,15,14.25,571
+R73,Shaligram/Khodladham Residency,16,15.05,570
+R73,Kuvadava Police Chowki,17,15.85,327
+R73,Parevadi Chowk,22,18.45,430
+R73,Kesari Hindpul,23,18.85,293
+R73,I.P.Mission School,24,19.15,232
+R73,Dr.Bhimrav ambedkar Chowk,25,19.35,150
+R73,Jubeli baug,26,19.75,277
+R74,Nagrik bank,21,8.3,394
+R74,Kadvibai School,22,8.7,285
+R74,Aryasamaj,23,9.0,64
+R74,S.T. Bus Stand,24,9.4,520
+R74,Trikon baug,25,10.1,639
+R74,Rajkamal Petrol Pump,12,4.6,486
+R74,P & T Colony/Gitanagar,13,5.1,414
+R74,S.T. Workshop,14,5.7,521
+R74,Panchsheel Society,15,6.1,422
+R74,P.D.M. College,17,6.9,415
+R74,Saibaba Circle,7,2.05,529
+R74,Kothariya Solavant fatak,1,0.0,314
+R74,Krishna motar,2,0.3,325
+R74,Somnath main Road / gulabnagar nalu,3,0.9,613
+R74,Khodiyar chowk,4,1.2,301
+R74,shandar residency,5,1.5,716
+R74,Shivam fual (Bharat Petrol pump),6,1.8,593
+R74,gulabnagar,8,2.4,701
+R74,Balaji steel,9,2.8,87
+R74,Maldhari railway fatak,10,3.4,363
+R74,Gondal Chowk (RMTS),11,3.9,198
+R74,Doshi Hospital- Shivnagar,16,6.5,145
+R74,Jasani School,18,7.2,262
+R74,Gopalnagar Choro,19,7.5,200
+R74,Gurukul,20,7.8,219
+R75,Nagrik bank,19,6.4,394
+R75,Kadvibai School,18,6.0,285
+R75,Aryasamaj,17,5.6,64
+R75,S.T. Bus Stand,16,5.3,520
+R75,Trikon baug,15,4.6,639
+R75,P.D.M. College,21,7.8,415
+R75,Makkam Chowk,20,6.6,360
+R75,Ranchhod Das Ashram,9,1.9,502
+R75,Gurudev Park,8,1.6,217
+R75,Parevadi Chowk,10,2.8,430
+R75,Kesari Hindpul,11,3.2,293
+R75,I.P.Mission School,12,3.5,232
+R75,Dr.Bhimrav ambedkar Chowk,13,3.7,150
+R75,Jubeli baug,14,4.1,277
+R75,Indraprasth Society /Morby Road crossing,1,0.0,238
+R75,Sardar Avenue,2,0.2,541
+R75,JIVRAJPARK-1 STREET NO. 1,3,0.4,246
+R75,Krishna park,4,0.7,326
+R75,Shree Yadunandan Chowk,5,0.9,602
+R75,Somnath Real Home Society,6,1.1,612
+R75,Naathdwara Park,7,1.4,390
+R75,Panchshil Society Community Hall,24,8.7,424
+R75,samrat industries main road crossing,25,8.9,715
+R75,samrat industrial Street 1,26,9.1,713
+R75,samrat industrial Street 10,27,9.3,714
+R75,Vir narmad township,28,9.6,679
+R75,Rajkot Postal Colony Sub Post Office,29,9.8,489
+R75,matru darshan School,30,10.1,708
+R76,Kothariya Gam,42,19.05,311
+R76,Kotharia Village/Jai Bhawani Chowk,41,18.85,308
+R76,Kotharia Gam Talukashala,40,18.55,307
+R76,Kothariya Housing,39,18.25,313
+R76,Ranuja Temple,38,17.45,505
+R76,Gokul Park,37,17.05,192
+R76,Brahmani Hall,36,16.65,114
+R76,Kothariya Chowk,35,16.45,309
+R76,Hudco Police Chowki,34,15.95,230
+R76,Govindnagar,33,15.45,207
+R76,Ghanshyam Nagar/Nanda Hall,32,15.15,182
+R76,Devpara,31,14.65,140
+R76,Nilkanth Cinema,30,14.45,406
+R76,Suta Hanuman Temple,29,14.05,625
+R76,Sorathiyawadi Circle,28,13.65,616
+R76,Jangalesvara Crossing / Bapunagar,27,13.05,261
+R76,Satyam Park,26,12.65,559
+R76,Aambedkar Nagar,25,12.45,29
+R76,Aji G.I.D.C.,24,12.15,40
+R76,Field Marshal Chowk,23,11.75,161
+R76,New Thorala,22,11.25,405
+R76,Thorala Police Station,21,10.65,636
+R76,Chunarvad Chowk,20,10.25,131
+R76,RMC East Zone Office,19,9.95,463
+R76,Manharpura - Bedinaka Fire Station,18,9.65,368
+R76,Jalaram Chowk - Santkabir Road Corner,17,9.35,255
+R76,Patel Vadi,16,9.05,438
+R76,Ranchhod Das Ashram,14,7.85,502
+R76,Gurudev Park,13,7.55,217
+R76,Jai Jawan Jai kisan Society,8,5.6,252
+R76,Indraprasth Society,7,5.2,237
+R76,150 feet Jamnagar road crossing,4,3.3,3
+R76,Bedi village,3,2.5,93
+R76,Bedi marketing yard,2,1.9,92
+R76,Marwadi College,1,0.0,374
+R76,Shree Yadunandan Chowk,10,6.5,602
+R76,Somnath Real Home Society,11,6.85,612
+R76,Naathdwara Park,12,7.15,390
+R76,Velnathpara (Street No.17),5,3.5,673
+R76,Velnathpara Beginning (Nr. School No.71),6,4.0,675
+R76,K. K.dholkiya school,9,6.15,282
+R76,Deluxe Cinema Chowk,15,8.55,139
+R77,Gondal Chowk (RMTS),15,14.8,198
+R77,Ribda Railway Station,1,0.0,512
+R77,Ribda chowkdi,2,1.9,513
+R77,SGVP School,3,2.5,523
+R77,shantidham,4,3.7,717
+R77,Ganga Gate,5,4.7,174
+R77,Shapar Veraval,6,5.2,574
+R77,Marutinagar (Sarvoday Housing Society),7,6.2,372
+R77,Shitalamajaji Temple,8,7.0,585
+R77,Pardi Village,9,8.0,429
+R77,Korat Chowk,10,9.4,306
+R77,Astha Green City,11,9.9,68
+R77,Khokhaldad,12,10.5,304
+R77,AV Jasani TB Hospital,13,11.7,26
+R77,Kothariya Solvant,14,12.8,315
+R79,Rangoli Park/Lakshmino Dholo,8,3.1,503
+R79,Mota Mauva,7,2.6,386
+R79,Everest Park,6,2.2,160
+R79,A.G. Society,5,1.8,15
+R79,Vrundavan Society,4,1.6,692
+R79,Crystal Mall,3,1.1,138
+R79,Atmiya College/Central School,2,0.8,75
+R79,K.K.V hall,1,0.0,283
+R79,150 feet road crossing - kalawad road,9,3.5,9
+R79,Cosmoplex Cinema,10,4.2,135
+R79,Kankot - Kalawad Road,11,4.7,289
+R79,Vruksh mandir,12,5.0,689
+R79,Uma P.T.C. College,13,5.6,650
+R79,Haripar Village,14,6.8,226
+R79,V.V.P. Engineering College,15,7.0,655
+R79,Virda Vajadi Village,16,7.6,681
+R79,Vagudad Village,17,8.7,659
+R79,Vadvajadi Village,18,9.6,657
+R79,G.I.D.C. Gate 1,19,10.5,166
+R79,G.I.D.C. Gate 2,20,11.1,167
+R79,G.I.D.C. Gate 3,21,11.8,168
+R80,Trikon baug,37,24.45,639
+R80,Ranchhod Das Ashram,43,26.85,502
+R80,Gurudev Park,44,27.15,217
+R80,Marutinagar 50ft Road Chowk,45,27.55,373
+R80,Greenland Chowk,46,27.95,212
+R80,150 feet road crossing - kalawad road,16,11.0,9
+R80,Raiya Chowk (RMTS),26,19.65,478
+R80,Brahmasamaj Chowk,27,19.95,115
+R80,Hanuman Madhi,28,20.25,225
+R80,Ramkrushna Ashram,35,23.45,498
+R80,Malaviya Chowk,36,23.75,361
+R80,C.M. Avash  (Munjka),17,13.8,117
+R80,Raiya Village,23,17.85,481
+R80,Alap Green City,24,18.55,47
+R80,Bapa Sitaram Chowk,25,18.95,90
+R80,Parevadi Chowk,42,25.95,430
+R80,Kesari Hindpul,41,25.55,293
+R80,I.P.Mission School,40,25.25,232
+R80,Dr.Bhimrav ambedkar Chowk,39,25.05,150
+R80,Jubeli baug,38,24.65,277
+R80,Cosmoplex Cinema,15,10.3,135
+R80,Kankot - Kalawad Road,14,9.8,289
+R80,Vruksh mandir,13,9.5,689
+R80,Uma P.T.C. College,12,8.9,650
+R80,Haripar Village,11,7.7,226
+R80,V.V.P. Engineering College,10,7.5,655
+R80,Virda Vajadi Village,9,6.9,681
+R80,Vagudad Village,8,5.8,659
+R80,Vadvajadi Village,7,4.8,657
+R80,G.I.D.C. Gate 1,6,3.9,166
+R80,G.I.D.C. Gate 2,5,3.3,167
+R80,G.I.D.C. Gate 3,4,2.6,168
+R80,ITI (Khirasara),1,0.0,234
+R80,Khirasara Gam Chowkdi,2,0.3,297
+R80,Metoda crossing,3,1.6,383
+R80,150 feet Ring Road (Raiya Road Crossing),18,15.4,5
+R80,Light House (Raiya) BRTS,19,16.2,341
+R80,Drainage pumping Station (Raiya),20,16.95,153
+R80,Raya Mukti Dham,21,17.25,509
+R80,Pam. Universe Crossing,22,17.55,418
+R80,Alkapuri,29,20.55,50
+R80,Azad Chowk,30,20.85,78
+R80,Kishanpara Chowk,31,21.65,305
+R80,Jilla Panchayat Chowk,32,22.45,269
+R80,Jagnath Temple,33,22.75,248
+R80,Dharmendrasinhji College,34,23.15,142
+R81,S.T. Bus Stand,23,14.05,520
+R81,Trikon baug,22,13.35,639
+R81,New Thorala,29,17.4,405
+R81,Thorala Police Station,28,16.95,636
+R81,Chunarvad Chowk,27,16.45,131
+R81,Sheetal Park,9,8.05,578
+R81,Nanavati Chowk (RMTS),11,9.15,397
+R81,Raiya Chowk (RMTS),12,9.75,478
+R81,Brahmasamaj Chowk,13,9.95,115
+R81,Hanuman Madhi,14,10.35,225
+R81,Ajidam,31,19.2,42
+R81,Mansarovar Society,32,19.6,369
+R81,Bhimrav Nagar,33,19.9,106
+R81,Ramdevpir Chowk,10,8.55,493
+R81,Ayodhya Chowk,8,7.25,77
+R81,Alkapuri,15,10.65,50
+R81,Azad Chowk,16,11.05,78
+R81,Kishanpara Chowk,17,11.75,305
+R81,Jilla Panchayat Chowk,18,12.05,269
+R81,AIIMS Hospital,1,0.0,21
+R81,AIIMS Hospital Gate,2,0.6,24
+R81,AIIMS Hospital Circle,3,2.5,22
+R81,madhapar gam road crossing,4,4.5,707
+R81,Madhapar Gaam Gate,5,5.7,350
+R81,Madhapar Gaam,6,6.1,349
+R81,Madhapar Chowk (RMTS),7,6.5,348
+R81,Fullchhab Chowk,19,12.35,163
+R81,Chitralekha Chowk,20,12.75,130
+R81,Limda Chowk,21,12.95,343
+R81,Gundawadi Police Chowki,24,14.85,216
+R81,Jilla Garden Chowk,25,15.35,268
+R81,Ramnath Para (B-Division Police Station),26,15.65,499
+R81,Government Polytechnic,30,18.8,205
+R81,Somanath Society main road,34,21.0,611
+R81,Axar city,35,21.3,76
+R81,Maruti travels,36,21.65,371
+R81,rampark street no.1,37,21.85,711
+R81,AG park,38,22.25,17
+R81,parshuram indu. street no.3,39,22.55,710
+R81,gokulpark,40,22.75,700
+R81,sadbhavana complex,41,23.15,712
+R81,Swaminarayan vidhyalay,42,23.45,630
+R82,Bhaktinagar Circle,27,14.3,101
+R82,Aryasamaj,25,13.3,64
+R82,S.T. Bus Stand,24,13.0,520
+R82,Trikon baug,23,12.3,639
+R82,Kanta Stri Vikas Gruh,26,13.7,291
+R82,Jubeli baug,22,11.8,277
+R82,madhapar gam road crossing,4,4.5,707
+R82,Madhapar Gaam Gate,5,5.7,350
+R82,Madhapar Gaam,6,6.1,349
+R82,Madhapar Chowk (RMTS),7,6.5,348
+R82,AIIM Hospital,1,0.0,18
+R82,AIIM Hospital Gate,2,0.6,20
+R82,AIIM Hospital Circle,3,2.5,19
+R82,Vora Society,8,6.9,687
+R82,Satyam Shivam Sundaram,9,7.1,561
+R82,Gayatridham,10,7.3,179
+R82,Wankaner Society,11,7.8,693
+R82,Wankaner Society Corner,12,8.0,694
+R82,BajrangWadi circle,13,8.3,85
+R82,BajrangWadi,14,8.7,84
+R82,Railway Colony,15,8.8,477
+R82,Bhomeshwer/Airport,16,9.0,112
+R82,Jagruti Shramjivi Society,17,9.35,249
+R82,Bhomeshwer,18,9.65,110
+R82,Special School For Boys,19,10.1,618
+R82,Ruda Office,20,10.5,518
+R82,Dr.Bhimrav ambedkar chock,21,11.4,151
+R83,Ranchhod Das Ashram,22,11.7,502
+R83,Gurudev Park,23,12.0,217
+R83,Marutinagar 50ft Road Chowk,24,12.4,373
+R83,Greenland Chowk,25,12.8,212
+R83,Shivdhara Residency,26,13.5,596
+R83,Radhe Park/Gangotri Park,9,6.8,471
+R83,Parevadi Chowk,21,10.8,430
+R83,Kesari Hindpul,20,10.4,293
+R83,madhapar gam road crossing,4,3.6,707
+R83,AIIM Hospital,1,0.0,18
+R83,AIIM Hospital Gate,2,0.6,20
+R83,AIIM Hospital Circle,3,2.5,19
+R83,Dr.Bhimrav ambedkar chock,19,10.1,151
+R83,150 fit ring road crossing (Aims road),5,5.0,10
+R83,sundaram city,6,5.35,723
+R83,Santoshinagar Railway Crossing,7,6.0,539
+R83,Santoshinagar,8,6.4,538
+R83,Railnagar,10,7.1,476
+R83,Aastha Resi./Rameshwer Park,11,7.4,33
+R83,Central Ware House,12,7.6,120
+R83,Popatpara,13,8.2,447
+R83,Popatpara Post Office,14,8.4,449
+R83,Popatpara Central Jail,15,8.7,448
+R83,Junction police choki,16,9.2,281
+R83,Junction Railway police station,17,9.5,280
+R83,Kothi compound,18,9.9,317
+R84,Kothariya Gam,51,28.75,311
+R84,Kotharia Village/Jai Bhawani Chowk,50,28.55,308
+R84,Kotharia Gam Talukashala,49,28.25,307
+R84,Kothariya Housing,48,27.95,313
+R84,Ranuja Temple,47,27.15,505
+R84,Gokul Park,46,26.75,192
+R84,Brahmani Hall,45,26.35,114
+R84,Kothariya Chowk,44,26.15,309
+R84,Hudco Police Chowki,43,25.65,230
+R84,Govindnagar,42,25.15,207
+R84,Ghanshyam Nagar/Nanda Hall,41,24.85,182
+R84,Devpara,40,24.35,140
+R84,Nilkanth Cinema,39,24.15,406
+R84,Suta Hanuman Temple,38,23.75,625
+R84,Sorathiyawadi Circle,37,23.45,616
+R84,Kothariya Colony,36,23.05,310
+R84,Sheth High School,35,22.85,579
+R84,Bhaktinagar Circle,34,22.45,101
+R84,Makkam Chowk,33,21.75,360
+R84,Rangoli Park/Lakshmino Dholo,15,14.8,503
+R84,Mota Mauva,16,15.3,386
+R84,Everest Park,17,15.7,160
+R84,A.G. Society,18,16.1,15
+R84,Vrundavan Society,19,16.3,692
+R84,Crystal Mall,20,16.6,138
+R84,Atmiya College/Central School,21,16.9,75
+R84,Bhaktinagar Station,32,20.95,102
+R84,150 feet road crossing - kalawad road,14,14.4,9
+R84,C.M. Avash  (Munjka),13,11.4,117
+R84,Rayagam Crossing,12,9.8,510
+R84,Light House Crossing,11,9.5,342
+R84,Atal Sarovar Entrance Gate,10,8.3,74
+R84,G-road crossing,9,7.3,165
+R84,Chandra Dileswar Mahadev Road,8,7.1,122
+R84,Ghanteshvar S.R.P. Camp (Main Gate),7,6.5,186
+R84,Astha Residency,6,6.3,69
+R84,Parapipaliya Gaam,1,0.0,426
+R84,Parapipaliya Gaam,3,4.6,426
+R84,Nyara Gam Chokdi,2,3.1,408
+R84,Ghanteshwar SRP Camp Road Crossing,4,5.2,189
+R84,Ratnam Residency,5,5.6,508
+R84,Swati Soc.,22,17.1,632
+R84,Satysai Hospital,23,17.3,563
+R84,Alap Heritage,24,17.7,48
+R84,Phulvadi Park,25,17.9,444
+R84,Satyasai Road Crossing,26,18.1,562
+R84,Nana Mava Chowk (RMTS),27,18.5,395
+R84,Grand Central Mall,28,18.9,209
+R84,Suryamukhi Hanuman Chowk,29,19.35,624
+R84,PGVCL Region office,30,19.65,417
+R84,CDS BIPIN RAVAT UNDER BRIDGE,31,20.05,119
+R85,Ranchhod Das Ashram,28,13.8,502
+R85,Raiya Chowk (RMTS),13,5.1,478
+R85,Brahmasamaj Chowk,14,5.4,115
+R85,Hanuman Madhi,15,5.7,225
+R85,Saurashtra University,1,0.0,565
+R85,Saurashtra University Gate,2,1.1,566
+R85,Shiv Shakti Colony (RMTS),4,1.7,588
+R85,Akashwani Chowk,5,2.0,43
+R85,Jivan Jyot School,6,2.4,271
+R85,Alap Green City,11,4.0,47
+R85,Bapa Sitaram Chowk,12,4.4,90
+R85,Parevadi Chowk,27,12.9,430
+R85,Kesari Hindpul,26,12.5,293
+R85,I.P.Mission School,25,12.2,232
+R85,Dr.Bhimrav ambedkar Chowk,24,12.0,150
+R85,Alkapuri,16,6.0,50
+R85,Azad Chowk,17,6.3,78
+R85,Kishanpara Chowk,18,7.1,305
+R85,Jilla Panchayat Chowk,19,7.4,269
+R85,B T Savani hospital,3,1.4,79
+R85,Sadhuvasvani School,7,2.8,527
+R85,Janakpuri - Ajanta Park,8,3.2,259
+R85,BalajiPark/Satelite Park,9,3.6,88
+R85,Guruji Aavas Yojna,10,3.8,218
+R85,Bahumadi bhavan,20,7.9,83
+R85,Shardabaug,21,8.1,576
+R85,Chaudhary High School,22,8.4,127
+R85,Pandit dindayaal Civil Hospital,23,11.9,425
+R85,Balak Hanuman Chowk,29,14.3,89
+R85,Aryanagar - Pedak road,30,14.6,63
+R85,Satellite Chowk - Marutinagar aproach Road,31,15.0,555
+R85,Gramudhyog Mandir Pedak,32,15.4,208
+R85,Lakheshwar Society - R.T.O. Office,33,15.8,335
+R85,Bhagirath Society - Marketing Yard,34,16.1,98
+R85,Marketing Yard,35,16.5,370
+R85,Pradhyuman Park,36,17.2,452
+R86,Sorathiyawadi Circle,14,6.05,616
+R86,Kothariya Colony,15,6.45,310
+R86,Sheth High School,16,6.65,579
+R86,Bhaktinagar Circle,17,7.05,101
+R86,Rajkamal Petrol Pump,27,12.2,486
+R86,P & T Colony/Gitanagar,26,10.4,414
+R86,S.T. Workshop,25,9.85,521
+R86,Panchsheel Society,24,9.4,422
+R86,P.D.M. College,22,8.75,415
+R86,Jangalesvara Crossing / Bapunagar,13,5.45,261
+R86,Chunarvad Chowk,10,3.5,131
+R86,RMC East Zone Office,9,3.2,463
+R86,Manharpura - Bedinaka Fire Station,8,2.9,368
+R86,Jalaram Chowk - Santkabir Road Corner,7,2.6,255
+R86,Jasani School,21,8.45,262
+R86,Gopalnagar Choro,20,8.15,200
+R86,Gurukul,19,7.85,219
+R86,Jilla Garden Chowk,12,4.6,268
+R86,Ramnath Para (B-Division Police Station),11,4.3,499
+R86,Marketing Yard,2,0.7,370
+R86,Pradhyuman Park,1,0.0,452
+R86,Dudheshvar Mahadev,3,1.1,157
+R86,Gadhiyanagar,4,1.5,171
+R86,Govind Baug,5,1.9,206
+R86,Sardar Vallabhbhai Vidhyalay,6,2.1,544
+R86,Nagarik Bank,18,7.35,392
+R86,Doshi Hospital-Shivnagar,23,9.15,146
+R86,Gondal Chowkdi,28,12.8,199
+R87,Punit Nagar BRTS bus stop,25,20.2,458
+R87,Rangoli Park/Lakshmino Dholo,2,5.75,503
+R87,Mota Mauva,3,6.25,386
+R87,Everest Park,4,6.65,160
+R87,Jitariya Hanuman Temple,20,11.7,270
+R87,Mavdi Chokdi (RMTS),21,12.0,376
+R87,Bapa Sitaram Chowk,19,11.4,90
+R87,Gondal Chowkdi,26,20.8,199
+R87,150 feet kalawad road (katariya Chowkdi),1,5.35,8
+R87,Vambay Aavash Yojana crossing,5,7.0,662
+R87,Bhimrav Nagar/Om Residency,6,7.2,107
+R87,Govani Hostel,7,7.4,201
+R87,Laxman Township,9,8.1,339
+R87,Court yard,10,8.6,136
+R87,kasturi recidency,11,9.2,704
+R87,Trishul Chawk (Mavdi),12,9.5,641
+R87,Dream city,13,9.8,156
+R87,krushna Township,14,10.0,705
+R87,Mavdi Gam,15,10.4,378
+R87,Sanskar City,16,10.8,533
+R87,Radha krushn Chowk,17,11.0,470
+R87,Sorthiya Parivar wadi,18,11.2,617
+R87,Umiya Chowk (BRTS),22,15.0,652
+R87,Ambedkar Nagar RMTS,23,17.3,52
+R87,Goverdhan Chowk (RMTS),24,19.0,203
+R88,Punit Nagar BRTS bus stop,50,30.95,458
+R88,Everest Park,34,24.85,160
+R88,A.G. Society,33,24.45,15
+R88,150 feet Jamnagar road crossing,10,11.4,3
+R88,Bedi village,9,10.6,93
+R88,Bedi marketing yard,8,10.0,92
+R88,Marwadi College,7,8.1,374
+R88,I.O.C.,6,5.7,231
+R88,Gauridad Village,5,4.6,176
+R88,Ratanpar Telephone Exchange,4,3.5,507
+R88,Ratanpar (ramji mandir),3,3.1,506
+R88,Hadala gam patiyu/Darshan eng. Collage,2,0.8,223
+R88,Sheetal Park,18,18.2,578
+R88,Ramadevpir Chowk (RMTS),19,18.7,492
+R88,Nanavati Chowk (RMTS),20,19.3,397
+R88,Raiya Chowk (RMTS),21,19.7,478
+R88,Shiv Shakti Colony (RMTS),30,23.1,588
+R88,Akashwani Chowk,29,22.8,43
+R88,Jivan Jyot School,28,22.4,271
+R88,Speedwell Party plot,38,26.0,619
+R88,Alap Green City,23,20.8,47
+R88,Bapa Sitaram Chowk,22,20.4,90
+R88,Ayodhya Chowk,17,17.4,77
+R88,Madhapar Chowk,16,16.65,346
+R88,Manhar Pura (150 feet ring road),15,15.05,366
+R88,AIIMS Hospital Crossing,14,14.85,23
+R88,Krishna Bungalows-3 (Sadhuvaswani Kunj Road Crossing),13,14.55,321
+R88,Astha sangrila,12,13.8,70
+R88,Mukhyamantri Aavsh Quarter,11,12.7,387
+R88,Gondal Chowk (RMTS),51,31.55,198
+R88,Sadhuvasvani School,27,22.0,527
+R88,Janakpuri - Ajanta Park,26,21.6,259
+R88,BalajiPark/Satelite Park,25,21.2,88
+R88,Guruji Aavas Yojna,24,21.0,218
+R88,Vambay Aavash Yojana crossing,35,25.2,662
+R88,Bhimrav Nagar/Om Residency,36,25.4,107
+R88,Govani Hostel,37,25.6,201
+R88,Court yard,40,27.1,136
+R88,Arpit eng. Collage,1,0.0,61
+R88,Pushkardham,31,23.65,460
+R88,Rular Housing,32,24.05,519
+R88,Dwarkadhish chowk,39,26.5,158
+R88,Vithalbhai radaDiya Chowk,41,27.6,684
+R88,shyamal Upavan,42,27.9,720
+R88,Vagal Chowk,43,28.45,658
+R88,Pavitram Heights,44,28.85,443
+R88,Sarvodaya School,45,29.05,548
+R88,Udgam School,46,29.65,648
+R88,Khodal Chowk,47,29.9,298
+R88,Sardar Park,48,30.25,543
+R88,Puneetnagar Main Road,49,30.65,455
+R89,Trikon baug,30,10.5,639
+R89,Indubai Mahasatiji Chowk - Kotecha Chowk,22,7.4,239
+R89,Swaminarayan Temple/Mahila College,23,7.8,629
+R89,LIC office,24,8.3,332
+R89,Astron Chowk/Mahavir Chowk,25,8.5,71
+R89,Hemugadhavi Hall,26,8.9,228
+R89,Narsinh Mehta Garden,27,9.3,400
+R89,Ramkrushna Ashram,28,9.6,498
+R89,Malaviya Chowk,29,10.3,361
+R89,Jitariya Hanuman Temple,12,4.0,270
+R89,Mavdi Chokdi (RMTS),13,4.2,376
+R89,Fuliya Hanuman Temple,14,4.8,162
+R89,Mavdi Fire Station,15,5.1,377
+R89,Bapa Sitaram Chowk,11,3.6,90
+R89,Suryamukhi Hanuman Chowk,18,6.0,624
+R89,Dream city,5,1.9,156
+R89,krushna Township,6,2.2,705
+R89,Mavdi Gam,7,2.6,378
+R89,Sanskar City,8,3.0,533
+R89,Radha krushn Chowk,9,3.2,470
+R89,Sorthiya Parivar wadi,10,3.4,617
+R89,Vitthalbhai Raddia Chowk,1,0.0,686
+R89,shyamal upvan,2,0.35,721
+R89,AKSHAR PARISHAR,3,0.7,25
+R89,SHIV TOWNSHIP,4,1.3,524
+R89,Mayani Chowk,16,5.4,380
+R89,Madhunagar/Rajnagar Society,17,5.7,351
+R89,Astron Society,19,6.7,72
+R89,Hinglajnagar (bharvad Chowk),20,6.9,229
+R89,Saurashtra High School,21,7.1,564
+R90,Trikon baug,31,12.0,639
+R90,Everest Park,16,5.7,160
+R90,A.G. Society,17,6.1,15
+R90,Vrundavan Society,18,6.3,692
+R90,Crystal Mall,19,6.8,138
+R90,Atmiya College/Central School,20,7.1,75
+R90,K.K.V hall,21,7.9,283
+R90,Wockhart Hospital,22,8.4,695
+R90,Indubai Mahasatiji Chowk - Kotecha Chowk,23,8.9,239
+R90,Swaminarayan Temple/Mahila College,24,9.4,629
+R90,LIC office,25,9.8,332
+R90,Astron Chowk/Mahavir Chowk,26,10.0,71
+R90,Hemugadhavi Hall,27,10.4,228
+R90,Ranchhod Das Ashram,37,14.7,502
+R90,Gurudev Park,38,15.0,217
+R90,Marutinagar 50ft Road Chowk,39,15.4,373
+R90,Greenland Chowk,40,15.8,212
+R90,Shivdhara Residency,41,16.5,596
+R90,Jai Jawan Jai kisan Society,42,17.35,252
+R90,Narsinh Mehta Garden,28,10.8,400
+R90,Ramkrushna Ashram,29,11.1,498
+R90,Malaviya Chowk,30,11.8,361
+R90,Speedwell Party plot,12,4.55,619
+R90,Parevadi Chowk,36,13.8,430
+R90,Kesari Hindpul,35,13.4,293
+R90,I.P.Mission School,34,13.1,232
+R90,Dr.Bhimrav ambedkar Chowk,33,12.9,150
+R90,Jubeli baug,32,12.5,277
+R90,Indraprasth Society /Morby Road crossing,43,17.75,238
+R90,Vambay Aavash Yojana crossing,15,5.35,662
+R90,Bhimrav Nagar/Om Residency,14,5.15,107
+R90,Govani Hostel,13,4.95,201
+R90,Court yard,10,3.45,136
+R90,Dwarkadhish chowk,11,4.05,158
+R90,Vithalbhai radaDiya Chowk,9,2.95,684
+R90,shyamal Upavan,8,2.65,720
+R90,Vagal Chowk,7,2.1,658
+R90,Pavitram Heights,6,1.7,443
+R90,Sarvodaya School,5,1.5,548
+R90,Udgam School,4,0.9,648
+R90,Khodal Chowk,3,0.65,298
+R90,Sardar Park,2,0.3,543
+R90,Puneetnagar Main Road,1,0.0,455
+R90,Jai Babari Chowk,44,17.95,251
+R90,Shri Ram Park,45,18.15,606
+R90,Satellite Chowk,46,18.9,554
+R90,Vrajabhumi Residency,47,19.25,688
+R90,Shiva Aastha,48,19.5,590
+R90,Giriraj Bungalows,49,19.9,190
+R90,Silverpark -B Street No.-4,50,20.2,609
+R91,Trikon baug,30,15.9,639
+R91,Nanavati Chowk (RMTS),16,9.6,397
+R91,Raiya Chowk (RMTS),15,9.0,478
+R91,Saurashtra University,7,5.1,565
+R91,Saurashtra University Gate,8,5.5,566
+R91,B.T.Savani (Kidney) Hospital,9,5.7,80
+R91,Shilpan Nova,10,6.2,580
+R91,Raiya Village (Shilpan Onex),11,6.7,482
+R91,Raiya Village,12,7.2,481
+R91,Alap Green City,13,7.9,47
+R91,Bapa Sitaram Chowk,14,8.3,90
+R91,Ramdevpir Chowk,17,10.3,493
+R91,Jubeli baug,29,15.4,277
+R91,BajrangWadi circle,21,12.15,85
+R91,Railway Colony,22,12.75,477
+R91,Special School For Boys,26,14.0,618
+R91,Ruda Office,27,14.4,518
+R91,Dr.Bhimrav ambedkar chock,28,15.0,151
+R91,Veer Savarkar Nagar (avadh road),1,0.0,671
+R91,Aditya 79 Housing Co. Opearating Service Society,2,1.0,35
+R91,Parishram Housing Co. Opearating Service Society,3,1.35,431
+R91,Sanman Party Plot,4,2.45,532
+R91,150ft ring road Crossing,5,3.65,11
+R91,Kavikalapi Township/ Aarsh Vidhya Mandir,6,4.0,292
+R91,Shital Park (BMTS),18,10.8,582
+R91,Jay Bhavani Chowk,19,11.45,263
+R91,Punitnagar (Near Bajrangwadi),20,11.9,459
+R91,Bhomeshwer/ Airport,23,12.95,111
+R91,Bhomeshvar (madadev temple),24,13.3,109
+R91,Bhomeshvar,25,13.55,108
+R92,Trikon baug,21,10.55,639
+R92,150 feet Jamnagar road crossing,1,0.0,3
+R92,Manhar Pura (150 feet ring road),6,3.65,366
+R92,AIIMS Hospital Crossing,5,3.45,23
+R92,Krishna Bungalows-3 (Sadhuvaswani Kunj Road Crossing),4,3.15,321
+R92,Astha sangrila,3,2.4,70
+R92,Mukhyamantri Aavsh Quarter,2,1.3,387
+R92,Jubeli baug,20,10.05,277
+R92,Vora Society,8,5.35,687
+R92,Satyam Shivam Sundaram,9,5.45,561
+R92,Gayatridham,10,5.75,179
+R92,Wankaner Society,11,6.35,693
+R92,BajrangWadi circle,12,6.95,85
+R92,BajrangWadi,13,7.05,84
+R92,Railway Colony,14,7.2,477
+R92,Bhomeshwer/Airport,15,7.5,112
+R92,Special School For Boys,16,8.5,618
+R92,Ruda Office,17,8.9,518
+R92,Madhapar Chowk (BRTS),7,4.95,347
+R92,Jamtower Chowk,18,9.0,258
+R93,Trikon baug,23,10.0,639
+R93,Greenland Chowk,7,3.15,212
+R93,Kuwadwa Police Station,2,0.3,329
+R93,Chandrana Marketing,3,0.8,124
+R93,Shanti Industrial,4,1.0,571
+R93,Shaligram/Khodladham Residency,5,1.8,570
+R93,Kuvadava Police Chowki,6,2.6,327
+R93,Parevadi Chowk,18,8.2,430
+R93,Kesari Hindpul,19,8.6,293
+R93,I.P.Mission School,20,8.9,232
+R93,Dr.Bhimrav ambedkar Chowk,21,9.1,150
+R93,Jubeli baug,22,9.5,277
+R93,Aryanagar - Pedak road,15,6.4,63
+R93,Satellite Chowk - Marutinagar aproach Road,14,6.0,555
+R93,Gramudhyog Mandir Pedak,13,5.7,208
+R93,Marketing Yard,10,4.45,370
+R93,Sat hanuman Temple,1,0.0,552
+R93,Maldhari Society,8,3.8,362
+R93,RTO office,9,4.05,467
+R93,Lakheshwar Society,11,5.15,334
+R93,Bhagirath Society,12,5.3,97
+R93,baalak hanuman chock,16,6.7,698
+R93,Champak Nagar - Pani no Ghodo,17,7.0,121
+R94,Field Marshal Chowk,17,12.5,161
+R94,New Thorala,18,13.0,405
+R94,Thorala Police Station,19,13.6,636
+R94,Chunarvad Chowk,20,14.0,131
+R94,RMC East Zone Office,21,14.3,463
+R94,Manharpura - Bedinaka Fire Station,22,14.6,368
+R94,Jalaram Chowk - Santkabir Road Corner,23,14.9,255
+R94,Patel Vadi,24,15.2,438
+R94,Ranchhod Das Ashram,26,16.4,502
+R94,Gurudev Park,27,16.7,217
+R94,Marutinagar 50ft Road Chowk,28,17.1,373
+R94,Greenland Chowk,29,17.5,212
+R94,Ajidam,15,11.5,42
+R94,Mansarovar Society,14,11.1,369
+R94,Bhimrav Nagar,13,10.8,106
+R94,Manda Dungar,12,9.7,365
+R94,Fulwadi,11,9.2,164
+R94,Aarti Industrial Area,10,8.7,32
+R94,Thebachda - Mahika Patiu,9,7.7,635
+R94,Deluxe Cinema Chowk,25,15.7,139
+R94,Government Polytechnic,16,11.8,205
+R94,Tramba Village,1,0.0,638
+R94,Bharad Engineering College,2,1.4,103
+R94,R.K. University,3,2.0,461
+R94,Kalipat,4,2.7,287
+R94,150 feet crossing - bhavnagar road,5,3.3,7
+R94,Krishna International School,6,4.1,323
+R94,Vithalvav Gaushala,7,5.5,685
+R94,Sant kesar nur Dargah,8,6.5,534
