@@ -89,22 +89,22 @@ with col3:
     if "selected_hub" not in st.session_state:
         st.session_state.selected_hub = None
     if 'authenticated' not in st.session_state:
-        st.session_state['authenticated'] = False
+        st.session_state['authenticated'] = True
     if 'page' not in st.session_state:
         st.session_state['page'] = 'scheduling'  # Default page
 
-    if not st.session_state['authenticated']:
+    # if not st.session_state['authenticated']:
         
 
-        username = st.text_input("Username")
-        password = st.text_input("Password", type="password")
+        # username = st.text_input("Username")
+        # password = st.text_input("Password", type="password")
 
-        if st.button("Login"):
-            if username == "admin" and password == "123":  # Simple username/password check
-                st.session_state['authenticated'] = True
-                # st.experimental_rerun()
-            else:
-                st.error("Invalid username or password")
+        # if st.button("Login"):
+        #     if username == "admin" and password == "123":  # Simple username/password check
+        #         st.session_state['authenticated'] = True
+        #         # st.experimental_rerun()
+        #     else:
+        #         st.error("Invalid username or password")
     if st.session_state['authenticated']:
     # Retrieve query params and update the current page state
         query_params = st.query_params
