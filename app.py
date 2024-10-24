@@ -69,7 +69,7 @@ if not st.session_state['authenticated']:
     if st.button("Login"):
         if username == "admin" and password == "123":  # Simple username/password check
             st.session_state['authenticated'] = True
-            st.experimental_rerun()  # To re-run the app and show the navigation bar
+            # st.experimental_rerun()  # To re-run the app and show the navigation bar
         else:
             st.error("Invalid username or password")
 
