@@ -699,38 +699,4 @@ if st.session_state['authenticated']:
                    }
                    st.rerun()
                    
-        st.header("Upload Files for Stop Times and Trips")
-    
-        # Upload stop_times.txt file
-        st.subheader("Stop Times File Upload")
-        stop_times = st.file_uploader("Upload stop_times.txt", type=['txt'], key="stop_times")
-        if stop_times:
-            stop_times_path = UPLOAD_FOLDER / stop_times.name
-            with open(stop_times_path, "wb") as f:
-                f.write(stop_times.getbuffer())
-            st.write(f"Uploaded: {stop_times.name}")
-        
-        # Button to process stop_times file
-        if st.button("Process stop_times.txt"):
-            if stop_times:
-                # Add your processing logic here
-                st.success(f"Processing {stop_times.name} completed successfully.")
-            else:
-                st.error("Please upload stop_times.txt file.")
-    
-        # Upload trips.txt file
-        st.subheader("Trips File Upload")
-        trips = st.file_uploader("Upload trips.txt", type=['txt'], key="trips")
-        if trips:
-            trips_path = UPLOAD_FOLDER / trips.name
-            with open(trips_path, "wb") as f:
-                f.write(trips.getbuffer())
-            st.write(f"Uploaded: {trips.name}")
-        
-        # Button to process trips file
-        if st.button("Process trips.txt"):
-            if trips:
-                # Add your processing logic here
-                st.success(f"Processing {trips.name} completed successfully.")
-            else:
-                st.error("Please upload trips.txt file.")       
+       
