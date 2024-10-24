@@ -19,7 +19,7 @@ import shutil
 
 # Set up paths for file uploads and notebook execution
 UPLOAD_FOLDER = Path(r"./UPLOAD_FOLDER/")
-OUTPUT_FOLDER = Path(r"./OUTPUT_FOLDER")
+OUTPUT_FOLDER = Path(r"./OUTPUT_FOLDER/")
 NOTEBOOK_PATH = UPLOAD_FOLDER.joinpath( 'Final_loop_V4.ipynb')
 NOTEBOOK_PATH2 = UPLOAD_FOLDER.joinpath( 'Final_loop_V5.ipynb')
 #NOTEBOOK_PATH3 = UPLOAD_FOLDER / '12 Scheduling+Electrification Final.ipynb'
@@ -87,7 +87,9 @@ if selected == 'Bus Scheduling':
     user_input2 = st.text_input("Peak headway", "hh:mm:ss")
     user_input3 = st.text_input("Break time after each trip", "hh:mm:ss")
     user_input4 = st.text_input("Lunch break time", "hh:mm:ss")
-    
+
+
+
     uploaded_files = {}
     for file_key in required_files:
         uploaded_file = st.file_uploader(f"Upload {file_key}", type=None, key=file_key)
@@ -106,6 +108,12 @@ if selected == 'Bus Scheduling':
                 json.dump({"user_input2": user_input2}, g)
             with open('user_input4.json', 'w') as g:
                 json.dump({"user_input4": user_input4}, g)
+
+            # move to upload folder from current folder
+            shutil.move("./user_input1.json", UPLOAD_FOLDER.joinpath('user_input1.json'))
+            shutil.move("./user_input2.json", UPLOAD_FOLDER.joinpath('user_input2.json'))
+            shutil.move("./user_input3.json", UPLOAD_FOLDER.joinpath('user_input3.json'))
+            shutil.move("./user_input4.json", UPLOAD_FOLDER.joinpath('user_input4.json'))
 
             command = f'jupyter nbconvert --to notebook --execute "{NOTEBOOK_PATH}" --output-dir="{OUTPUT_FOLDER}"'
             subprocess.run(command, shell=True)
@@ -158,11 +166,14 @@ if selected == 'Bus Scheduling':
         # merged_data_2['scaled_radius'] = scaler.fit_transform(merged_data_2[['trip_id']])
 
         # Calculate the mean latitude and longitude to center the map
-        mean_lat = merged_data_2['stop_lat'].mean()
-        mean_lon = merged_data_2['stop_lon'].mean()
+        mean_lat = merged_data_2['stop_lat'].median()
+        mean_lon = merged_data_2['stop_lon'].median()
+
+
 
         # Initialize the Folium map, centered at the mean coordinates
         m = f.Map(location=[mean_lat, mean_lon], zoom_start=4)
+        #m = f.Map(location=[70, 23], zoom_start=4)
 
         # Add CircleMarkers with varying scaled radii
         for station_name, lat, lon, trip_id in zip(merged_data_2['stop_name'], merged_data_2['stop_lat'], merged_data_2['stop_lon'], merged_data_2['trip_id']):
@@ -687,38 +698,38 @@ elif selected == 'Accessibility':
                }
                st.rerun()
                
-    st.header("Upload Files for Stop Times and Trips")
-
-    # Upload stop_times.txt file
-    st.subheader("Stop Times File Upload")
-    stop_times = st.file_uploader("Upload stop_times.txt", type=['txt'], key="stop_times")
-    if stop_times:
-        stop_times_path = UPLOAD_FOLDER / stop_times.name
-        with open(stop_times_path, "wb") as f:
-            f.write(stop_times.getbuffer())
-        st.write(f"Uploaded: {stop_times.name}")
-    
-    # Button to process stop_times file
-    if st.button("Process stop_times.txt"):
-        if stop_times:
-            # Add your processing logic here
-            st.success(f"Processing {stop_times.name} completed successfully.")
-        else:
-            st.error("Please upload stop_times.txt file.")
-
-    # Upload trips.txt file
-    st.subheader("Trips File Upload")
-    trips = st.file_uploader("Upload trips.txt", type=['txt'], key="trips")
-    if trips:
-        trips_path = UPLOAD_FOLDER / trips.name
-        with open(trips_path, "wb") as f:
-            f.write(trips.getbuffer())
-        st.write(f"Uploaded: {trips.name}")
-    
-    # Button to process trips file
-    if st.button("Process trips.txt"):
-        if trips:
-            # Add your processing logic here
-            st.success(f"Processing {trips.name} completed successfully.")
-        else:
-            st.error("Please upload trips.txt file.")       
+    # st.header("Upload Files for Stop Times and Trips")
+    #
+    # # Upload stop_times.txt file
+    # st.subheader("Stop Times File Upload")
+    # stop_times = st.file_uploader("Upload stop_times.txt", type=['txt'], key="stop_times")
+    # if stop_times:
+    #     stop_times_path = UPLOAD_FOLDER / stop_times.name
+    #     with open(stop_times_path, "wb") as f:
+    #         f.write(stop_times.getbuffer())
+    #     st.write(f"Uploaded: {stop_times.name}")
+    #
+    # # Button to process stop_times file
+    # if st.button("Process stop_times.txt"):
+    #     if stop_times:
+    #         # Add your processing logic here
+    #         st.success(f"Processing {stop_times.name} completed successfully.")
+    #     else:
+    #         st.error("Please upload stop_times.txt file.")
+    #
+    # # Upload trips.txt file
+    # st.subheader("Trips File Upload")
+    # trips = st.file_uploader("Upload trips.txt", type=['txt'], key="trips")
+    # if trips:
+    #     trips_path = UPLOAD_FOLDER / trips.name
+    #     with open(trips_path, "wb") as f:
+    #         f.write(trips.getbuffer())
+    #     st.write(f"Uploaded: {trips.name}")
+    #
+    # # Button to process trips file
+    # if st.button("Process trips.txt"):
+    #     if trips:
+    #         # Add your processing logic here
+    #         st.success(f"Processing {trips.name} completed successfully.")
+    #     else:
+    #         st.error("Please upload trips.txt file.")
