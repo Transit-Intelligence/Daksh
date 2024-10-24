@@ -309,16 +309,16 @@ with col3:
                 else:
                     st.error("No output files generated.")
     
-                # Additional manual download section
-                st.header("Download Files")
-                file_to_download = st.text_input("Enter the filename to download from the output folder")
-                if st.button("Download"):
-                    download_file_path = OUTPUT_FOLDER / file_to_download
-                    if download_file_path.exists():
-                        with open(download_file_path, "rb") as g:
-                            st.download_button(f"Download {file_to_download}", g, file_name=file_to_download)
-                    else:
-                        st.error(f"{file_to_download} does not exist.")
+                # # Additional manual download section
+                # st.header("Download Files")
+                # file_to_download = st.text_input("Enter the filename to download from the output folder")
+                # if st.button("Download"):
+                #     download_file_path = OUTPUT_FOLDER / file_to_download
+                #     if download_file_path.exists():
+                #         with open(download_file_path, "rb") as g:
+                #             st.download_button(f"Download {file_to_download}", g, file_name=file_to_download)
+                #     else:
+                #         st.error(f"{file_to_download} does not exist.")
     # Depot allocation Tab
     elif selected == 'Depot-Route Allocation':
         st.header("Inputs for Depot-Route Bus Allocation")
