@@ -36,7 +36,7 @@ OUTPUT_FOLDER.mkdir(parents=True, exist_ok=True)
 def get_base64_encoded_image(image_path):
     with open(image_path, "rb") as img_file:
         return base64.b64encode(img_file.read()).decode()
-image_path = Path(r"./image_bg.png/")
+image_path = Path(r"./DAKSH Screen background.jpg/")
 encoded_image = get_base64_encoded_image(image_path)
 
 # Streamlit app configuration
