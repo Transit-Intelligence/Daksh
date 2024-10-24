@@ -74,13 +74,13 @@ if not st.session_state['authenticated']:
             st.error("Invalid username or password")
 
 # Main content after login
-if st.session_state['authenticated']:
+# if st.session_state['authenticated']:
     # Retrieve query params and update the current page state
-    query_params = st.query_params
-    current_page = query_params.get('page', 'Bus Scheduling')  # Default to 'scheduling'
+    # query_params = st.query_params
+    # current_page = query_params.get('page', 'Bus Scheduling')  # Default to 'scheduling'
 
-    # Display the navigation bar
-    navigation_bar(current_page)
+    # # Display the navigation bar
+    # navigation_bar(current_page)
 # Streamlit app configuration
 # Initialize session state variables for the page
 # if 'page' not in st.session_state:
