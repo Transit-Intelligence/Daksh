@@ -30,11 +30,11 @@ NOTEBOOK_PATH4 = UPLOAD_FOLDER.joinpath('Depot Allocation Sections.ipynb')
 UPLOAD_FOLDER.mkdir(parents=True, exist_ok=True)
 OUTPUT_FOLDER.mkdir(parents=True, exist_ok=True)
 
-def get_base64_encoded_image(image_path):
-    with open(image_path, "rb") as img_file:
-        return base64.b64encode(img_file.read()).decode()
-image_path = r"./DAKSH Screen background.jpg/"
-encoded_image = get_base64_encoded_image(image_path)
+# def get_base64_encoded_image(image_path):
+#     with open(image_path, "rb") as img_file:
+#         return base64.b64encode(img_file.read()).decode()
+# image_path = r"./DAKSH Screen background.jpg/"
+# encoded_image = get_base64_encoded_image(image_path)
 
 # Streamlit app configuration
 st.set_page_config(layout="wide", page_title="Digitisation, Analytics Know-how and Scheduling (DAKSH) for public transport")
