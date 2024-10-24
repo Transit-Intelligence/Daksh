@@ -657,7 +657,8 @@ for i in Chargers:
         
 num_charger_df.to_excel("Location Wise No of Chargers.xlsx",index=False)
 Route_charging=Route_charging[Route_charging["Charging duration(Minutes)"]>=20]
-Route_charging.to_excel("Depot wise bus charging schedule.xlsx",index=False)
+Route_charging2 = Route_charging.drop('Waiting')
+Route_charging2.to_excel("Depot wise bus charging schedule.xlsx",index=False)
 
 
 # In[2]:
