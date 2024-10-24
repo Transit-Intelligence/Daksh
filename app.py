@@ -83,8 +83,8 @@ if st.session_state['authenticated']:
     navigation_bar(current_page)
 # Streamlit app configuration
 # Initialize session state variables for the page
-if 'page' not in st.session_state:
-    st.session_state['page'] = 'Bus Scheduling'  # Default page
+# if 'page' not in st.session_state:
+#     st.session_state['page'] = 'Bus Scheduling'  # Default page
 
 # Create a navigation using radio buttons
 st.title("DAKSH tool for bus service planning and scheduling ")
