@@ -77,14 +77,14 @@ if not st.session_state['authenticated']:
 if st.session_state['authenticated']:
     # Retrieve query params and update the current page state
     query_params = st.query_params
-    current_page = query_params.get('page', 'scheduling')  # Default to 'scheduling'
+    current_page = query_params.get('page', 'Bus Scheduling')  # Default to 'scheduling'
 
     # Display the navigation bar
     navigation_bar(current_page)
 # Streamlit app configuration
 # Initialize session state variables for the page
 if 'page' not in st.session_state:
-    st.session_state['page'] = 'scheduling'  # Default page
+    st.session_state['page'] = 'Bus Scheduling'  # Default page
 
 # Create a navigation using radio buttons
 st.title("DAKSH tool for bus service planning and scheduling ")
